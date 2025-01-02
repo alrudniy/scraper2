@@ -214,17 +214,28 @@ class WebsiteAutomation:
             
             # Extract and save text from each jsslot element
             print("Extracting text from job listings...")
-            with open("output.txt", "w", encoding="utf-8") as f:
-                for jsslot in jsslot_elements:
-                    try:
-                        # Get text content of the jsslot element
-                        text = jsslot.text.strip()
-                        if text:  # Only write non-empty text
-                            f.write(text + "\n\n")  # Add double newline between entries
-                    except Exception as e:
-                        continue
+            job_listings = []
+            for jsslot in jsslot_elements:
+                try:
+                    # Get text content of the jsslot element
+                    text = jsslot.text.strip()
+                    if text:  # Only include non-empty text
+                        job_listings.append({
+                            "listing_text": text,
+                            "timestamp": datetime.now().isoformat()
+                        })
+                except Exception as e:
+                    continue
             
-            print("Job listing texts saved to output.txt")
+            # Save to JSON file
+            with open("job_listings.json", "w", encoding="utf-8") as f:
+                json.dump({
+                    "job_listings": job_listings,
+                    "total_count": len(job_listings),
+                    "extraction_date": datetime.now().isoformat()
+                }, f, indent=4, ensure_ascii=False)
+            
+            print(f"Job listing texts saved to job_listings.json ({len(job_listings)} listings)")
 
             
         except Exception as e:
