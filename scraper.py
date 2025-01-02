@@ -9,7 +9,6 @@ from webdriver_manager.chrome import ChromeDriverManager  # Add this import
 import time
 import json
 import os
-import csv
 from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
@@ -178,8 +177,8 @@ class WebsiteAutomation:
         except Exception as e:
             print(f"Search failed: {str(e)}")
             
-    def scroll_results(self, scroll_pause_time=2.0, output_csv="jobs.csv"):
-        """Scroll through results page to bottom and back to top, extract job details and save to CSV."""
+    def scroll_results(self, scroll_pause_time=2.0):
+        """Scroll through results page to bottom and back to top, then click save buttons."""
         try:
             # Get scroll height
             last_height = self.driver.execute_script("return document.body.scrollHeight")
@@ -209,33 +208,28 @@ class WebsiteAutomation:
             time.sleep(scroll_pause_time)  # Wait for scroll up animation
             print("Scrolling complete")
 
-            # Extract job listings
-            print("Extracting job details...")
-            job_cards = self.driver.find_elements(By.CSS_SELECTOR, "div.iFjolb")
-            jobs_data = []
-
-            for card in job_cards:
+            # Find all jsslot divs that contain save buttons
+            print("Finding and clicking save buttons...")
+            jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
+            
+            for jsslot in jsslot_elements:
                 try:
-                    title = card.find_element(By.CSS_SELECTOR, "div.BjJfJf").text.strip()
-                    company = card.find_element(By.CSS_SELECTOR, "div.vNEEBe").text.strip()
-                    location = card.find_element(By.CSS_SELECTOR, "div.Qk80Jf").text.strip()
+                    # Check if this jsslot contains a save button
+                    save_button = jsslot.find_element(By.CSS_SELECTOR, "div[aria-label='Save']")
                     
-                    jobs_data.append({
-                        'title': title,
-                        'company': company,
-                        'location': location
-                    })
+                    # Scroll the jsslot element into view
+                    self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", jsslot)
+                    time.sleep(2)  # Wait for scroll and element to be clickable
+                    
+                    # Click the save button
+                    save_button.click()
+                    time.sleep(2)  # Wait between clicks
+                    
                 except Exception as e:
+                    # Continue to next element if this one doesn't have a save button
                     continue
-
-            # Save to CSV
-            print(f"Saving {len(jobs_data)} jobs to {output_csv}...")
-            with open(output_csv, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=['title', 'company', 'location'])
-                writer.writeheader()
-                writer.writerows(jobs_data)
-
-            print(f"Job details saved to {output_csv}")
+                    
+            print("Finished clicking all save buttons")
             
         except Exception as e:
             print(f"Error during scrolling or saving: {str(e)}")
@@ -279,7 +273,8 @@ def main():
     # Scroll through results and process each job listing
     bot.scroll_results()
     
-    # Close browser automatically after saving results
+    # Keep browser open, close when done
+    input("Press Enter to close the browser...")
     bot.close()
 
 if __name__ == "__main__":
