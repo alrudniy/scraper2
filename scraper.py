@@ -226,27 +226,6 @@ class WebsiteAutomation:
             
             print("Job listing texts saved to output.txt")
 
-            # Find all jsslot divs that contain save buttons
-            print("Finding and clicking save buttons...")
-            
-            for jsslot in jsslot_elements:
-                try:
-                    # Check if this jsslot contains a save button
-                    save_button = jsslot.find_element(By.CSS_SELECTOR, "div[aria-label='Save']")
-                    
-                    # Scroll the jsslot element into view
-                    self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", jsslot)
-                    time.sleep(2)  # Wait for scroll and element to be clickable
-                    
-                    # Click the save button
-                    save_button.click()
-                    time.sleep(2)  # Wait between clicks
-                    
-                except Exception as e:
-                    # Continue to next element if this one doesn't have a save button
-                    continue
-                    
-            print("Finished clicking all save buttons")
             
         except Exception as e:
             print(f"Error during scrolling or saving: {str(e)}")
