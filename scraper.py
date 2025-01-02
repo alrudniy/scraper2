@@ -208,9 +208,26 @@ class WebsiteAutomation:
             time.sleep(scroll_pause_time)  # Wait for scroll up animation
             print("Scrolling complete")
 
+            # Find all jsslot divs
+            print("Finding job listings...")
+            jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
+            
+            # Extract and save text from each jsslot element
+            print("Extracting text from job listings...")
+            with open("output.txt", "w", encoding="utf-8") as f:
+                for jsslot in jsslot_elements:
+                    try:
+                        # Get text content of the jsslot element
+                        text = jsslot.text.strip()
+                        if text:  # Only write non-empty text
+                            f.write(text + "\n\n")  # Add double newline between entries
+                    except Exception as e:
+                        continue
+            
+            print("Job listing texts saved to output.txt")
+
             # Find all jsslot divs that contain save buttons
             print("Finding and clicking save buttons...")
-            jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
             
             for jsslot in jsslot_elements:
                 try:
