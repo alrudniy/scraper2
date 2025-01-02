@@ -1,742 +1,166 @@
 {
     "job_listings": [
         {
+            "listing_text": "Reddit\nRemote\nDate posted\nJob type\nNo degree",
+            "timestamp": "2025-01-02T15:46:09.905405"
+        },
+        {
+            "listing_text": "Yesterday\nLast 3 days\nLast week\nLast month",
+            "timestamp": "2025-01-02T15:46:11.982538"
+        },
+        {
             "listing_text": "AI Agents Initiative at Columbia Business School\nColumbia Business School - Decision, Risk, and Operations (DRO)\nAnywhere • via INFORMS Career Center - INFORMS.org\n3 days ago\n70K–80K a year\nWork from home\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.647312"
+            "timestamp": "2025-01-02T15:46:14.257970"
         },
         {
             "listing_text": "Assistant Professor of Trustworthy AI in Computer Science (Tenure Track)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.669373"
+            "timestamp": "2025-01-02T15:46:16.587433"
         },
         {
-            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nNew York, NY • via LinkedIn\n3 days ago\nFull-time\nNo degree mentioned\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:09.704967"
+            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nNew York, NY • via LinkedIn\n3 days ago\nFull-time\nNo degree mentioned\nPaid time off\nHealth insurance\nDental insurance",
+            "timestamp": "2025-01-02T15:46:18.920076"
         },
         {
             "listing_text": "SEAL Research Scientist, Scalable Oversight\nScale AI\nNew York, NY (+1 other) • via Wellfound\n6 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.730461"
+            "timestamp": "2025-01-02T15:46:21.226508"
         },
         {
             "listing_text": "Associate or Full Professor of Trustworthy AI in Cybersecurity (Tenure Track/Tenured)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.750595"
+            "timestamp": "2025-01-02T15:46:23.585877"
         },
         {
             "listing_text": "AI Security Engineer, AppSec AI\nAmazon\nNew York, NY • via LinkedIn\n15 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:09.778387"
+            "timestamp": "2025-01-02T15:46:25.922747"
         },
         {
-            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nUnited States • via Adzuna\n13 hours ago\n176K–300K a year\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:09.812940"
+            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nUnited States • via Adzuna\n14 hours ago\n176K–300K a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
+            "timestamp": "2025-01-02T15:46:28.228878"
         },
         {
             "listing_text": "Assistant or Associate Professor of Trustworthy AI in Criminal Justice (Tenure Track/Tenured)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.836200"
+            "timestamp": "2025-01-02T15:46:30.556918"
         },
         {
             "listing_text": "Audit and Compliance\nAnthropic\nNew York, NY • via The AI Job Network\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:09.861927"
+            "timestamp": "2025-01-02T15:46:32.888167"
         },
         {
             "listing_text": "Commercial Counsel, Public Sector\nAnthropic\nNew York, NY • via GoInhouse.com\n27 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:09.888371"
+            "timestamp": "2025-01-02T15:46:35.210055"
         },
         {
-            "listing_text": "Director - Security Architecture - AI Technologies\nMarriott International, Inc\nAnywhere • via Marriott Careers\n3 days ago\nWork from home\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:09.921342"
+            "listing_text": "Director - Security Architecture - AI Technologies\nMarriott International, Inc\nAnywhere • via Marriott Careers\n3 days ago\nWork from home\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
+            "timestamp": "2025-01-02T15:46:37.492144"
         },
         {
             "listing_text": "Assistant Professor of Trustworthy AI in Computer Science (Tenure Track)\nOld Dominion University\nUnited States • via Women In Science\nFull-time",
-            "timestamp": "2025-01-02T14:38:09.982127"
+            "timestamp": "2025-01-02T15:46:39.821271"
         },
         {
             "listing_text": "Head of Machine Learning\nPenn Medicine\nPhiladelphia, PA • via Penn Medicine Careers\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.018389"
-        },
-        {
-            "listing_text": "Senior AI Security Engineer\nThe MITRE Corporation\nBedford, MA (+1 other) • via MITRE Jobs\n24 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.044692"
-        },
-        {
-            "listing_text": "Z\nGeneralist Software Engineer for Trustworthy AI\nZentropi\nSan Francisco, CA • via LinkedIn\n14 days ago\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T14:38:10.074038"
-        },
-        {
-            "listing_text": "2025 PhD Graduate - AI Research Scientist\nJohns Hopkins Applied Physics Laboratory\nLaurel, MD • via APL Careers - Johns Hopkins University Applied Physics Laboratory\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:10.101435"
-        },
-        {
-            "listing_text": "C\nApplied Researcher II\nCapital One\nNew York, NY (+4 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.131548"
+            "timestamp": "2025-01-02T15:46:42.138297"
         },
         {
             "listing_text": "Principal AI Research Engineer\nThe MITRE Corporation\nBedford, MA (+1 other) • via MITRE Jobs\n19 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.155840"
+            "timestamp": "2025-01-02T15:46:44.499667"
         },
         {
-            "listing_text": "S\nArtificial Intelligence Analyst\nSUNY Upstate Medical University\nSyracuse, NY • via Upstate Careers - Upstate Medical University\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.177670"
-        },
-        {
-            "listing_text": "Research Engineer, Interpretability\nAnthropic\nAnywhere • via Built In\n4 days ago\n280K–625K a year\nWork from home\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:10.208714"
-        },
-        {
-            "listing_text": "Penn Engineering IDEAS Initiative Tenure-Track Faculty Positions in Artificial Intelligence, Data Science and Machine Learning 2024 -2025\nUniversity of Pennsylvania\nPhiladelphia, PA • via Higher Ed Jobs\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.232206"
-        },
-        {
-            "listing_text": "Tenured/Tenure-Track Faculty in Trustworthy and Scalable AI Systems\nUniversity of Colorado System\nAllenspark, CO • via Chronicle Of Higher Education\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.263234"
-        },
-        {
-            "listing_text": "L\nAI Trustworthiness for scientific applications\nLos Alamos National Laboratory\nLos Alamos, NM • via Los Alamos National Laboratory\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.296423"
-        },
-        {
-            "listing_text": "B\nFAST Labs - Edge and Spectral AI Technology Development Manager (Hybrid)\nBAE Systems\nArlington, VA (+2 others) • via BAE Systems\n12 days ago\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.328534"
+            "listing_text": "Z\nGeneralist Software Engineer for Trustworthy AI\nZentropi\nSan Francisco, CA • via LinkedIn\n14 days ago\nFull-time\nNo degree mentioned",
+            "timestamp": "2025-01-02T15:46:46.785440"
         },
         {
             "listing_text": "Data Infra Enginer, Pretraining\nAnthropic\nNew York, NY (+2 others) • via Menlo Ventures Job Board\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:10.356547"
+            "timestamp": "2025-01-02T15:46:49.090900"
         },
         {
-            "listing_text": "Principal Software Engineering, AI Model Serving\nRed Hat, Inc.\nAnywhere • via Workday\n1 month ago\nWork from home\nFull-time\nHealth insurance\nPaid time off\nDental insurance",
-            "timestamp": "2025-01-02T14:38:10.394350"
+            "listing_text": "2025 PhD Graduate - AI Research Scientist\nJohns Hopkins Applied Physics Laboratory\nLaurel, MD • via APL Careers - Johns Hopkins University Applied Physics Laboratory\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
+            "timestamp": "2025-01-02T15:46:51.443308"
         },
         {
-            "listing_text": "C\nCapital One | Applied Researcher I\nCapital One\nCambridge, MA • via JobGet\n2 days ago\n110.58–126.20 an hour\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.426502"
+            "listing_text": "C\nApplied Researcher II\nCapital One\nNew York, NY (+4 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
+            "timestamp": "2025-01-02T15:46:53.750870"
         },
         {
-            "listing_text": "Assistant/Associate/Full Professor - Khoury College of Computer Sciences\nNortheastern University\nBoston, MA • via Chronicle Of Higher Education\n10 days ago\nFull-time\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:10.458862"
+            "listing_text": "Senior AI Security Engineer\nThe MITRE Corporation\nBedford, MA (+1 other) • via MITRE Jobs\n24 days ago\nFull-time",
+            "timestamp": "2025-01-02T15:46:56.091571"
         },
         {
-            "listing_text": "PhD AI - Trust & Responsible AI Internship Summer 2025\nLinkedIn\nMountain View, CA • via LinkedIn\n5 days ago\nInternship\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.486827"
+            "listing_text": "Research Engineer, Interpretability\nAnthropic\nAnywhere • via Built In\n4 days ago\n280K–625K a year\nWork from home\nFull-time\nPaid time off",
+            "timestamp": "2025-01-02T15:46:58.417310"
         },
         {
-            "listing_text": "Emerging Technology Researcher\nABI Research\nNew York, NY • via BeBee\n6 days ago\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:10.522005"
+            "listing_text": "S\nArtificial Intelligence Analyst\nSUNY Upstate Medical University\nSyracuse, NY • via Upstate Careers - Upstate Medical University\nFull-time",
+            "timestamp": "2025-01-02T15:47:00.737547"
         },
         {
-            "listing_text": "2\nSenior Responsible AI Architect\n2100 NVIDIA USA\nSanta Clara, CA • via Workday\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.550046"
+            "listing_text": "Penn Engineering IDEAS Initiative Tenure-Track Faculty Positions in Artificial Intelligence, Data Science and Machine Learning 2024 -2025\nUniversity of Pennsylvania\nPhiladelphia, PA • via Higher Ed Jobs\nFull-time",
+            "timestamp": "2025-01-02T15:47:03.025578"
+        },
+        {
+            "listing_text": "L\nAI Trustworthiness for scientific applications\nLos Alamos National Laboratory\nLos Alamos, NM • via Los Alamos National Laboratory\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
+            "timestamp": "2025-01-02T15:47:05.418225"
+        },
+        {
+            "listing_text": "Tenured/Tenure-Track Faculty in Trustworthy and Scalable AI Systems\nUniversity of Colorado System\nAllenspark, CO • via Chronicle Of Higher Education\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
+            "timestamp": "2025-01-02T15:47:07.737051"
+        },
+        {
+            "listing_text": "B\nFAST Labs - Edge and Spectral AI Technology Development Manager (Hybrid)\nBAE Systems\nArlington, VA (+2 others) • via BAE Systems\n12 days ago\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
+            "timestamp": "2025-01-02T15:47:10.051531"
         },
         {
             "listing_text": "Software Engineer, Console\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.586579"
+            "timestamp": "2025-01-02T15:47:12.336150"
+        },
+        {
+            "listing_text": "Research and Development Expert in Trustworthy AI Systems\nThe MITRE Corporation\nMcLean, VA • via BeBee\n4 hours ago\nFull-time",
+            "timestamp": "2025-01-02T15:47:14.682538"
+        },
+        {
+            "listing_text": "Principal Software Engineering, AI Model Serving\nRed Hat, Inc.\nAnywhere • via Workday\n1 month ago\nWork from home\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
+            "timestamp": "2025-01-02T15:47:16.980798"
+        },
+        {
+            "listing_text": "C\nCapital One | Applied Researcher I\nCapital One\nCambridge, MA • via JobGet\n2 days ago\n110.58–126.20 an hour\nFull-time\nHealth insurance",
+            "timestamp": "2025-01-02T15:47:19.354564"
+        },
+        {
+            "listing_text": "Assistant/Associate/Full Professor - Khoury College of Computer Sciences\nNortheastern University\nBoston, MA • via Chronicle Of Higher Education\n10 days ago\nFull-time\nHealth insurance\nDental insurance",
+            "timestamp": "2025-01-02T15:47:21.655398"
+        },
+        {
+            "listing_text": "PhD AI - Trust & Responsible AI Internship Summer 2025\nLinkedIn\nMountain View, CA • via LinkedIn\n6 days ago\nInternship\nHealth insurance",
+            "timestamp": "2025-01-02T15:47:24.015565"
+        },
+        {
+            "listing_text": "2\nSenior Responsible AI Architect\n2100 NVIDIA USA\nSanta Clara, CA • via Workday\nFull-time\nHealth insurance",
+            "timestamp": "2025-01-02T15:47:26.286277"
         },
         {
             "listing_text": "Software Architect: - AI Technical Advocate\nIBM\nSan Jose, CA • via Define Your Career With IBM | Careers - IBM\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.611649"
+            "timestamp": "2025-01-02T15:47:28.632733"
+        },
+        {
+            "listing_text": "Emerging Technology Researcher\nABI Research\nNew York, NY • via BeBee\n6 days ago\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
+            "timestamp": "2025-01-02T15:47:30.976471"
         },
         {
             "listing_text": "Asst/Assoc/Full Professor in Electrical & Computer Engineering - Trustworthy AI\nUniversity of Wisconsin-Madison\nMadison, WI • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.639567"
-        },
-        {
-            "listing_text": "Data Scientist - Machine Learning Research\nScale AI\nNew York, NY • via BeBee\n5 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.668798"
+            "timestamp": "2025-01-02T15:47:33.278799"
         },
         {
             "listing_text": "Research Scientist/Engineer - AI Safety (Biosecurity)\nAnthropic\nSan Francisco, CA • via Taro\n280K–315K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.696347"
+            "timestamp": "2025-01-02T15:47:35.628585"
         },
         {
-            "listing_text": "Data Platform Engineer\nRobust Intelligence\nCanada (+6 others) • via Built In\n20 hours ago\n150K–220K a year\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:10.733125"
+            "listing_text": "Data Platform Engineer\nRobust Intelligence\nCanada (+6 others) • via Built In\n21 hours ago\n150K–220K a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
+            "timestamp": "2025-01-02T15:47:37.928946"
         },
         {
-            "listing_text": "Team Manager, Interpretability\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.771078"
-        },
-        {
-            "listing_text": "AIML Researcher Foundation Models\nApple\nNew York, NY • via BeBee\n10 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.801204"
-        },
-        {
-            "listing_text": "Tenure Track/Tenured Faculty Positions: Cybersecurity + AI\nOld Dominion University\nNorfolk, VA • via (CRA) Job - Computing Research Association\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.825581"
-        },
-        {
-            "listing_text": "Senior Machine Learning Engineer (AI, ML, NLP)\nBonfy.AI\nMountain View, CA • via LinkedIn\n16 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:10.855497"
-        },
-        {
-            "listing_text": "Product Manager, AI\nRobust Intelligence\nCanada (+6 others) • via Built In\n7 days ago\n160K–220K a year\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:10.894921"
-        },
-        {
-            "listing_text": "AI Researcher: Innovating Trustworthy Banking Experiences\nCapital One\nNew York, NY • via BeBee\n3 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:10.926659"
-        },
-        {
-            "listing_text": "Software Engineer, Agents Infrastructure\nAnthropic\nSan Francisco, CA • via Greenhouse\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T14:38:10.954231"
-        },
-        {
-            "listing_text": "Software Engineer, London\nAnthropic\nNew York, NY (+2 others) • via Jobs - Lionheart Ventures\nFull-time\nNo degree mentioned\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:10.989210"
-        },
-        {
-            "listing_text": "Product Manager, AI\nRobust Intelligence\nCanada (+6 others) • via Built In Ottawa\n7 days ago\n160K–220K a year\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:11.030604"
-        },
-        {
-            "listing_text": "Associate or Full Professor - Artificial Intelligence Cluster\nUniversity of Texas at San Antonio\nSan Antonio, TX • via Chronicle Of Higher Education\n16 days ago\nFull-time\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:11.065276"
-        },
-        {
-            "listing_text": "W\nCounsel for AI-Powered Unicorn\nWhistler Partners\nNew York, NY • via BeBee\n1 day ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.093112"
-        },
-        {
-            "listing_text": "Postdoctoral Research Associate of Meteorology- Ethical and Responsible AI for Weather and Climate\nUniversity of Oklahoma\nNorman, OK • via Higher Ed Jobs\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.118763"
-        },
-        {
-            "listing_text": "Research Scientist / Research Engineer, Pretraining\nAnthropic\nSan Francisco, CA • via Taro\n315K–510K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.149550"
-        },
-        {
-            "listing_text": "AI Research and Development Engineer\nJaxon, Inc.\nLincoln, MA • via BeBee\n13 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.178792"
-        },
-        {
-            "listing_text": "Global AI Policy Lead\nMozilla Corporation\nWashington, DC • via JobzMall\n126K–176K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.199822"
-        },
-        {
-            "listing_text": "Commercial Counsel, Public Sector\nAnthropic\nAnywhere • via Built In\n15 days ago\n300K–375K a year\nWork from home\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:11.244615"
-        },
-        {
-            "listing_text": "AI Sales Specialist - North America\nSUSE\nTexas • via SUSE Careers\n5 days ago\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T14:38:11.276636"
-        },
-        {
-            "listing_text": "Software Engineer, Employee Acceleration Tools\nAnthropic\nSeattle, WA • via LinkedIn\n6 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:11.308978"
-        },
-        {
-            "listing_text": "Innovative Applied Researcher for AI Solutions\nCapital One\nNew York, NY • via BeBee\n6 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:11.339798"
-        },
-        {
-            "listing_text": "Data Operations Manager\nAnthropic\nSan Francisco, CA • via Greenhouse\n15 days ago\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T14:38:11.372137"
-        },
-        {
-            "listing_text": "D\nIT Consultant, AI EnG (CTSI)\nDuke Careers\nDurham, NC • via Duke Careers - Duke University\n8 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.402392"
-        },
-        {
-            "listing_text": "R\nSales Development Representative - SDR\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.427746"
-        },
-        {
-            "listing_text": "T\nAssistant Professor / Associate Professor / Professor, Data Science\nThe University of Chicago, Data Science Institute\nChicago, IL • via MathJobs\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.453072"
-        },
-        {
-            "listing_text": "Instructor in AI Literacy and Policy Fundamentals: Understanding and Mitigating Algorithmic Bias (online)\nBrandeis University\nUnited States • via Workday\nPart-time",
-            "timestamp": "2025-01-02T14:38:11.477911"
-        },
-        {
-            "listing_text": "L\nArtificial Intelligence Scientist\nLawrence Berkeley Lab\nBerkeley, CA • via BeBee\n10 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.506881"
-        },
-        {
-            "listing_text": "Software Engineer, London\nAnthropic\nNew York, NY (+2 others) • via Menlo Ventures Job Board\nFull-time\nNo degree mentioned\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:11.547155"
-        },
-        {
-            "listing_text": "H\nField Data Scientist\nHowso\nAnywhere • via Jobs By Workable\nWork from home\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:11.599018"
-        },
-        {
-            "listing_text": "M\nIntermediate AI Research Engineer\nMITRE Corporation\nMcLean, VA • via Teal\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.636083"
-        },
-        {
-            "listing_text": "Product Manager, AI\nRobust Intelligence\nCanada (+6 others) • via Built In Vancouver\n7 days ago\n160K–220K a year\nFull-time\nHealth insurance\nPaid time off\nDental insurance",
-            "timestamp": "2025-01-02T14:38:11.683468"
-        },
-        {
-            "listing_text": "R\nSenior Product Manager, Security\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:11.716814"
-        },
-        {
-            "listing_text": "Foundations of AI Researcher\nAmazon\nSan Francisco, CA • via BeBee\n17 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.747479"
-        },
-        {
-            "listing_text": "1\nAI Sales Specialist - North America\n1104 SUSE LLC\nUnited States • via Workday\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T14:38:11.777113"
-        },
-        {
-            "listing_text": "G\nSecurity Architect AI - remote through 12/27 extensions highly likely\nGlobal IT Resources\nBethesda, MD • via Indeed\n60–70 an hour\nFull-time and Contractor\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:11.815312"
-        },
-        {
-            "listing_text": "Software Architect - AI Technical Advocate\nIBM\nMassachusetts • via Dice\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.842719"
-        },
-        {
-            "listing_text": "Associate Research Director Jobs\nTwo Six Technologies\nArlington, VA • via Clearance Jobs\n6 days ago\nContractor\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:11.878989"
-        },
-        {
-            "listing_text": "Senior Product Manager, Security\nRobust Intelligence\nSan Francisco, CA • via The Rundown Jobs - The Rundown AI\nFull-time\nHealth insurance\nPaid time off\nDental insurance",
-            "timestamp": "2025-01-02T14:38:11.914489"
-        },
-        {
-            "listing_text": "C\nApplied Researcher I\nCapital One\nNew York, NY (+4 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:11.943430"
-        },
-        {
-            "listing_text": "Data Platform Engineer\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time",
-            "timestamp": "2025-01-02T14:38:11.969716"
-        },
-        {
-            "listing_text": "Applied AI, Solutions Architect\nAnthropic\nSeattle, WA • via LinkedIn\n13 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.002662"
-        },
-        {
-            "listing_text": "Instructor in AI Literacy and Policy Fundamentals: Understanding and Mitigating Algorithmic Bias (online)\nBrandeis University\nWaltham, MA • via Higher Ed Jobs\nPart-time",
-            "timestamp": "2025-01-02T14:38:12.030665"
-        },
-        {
-            "listing_text": "M\nIntermediate AI Research Engineer\nMITRE Corporation\nBedford, MA • via Teal\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.056837"
-        },
-        {
-            "listing_text": "Audit and Compliance\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.090913"
-        },
-        {
-            "listing_text": "Product Manager, AI\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.126712"
-        },
-        {
-            "listing_text": "Research Scientist: Driving Innovation in AI\nThe AI Institute\nCambridge, MA • via Jobs Trabajo.org\n27 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.158433"
-        },
-        {
-            "listing_text": "Research Engineer, Gemma for Foundational Research\nGoogle DeepMind\nSan Francisco, CA • via Taro\n182K–215K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.188260"
-        },
-        {
-            "listing_text": "Asst/Assoc/Full Professor in Electrical & Computer Engineering - Trustworthy AI | University of Wisconsin-Madison\nUniversity of Wisconsin–Madison\nMadison, WI • via Jooble\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.214553"
-        },
-        {
-            "listing_text": "Senior Research Scientist, Security and Privacy\nNVIDIA\nWestford, MA • via Indeed\n180K–345K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.250041"
-        },
-        {
-            "listing_text": "Senior Machine Learning Engineer, AI Security\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T14:38:12.285247"
-        },
-        {
-            "listing_text": "FAST Labs - Edge and Spectral AI Technology Development Manager (Hybrid)\nBAE Systems, Inc.\nMerrimack, NH • via Built In\n9 days ago\n140,690–239,140 a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.327085"
-        },
-        {
-            "listing_text": "C\nApplied Researcher I\nCapital One\nNew York, NY (+4 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.351003"
-        },
-        {
-            "listing_text": "O\nMaterials Expertise Sought for AI Fact Checking\nOutlier\nEl Paso, TX • via Teal\n17 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.393990"
-        },
-        {
-            "listing_text": "Software Engineer, Technical Partnerships\nAnthropic\nSeattle, WA (+1 other) • via Jobs - Lionheart Ventures\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.425748"
-        },
-        {
-            "listing_text": "R\nHead of Operations\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time\nNo degree mentioned\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.463940"
-        },
-        {
-            "listing_text": "Research Scientist - Trusted AI\nTwo Six Technologies\nArlington, VA • via Karkidi\n126K–246K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.494152"
-        },
-        {
-            "listing_text": "B\nFAST Labs - Chief Scientist for Edge and Spectral AI (Hybrid)\nBAE Systems\nArlington, VA (+2 others) • via BAE Systems\n15 days ago\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.532474"
-        },
-        {
-            "listing_text": "Senior Research Scientist - Security and Privacy\nNVIDIA\nWestford, MA (+1 other) • via Simplify Jobs\n27 days ago\n180K–345K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.572401"
-        },
-        {
-            "listing_text": "HPC & AI Architect\nLenovo\nBoston, MA • via Lensa\n27 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.608553"
-        },
-        {
-            "listing_text": "Senior AI Investigator\nMicrosoft\nRedmond, WA • via Ladders\n117K–229K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.643309"
-        },
-        {
-            "listing_text": "M\nAssociate AI Security Engineer\nMITRE Corporation\nBedford, MA • via Teal\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.670553"
-        },
-        {
-            "listing_text": "Principal Software Engineering, AI Model Serving\nRed Hat, Inc.\nBoston, MA • via Indeed\n30 days ago\n163,420–269,640 a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.715620"
-        },
-        {
-            "listing_text": "LLMOps Engineer - Cloud/Gen AI\nManifest Solutions\nWesterville, OH • via ZipRecruiter\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.744692"
-        },
-        {
-            "listing_text": "Postdoctoral Researcher (CREDIT)\nPrairie View A&M University\nPrairie View, TX • via Workday\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.772582"
-        },
-        {
-            "listing_text": "Tenure-Track Faculty Positions in Artificial Intelligence-School of Information Sciences - 1028141-6689\nUniversity of Illinois\nUrbana, IL • via USNLX Ability Jobs - National Labor Exchange\n23 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:12.805750"
-        },
-        {
-            "listing_text": "Advanced AI Researcher\nCapital One\nSan Francisco, CA • via BeBee\n3 hours ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.845067"
-        },
-        {
-            "listing_text": "Software Engineer, AI Security\nRobust Intelligence\nCalifornia • via Startup Jobs\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.882396"
-        },
-        {
-            "listing_text": "AI Security Engineer, AppSec AI\nAmazon\nArlington, VA • via LinkedIn\n22 days ago\n136K–213K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:12.920365"
-        },
-        {
-            "listing_text": "FAST Labs - Chief Scientist for Edge and Spectral AI (Hybrid)\nBAE Systems, Inc.\nBurlington, MA • via Built In\n9 days ago\n153K–291K a year\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.968695"
-        },
-        {
-            "listing_text": "Data Infra Enginer, Pretraining\nAnthropic\nNew York, NY (+2 others) • via Jobs - Lionheart Ventures\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:12.998367"
-        },
-        {
-            "listing_text": "Director, AI Governance\nLenovo\nMorrisville, NC • via Indeed\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.026804"
-        },
-        {
-            "listing_text": "AI Technical Director\nHubSpot\nCambridge, MA • via Jobs Trabajo.org\n13 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.058590"
-        },
-        {
-            "listing_text": "S\n(Senior) Research Scientist - Privacy-Preserving and Secure AI\nSony AI\nUnited States • via Karkidi\n122K–256K a year\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.094234"
-        },
-        {
-            "listing_text": "F\nSenior AI Engineer, Emerging Products\nFormation Bio\nNew York, NY • via BeBee\n7 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.129431"
-        },
-        {
-            "listing_text": "Senior AI Engineer- Security\nHarnham\nBoston, MA • via LinkedIn\n9 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.165669"
-        },
-        {
-            "listing_text": "M\nAssociate AI Security Engineer\nMITRE Corporation\nMcLean, VA • via Teal\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.195171"
-        },
-        {
-            "listing_text": "Director, Partner Programs\nGrammarly\nAnywhere • via Built In\n15 days ago\nWork from home\nFull-time\nNo degree mentioned\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.247037"
-        },
-        {
-            "listing_text": "Applied Ai, Solutions Architect\nAnthropic\nWashington • via The Org\n13 days ago\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.288251"
-        },
-        {
-            "listing_text": "C\nDistinguished Applied Researcher\nCapital One\nNew York, NY (+5 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.319457"
-        },
-        {
-            "listing_text": "T\nSr. Consultant, AI Governance Risk & Compliance (Remote)\nTrace3\nAtlanta, GA • via Startup Jobs\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.358759"
-        },
-        {
-            "listing_text": "B\nFAST Labs - Edge and Spectral AI Technology Development Manager (Hybrid)\nBAE Systems\nAnywhere • via Teal\n14 days ago\nWork from home\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.406553"
-        },
-        {
-            "listing_text": "Data Science Lead (Strategist)\nSearch Discovery\nCleveland, OH (+1 other) • via Built In\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.440066"
-        },
-        {
-            "listing_text": "Applied AI Finetuning Engineer\nAnthropic\nWashington • via The Org\n13 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.478838"
-        },
-        {
-            "listing_text": "Lead Integration Engineer, AI-Powered Solutions\nCanoe Intelligence\nNew York, NY • via BeBee\n24 days ago\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.521114"
-        },
-        {
-            "listing_text": "Principal AI Research Engineer\nThe MITRE Corporation\nMcLean, VA • via Indeed\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.552961"
-        },
-        {
-            "listing_text": "Sr Security Engineer, AppSec AI\nAmazon\nSunnyvale, CA • via LinkedIn\n20 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.591731"
-        },
-        {
-            "listing_text": "External Affairs\nAnthropic\nSan Francisco, CA • via Simplify Jobs\n13 days ago\n210K–240K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.632770"
-        },
-        {
-            "listing_text": "C\nApplied Researcher II\nCapital One\nNew York, NY (+3 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.667249"
-        },
-        {
-            "listing_text": "AI Security Engineer, AppSec AI\nAmazon\nAustin, TX • via LinkedIn\n22 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.705307"
-        },
-        {
-            "listing_text": "commercial counsel public sector\nanthropic\nSeattle, WA • via AI Jobster\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:13.746271"
-        },
-        {
-            "listing_text": "Trustworthy AI Researcher for Earth Science Applications\nInsideHigherEd\nNorman, OK • via BeBee\n13 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.778605"
-        },
-        {
-            "listing_text": "FAST Labs - Senior Principal Scientist for Edge and Spectral AI (Hybrid) at Top Secret Clearance Jobs Merrimack, NH\nTop Secret Clearance Jobs\nMerrimack, NH • via Das Bevo\n20 days ago\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.825767"
-        },
-        {
-            "listing_text": "C\nApplied Researcher I\nCapitalone\nPlano, TX • via ZipRecruiter\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.858591"
-        },
-        {
-            "listing_text": "Sr Security Engineer, AppSec AI\nAmazon\nAustin, TX • via LinkedIn\n20 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:13.895062"
-        },
-        {
-            "listing_text": "Engineering Manager, Research Tools\nAnthropic\nSan Francisco, CA • via Greenhouse\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.924731"
-        },
-        {
-            "listing_text": "Developing Trustworthy AI in Earth Sciences Professional\nInsideHigherEd\nNorman, OK • via BeBee\n10 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:13.962068"
-        },
-        {
-            "listing_text": "Commercial Counsel, Public Sector\nAnthropic\nSeattle, WA • via GoInhouse.com\n27 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.000022"
-        },
-        {
-            "listing_text": "C\nArtificial Intelligence Engineer\nContext Labs\nCambridge, MA • via BeBee\n13 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.035068"
-        },
-        {
-            "listing_text": "Data Infra Engineer - Pretraining\nAnthropic\nNew York, NY (+2 others) • via Simplify Jobs\n300K–340K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.072645"
-        },
-        {
-            "listing_text": "Research Engineer, Alignment Science\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.123651"
-        },
-        {
-            "listing_text": "Generative AI Researcher\nNovartis\nCambridge, MA • via BeBee\n9 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.163804"
-        },
-        {
-            "listing_text": "C\nSr. Distinguished Applied Researcher\nCapital One\nRichmond, VA • via Built In\n17 days ago\n368K–445K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.253309"
-        },
-        {
-            "listing_text": "Research Engineer / Scientist - Alignment Science\nAnthropic\nNew York, NY (+2 others) • via Simplify Jobs\n280K–690K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.291493"
-        },
-        {
-            "listing_text": "C\nCurrent PhD, Applied Research Intern - Summer 2025\nCapital One\nMcLean, VA • via Built In\n17 days ago\n200K–212K a year\nInternship\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.334128"
-        },
-        {
-            "listing_text": "H\nAI Performance Engineer - Numerical Computing Expert\nHowso\nRaleigh, NC • via BeBee\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.369394"
-        },
-        {
-            "listing_text": "Artificial Intelligence Developer\nBonfy\nMountain View, CA • via BeBee\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.408635"
-        },
-        {
-            "listing_text": "Data Science and Analytics - Trust and Safety\nAnthropic\nNew York, NY (+1 other) • via Simplify Jobs\n13 days ago\n220K–265K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.452009"
-        },
-        {
-            "listing_text": "Data Science and Modeling Leader\nNovartis Group Companies\nCambridge, MA • via BeBee\n1 day ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.489703"
-        },
-        {
-            "listing_text": "C\nDistinguished Applied Researcher\nCapital One\nSan Francisco, CA • via Built In\n12 days ago\n322K–389K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.535295"
-        },
-        {
-            "listing_text": "T\nAI Solutions Architect: Innovate at the Forefront of Applied Research\nThomson Reuters\nSan Francisco, CA • via BeBee\n19 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.570278"
-        },
-        {
-            "listing_text": "Partner and Financial Communications Lead - Corporate Communications\nAnthropic\nSan Francisco, CA • via Simplify Jobs\n240K–300K a year\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.613533"
-        },
-        {
-            "listing_text": "Research Scientist - Artificial Intelligence\nHewlett Packard Enterprise Development LP\nMilpitas, CA • via BeBee\n13 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:14.652954"
-        },
-        {
-            "listing_text": "Software Engineer, API Experience\nAnthropic\nAnywhere • via Built In\n5 days ago\n300K–405K a year\nWork from home\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.706022"
-        },
-        {
-            "listing_text": "Founding Applied Researcher in AI\nJobot\nSan Francisco, CA • via BeBee\n12 days ago\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.767061"
-        },
-        {
-            "listing_text": "M\nDesign and Implement Scalable Infrastructure for AI Research\nMenlo Ventures\nSan Francisco, CA • via BeBee\n18 days ago\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.818571"
-        },
-        {
-            "listing_text": "Team Manager, Interpretability\nAnthropic\nSan Francisco, CA • via Built In\n18 days ago\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.864183"
-        },
-        {
-            "listing_text": "T\nSenior AI Researcher for E-commerce Governance and Trust\nTik Tok\nSan Jose, CA • via BeBee\n29 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.900947"
-        },
-        {
-            "listing_text": "C\nApplied Researcher I\nCapital One\nNew York, NY (+5 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:14.939230"
-        },
-        {
-            "listing_text": "Product Manager, Trust and Safety\nAnthropic\nSan Francisco, CA • via LinkedIn\n13 days ago\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:14.984479"
-        },
-        {
-            "listing_text": "Lead Research Scientist\nTwo Six Technologies\nArlington, VA • via Startup Jobs\nFull-time\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.025262"
-        },
-        {
-            "listing_text": "Enterprise Account Executive (API Sales)\nAnthropic\nNew York, NY (+1 other) • via Built In\n13 days ago\n270K–410K a year\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.072665"
-        },
-        {
-            "listing_text": "Principal AI Research Engineer\nThe MITRE Corporation\nMcLean, VA • via BeBee\n1 day ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.113336"
-        },
-        {
-            "listing_text": "C\nApplied Researcher II\nCapital One\nNew York, NY (+3 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.148551"
-        },
-        {
-            "listing_text": "Applied AI, Public Sector\nAnthropic\nSan Francisco, CA • via LinkedIn\n13 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.188569"
-        },
-        {
-            "listing_text": "Research Scientist - Security and Privacy\nNVIDIA\nWestford, MA (+1 other) • via Simplify Jobs\n24 days ago\n160K–253K a year\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.235825"
-        },
-        {
-            "listing_text": "Applied AI Product Engineer\nAnthropic\nSeattle, WA • via LinkedIn\n13 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.276265"
-        },
-        {
-            "listing_text": "AI Systems Developer\nThe MITRE Corporation\nMcLean, VA • via BeBee\n1 day ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.313797"
-        },
-        {
-            "listing_text": "Head of Strategic Finance, Go-to-Market\nAnthropic\nSan Francisco, CA • via Built In\n2 days ago\n310K–365K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.360976"
-        },
-        {
-            "listing_text": "Product Designer\nAnthropic\nSeattle, WA • via LinkedIn\n1 month ago\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.403283"
-        },
-        {
-            "listing_text": "Software Engineer, Employee Acceleration Tools\nAnthropic\nAnywhere • via Built In\n11 days ago\n300K–405K a year\nWork from home\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.456937"
-        },
-        {
-            "listing_text": "Anthropic AI Safety Fellow\nAnthropic\nSan Francisco, CA • via LinkedIn\n1 month ago\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.494447"
-        },
-        {
-            "listing_text": "AI Visionary: Building Trustworthy and Reliable AI Systems\nCapital One\nCambridge, MA • via BeBee\n16 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.530341"
-        },
-        {
-            "listing_text": "Head of G&A, Communications, and Policy Recruiting\nAnthropic\nSan Francisco, CA • via Built In\n13 days ago\n220K–275K a year\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.579832"
-        },
-        {
-            "listing_text": "Data Scientist II\nCapital One\nMcLean, VA • via BeBee\n13 hours ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.617214"
-        },
-        {
-            "listing_text": "Research Engineer, Societal Impacts\nAnthropic\nSan Francisco, CA • via Built In\n18 days ago\n315K–340K a year\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:15.661620"
-        },
-        {
-            "listing_text": "Advanced AI Research Lead\nCapital One\nCambridge, MA • via BeBee\n3 days ago\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.704347"
-        },
-        {
-            "listing_text": "Artificial Intelligence Researcher\nCapital One\nCambridge, MA • via BeBee\n11 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.741150"
-        },
-        {
-            "listing_text": "Applied Researcher I - AI Foundations Team\nCapital One\nCambridge, MA • via BeBee\n2 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.780417"
-        },
-        {
-            "listing_text": "Artificial Intelligence Research Engineer\nCapital One\nCambridge, MA • via BeBee\n3 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.819481"
-        },
-        {
-            "listing_text": "AI Researcher Position in Machine Learning\nCapital One\nMcLean, VA • via BeBee\n1 day ago\nFull-time\nHealth insurance\nPaid time off\nDental insurance",
-            "timestamp": "2025-01-02T14:38:15.869624"
-        },
-        {
-            "listing_text": "Senior AI Technologist for Banking Innovations\nCapital One\nCambridge, MA • via BeBee\n7 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.913101"
-        },
-        {
-            "listing_text": "Advanced AI Research Scientist\nCapital One\nMcLean, VA • via BeBee\n1 day ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:15.951879"
-        },
-        {
-            "listing_text": "Data Science Expert for AI Foundations\nCapital One\nCambridge, MA • via BeBee\n8 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:15.995512"
-        },
-        {
-            "listing_text": "Sr. Distinguished Applied Researcher\nCapital One\nUnited States • via BeBee\n3 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:16.038547"
-        },
-        {
-            "listing_text": "AI Foundation Model Developer\nCapital One\nCambridge, MA • via BeBee\n3 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:16.078470"
-        },
-        {
-            "listing_text": "AI Engineering Leadership Position in Capital One\nCapital One\nCambridge, MA • via BeBee\n10 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:16.144951"
-        },
-        {
-            "listing_text": "Chief AI Safety and Oversight Engineer\nAnthropic\nSan Francisco, CA • via BeBee\n11 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T14:38:16.202548"
-        },
-        {
-            "listing_text": "Senior AI Technical Lead - Capital One\nCapital One\nSan Jose, CA • via BeBee\n2 days ago\nFull-time",
-            "timestamp": "2025-01-02T14:38:16.240796"
-        },
-        {
-            "listing_text": "Human-AI Collaboration Expert\nAnthropic\nSan Francisco, CA • via BeBee\n15 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T14:38:16.302452"
+            "listing_text": "Team Manager, Interpretability\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nHealth insurance\nPaid time off\nDental insurance",
+            "timestamp": "2025-01-02T15:47:40.257215"
         }
     ],
-    "total_count": 184,
-    "extraction_date": "2025-01-02T14:38:16.344491"
+    "total_count": 40,
+    "extraction_date": "2025-01-02T15:47:40.598126"
 }
