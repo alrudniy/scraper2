@@ -212,8 +212,8 @@ class WebsiteAutomation:
             print("Finding job listings...")
             jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
             
-            # Extract and save text from each jsslot element
-            print("Extracting text from job listings...")
+            # Extract text and click through each job listing
+            print("Processing job listings...")
             job_listings = []
             excluded_texts = [
                 "Remote\nNo degree\nDate posted\nJob type",
@@ -227,11 +227,17 @@ class WebsiteAutomation:
                     # Get text content of the jsslot element
                     text = jsslot.text.strip()
                     if text and text not in excluded_texts:  # Only include non-empty and non-excluded text
+                        # Click the job listing
+                        jsslot.click()
+                        # Wait for job description to load
+                        time.sleep(2)
+                        
                         job_listings.append({
                             "listing_text": text,
                             "timestamp": datetime.now().isoformat()
                         })
                 except Exception as e:
+                    print(f"Error processing listing: {str(e)}")
                     continue
             
             # Save to JSON file
