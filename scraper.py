@@ -178,7 +178,7 @@ class WebsiteAutomation:
             print(f"Search failed: {str(e)}")
             
     def scroll_results(self, scroll_pause_time=2.0):
-        """Scroll through results page to bottom and back to top."""
+        """Scroll through results page to bottom and back to top, then click save buttons."""
         try:
             # Get scroll height
             last_height = self.driver.execute_script("return document.body.scrollHeight")
@@ -207,9 +207,32 @@ class WebsiteAutomation:
             """)
             time.sleep(scroll_pause_time)  # Wait for scroll up animation
             print("Scrolling complete")
+
+            # Find all jsslot divs that contain save buttons
+            print("Finding and clicking save buttons...")
+            jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
+            
+            for jsslot in jsslot_elements:
+                try:
+                    # Check if this jsslot contains a save button
+                    save_button = jsslot.find_element(By.CSS_SELECTOR, "div[aria-label='Save']")
+                    
+                    # Scroll the jsslot element into view
+                    self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", jsslot)
+                    time.sleep(2)  # Wait for scroll and element to be clickable
+                    
+                    # Click the save button
+                    save_button.click()
+                    time.sleep(2)  # Wait between clicks
+                    
+                except Exception as e:
+                    # Continue to next element if this one doesn't have a save button
+                    continue
+                    
+            print("Finished clicking all save buttons")
             
         except Exception as e:
-            print(f"Error during scrolling: {str(e)}")
+            print(f"Error during scrolling or saving: {str(e)}")
             
     def save_results(self, criteria, output_file):
         try:
