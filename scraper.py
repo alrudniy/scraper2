@@ -215,11 +215,18 @@ class WebsiteAutomation:
             # Extract and save text from each jsslot element
             print("Extracting text from job listings...")
             job_listings = []
+            excluded_texts = [
+                "Remote\nNo degree\nDate posted\nJob type",
+                "Job postings",
+                "Saved jobs",
+                "Following"
+            ]
+            
             for jsslot in jsslot_elements:
                 try:
                     # Get text content of the jsslot element
                     text = jsslot.text.strip()
-                    if text:  # Only include non-empty text
+                    if text and text not in excluded_texts:  # Only include non-empty and non-excluded text
                         job_listings.append({
                             "listing_text": text,
                             "timestamp": datetime.now().isoformat()
