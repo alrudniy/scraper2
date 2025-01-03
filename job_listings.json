@@ -1,166 +1,42 @@
 {
     "job_listings": [
         {
-            "listing_text": "Reddit\nRemote\nDate posted\nJob type\nNo degree",
-            "timestamp": "2025-01-02T15:46:09.905405"
+            "title": "AI Agents Initiative at Columbia Business School",
+            "company": "Columbia Business School - Decision, Risk, and Operations (DRO)",
+            "location": "Anywhere • via INFORMS Career Center - Informs.org",
+            "timestamp": "2025-01-03T14:55:35.394546"
         },
         {
-            "listing_text": "Yesterday\nLast 3 days\nLast week\nLast month",
-            "timestamp": "2025-01-02T15:46:11.982538"
+            "title": "Assistant Professor of Trustworthy AI in Computer Science (Tenure Track)",
+            "company": "Old Dominion University",
+            "location": "Norfolk, VA • via Chronicle Of Higher Education",
+            "timestamp": "2025-01-03T14:55:37.769192"
         },
         {
-            "listing_text": "AI Agents Initiative at Columbia Business School\nColumbia Business School - Decision, Risk, and Operations (DRO)\nAnywhere • via INFORMS Career Center - INFORMS.org\n3 days ago\n70K–80K a year\nWork from home\nFull-time",
-            "timestamp": "2025-01-02T15:46:14.257970"
+            "title": "Research Scientist (Safety, Evaluations and Alignment Lab, Frontier Risk Evaluations)",
+            "company": "Scale AI",
+            "location": "New York, NY (+1 other) • via Sign In - Otta",
+            "timestamp": "2025-01-03T14:55:40.188354"
         },
         {
-            "listing_text": "Assistant Professor of Trustworthy AI in Computer Science (Tenure Track)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T15:46:16.587433"
+            "title": "Associate or Full Professor of Trustworthy AI in Cybersecurity (Tenure Track/Tenured)",
+            "company": "Old Dominion University",
+            "location": "Norfolk, VA • via Chronicle Of Higher Education",
+            "timestamp": "2025-01-03T14:55:42.600385"
         },
         {
-            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nNew York, NY • via LinkedIn\n3 days ago\nFull-time\nNo degree mentioned\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T15:46:18.920076"
+            "title": "Head of Machine Learning",
+            "company": "kadence",
+            "location": "Sonoma, CA • via SitePoint",
+            "timestamp": "2025-01-03T14:55:45.032783"
         },
         {
-            "listing_text": "SEAL Research Scientist, Scalable Oversight\nScale AI\nNew York, NY (+1 other) • via Wellfound\n6 days ago\nFull-time",
-            "timestamp": "2025-01-02T15:46:21.226508"
-        },
-        {
-            "listing_text": "Associate or Full Professor of Trustworthy AI in Cybersecurity (Tenure Track/Tenured)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T15:46:23.585877"
-        },
-        {
-            "listing_text": "AI Security Engineer, AppSec AI\nAmazon\nNew York, NY • via LinkedIn\n15 days ago\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T15:46:25.922747"
-        },
-        {
-            "listing_text": "SEAL Research Scientist, Frontier Risk Evaluations\nScale AI\nUnited States • via Adzuna\n14 hours ago\n176K–300K a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T15:46:28.228878"
-        },
-        {
-            "listing_text": "Assistant or Associate Professor of Trustworthy AI in Criminal Justice (Tenure Track/Tenured)\nOld Dominion University\nNorfolk, VA • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T15:46:30.556918"
-        },
-        {
-            "listing_text": "Audit and Compliance\nAnthropic\nNew York, NY • via The AI Job Network\nFull-time\nNo degree mentioned\nPaid time off",
-            "timestamp": "2025-01-02T15:46:32.888167"
-        },
-        {
-            "listing_text": "Commercial Counsel, Public Sector\nAnthropic\nNew York, NY • via GoInhouse.com\n27 days ago\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T15:46:35.210055"
-        },
-        {
-            "listing_text": "Director - Security Architecture - AI Technologies\nMarriott International, Inc\nAnywhere • via Marriott Careers\n3 days ago\nWork from home\nFull-time\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T15:46:37.492144"
-        },
-        {
-            "listing_text": "Assistant Professor of Trustworthy AI in Computer Science (Tenure Track)\nOld Dominion University\nUnited States • via Women In Science\nFull-time",
-            "timestamp": "2025-01-02T15:46:39.821271"
-        },
-        {
-            "listing_text": "Head of Machine Learning\nPenn Medicine\nPhiladelphia, PA • via Penn Medicine Careers\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T15:46:42.138297"
-        },
-        {
-            "listing_text": "Principal AI Research Engineer\nThe MITRE Corporation\nBedford, MA (+1 other) • via MITRE Jobs\n19 days ago\nFull-time",
-            "timestamp": "2025-01-02T15:46:44.499667"
-        },
-        {
-            "listing_text": "Z\nGeneralist Software Engineer for Trustworthy AI\nZentropi\nSan Francisco, CA • via LinkedIn\n14 days ago\nFull-time\nNo degree mentioned",
-            "timestamp": "2025-01-02T15:46:46.785440"
-        },
-        {
-            "listing_text": "Data Infra Enginer, Pretraining\nAnthropic\nNew York, NY (+2 others) • via Menlo Ventures Job Board\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T15:46:49.090900"
-        },
-        {
-            "listing_text": "2025 PhD Graduate - AI Research Scientist\nJohns Hopkins Applied Physics Laboratory\nLaurel, MD • via APL Careers - Johns Hopkins University Applied Physics Laboratory\nFull-time\nDental insurance\nHealth insurance\nPaid time off",
-            "timestamp": "2025-01-02T15:46:51.443308"
-        },
-        {
-            "listing_text": "C\nApplied Researcher II\nCapital One\nNew York, NY (+4 others) • via Capital One Careers\nFull-time and Part-time\nHealth insurance",
-            "timestamp": "2025-01-02T15:46:53.750870"
-        },
-        {
-            "listing_text": "Senior AI Security Engineer\nThe MITRE Corporation\nBedford, MA (+1 other) • via MITRE Jobs\n24 days ago\nFull-time",
-            "timestamp": "2025-01-02T15:46:56.091571"
-        },
-        {
-            "listing_text": "Research Engineer, Interpretability\nAnthropic\nAnywhere • via Built In\n4 days ago\n280K–625K a year\nWork from home\nFull-time\nPaid time off",
-            "timestamp": "2025-01-02T15:46:58.417310"
-        },
-        {
-            "listing_text": "S\nArtificial Intelligence Analyst\nSUNY Upstate Medical University\nSyracuse, NY • via Upstate Careers - Upstate Medical University\nFull-time",
-            "timestamp": "2025-01-02T15:47:00.737547"
-        },
-        {
-            "listing_text": "Penn Engineering IDEAS Initiative Tenure-Track Faculty Positions in Artificial Intelligence, Data Science and Machine Learning 2024 -2025\nUniversity of Pennsylvania\nPhiladelphia, PA • via Higher Ed Jobs\nFull-time",
-            "timestamp": "2025-01-02T15:47:03.025578"
-        },
-        {
-            "listing_text": "L\nAI Trustworthiness for scientific applications\nLos Alamos National Laboratory\nLos Alamos, NM • via Los Alamos National Laboratory\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:05.418225"
-        },
-        {
-            "listing_text": "Tenured/Tenure-Track Faculty in Trustworthy and Scalable AI Systems\nUniversity of Colorado System\nAllenspark, CO • via Chronicle Of Higher Education\nFull-time\nDental insurance\nPaid time off\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:07.737051"
-        },
-        {
-            "listing_text": "B\nFAST Labs - Edge and Spectral AI Technology Development Manager (Hybrid)\nBAE Systems\nArlington, VA (+2 others) • via BAE Systems\n12 days ago\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T15:47:10.051531"
-        },
-        {
-            "listing_text": "Software Engineer, Console\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nPaid time off\nDental insurance\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:12.336150"
-        },
-        {
-            "listing_text": "Research and Development Expert in Trustworthy AI Systems\nThe MITRE Corporation\nMcLean, VA • via BeBee\n4 hours ago\nFull-time",
-            "timestamp": "2025-01-02T15:47:14.682538"
-        },
-        {
-            "listing_text": "Principal Software Engineering, AI Model Serving\nRed Hat, Inc.\nAnywhere • via Workday\n1 month ago\nWork from home\nFull-time\nPaid time off\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T15:47:16.980798"
-        },
-        {
-            "listing_text": "C\nCapital One | Applied Researcher I\nCapital One\nCambridge, MA • via JobGet\n2 days ago\n110.58–126.20 an hour\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:19.354564"
-        },
-        {
-            "listing_text": "Assistant/Associate/Full Professor - Khoury College of Computer Sciences\nNortheastern University\nBoston, MA • via Chronicle Of Higher Education\n10 days ago\nFull-time\nHealth insurance\nDental insurance",
-            "timestamp": "2025-01-02T15:47:21.655398"
-        },
-        {
-            "listing_text": "PhD AI - Trust & Responsible AI Internship Summer 2025\nLinkedIn\nMountain View, CA • via LinkedIn\n6 days ago\nInternship\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:24.015565"
-        },
-        {
-            "listing_text": "2\nSenior Responsible AI Architect\n2100 NVIDIA USA\nSanta Clara, CA • via Workday\nFull-time\nHealth insurance",
-            "timestamp": "2025-01-02T15:47:26.286277"
-        },
-        {
-            "listing_text": "Software Architect: - AI Technical Advocate\nIBM\nSan Jose, CA • via Define Your Career With IBM | Careers - IBM\nFull-time",
-            "timestamp": "2025-01-02T15:47:28.632733"
-        },
-        {
-            "listing_text": "Emerging Technology Researcher\nABI Research\nNew York, NY • via BeBee\n6 days ago\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T15:47:30.976471"
-        },
-        {
-            "listing_text": "Asst/Assoc/Full Professor in Electrical & Computer Engineering - Trustworthy AI\nUniversity of Wisconsin-Madison\nMadison, WI • via Chronicle Of Higher Education\nFull-time",
-            "timestamp": "2025-01-02T15:47:33.278799"
-        },
-        {
-            "listing_text": "Research Scientist/Engineer - AI Safety (Biosecurity)\nAnthropic\nSan Francisco, CA • via Taro\n280K–315K a year\nFull-time",
-            "timestamp": "2025-01-02T15:47:35.628585"
-        },
-        {
-            "listing_text": "Data Platform Engineer\nRobust Intelligence\nCanada (+6 others) • via Built In\n21 hours ago\n150K–220K a year\nFull-time\nHealth insurance\nDental insurance\nPaid time off",
-            "timestamp": "2025-01-02T15:47:37.928946"
-        },
-        {
-            "listing_text": "Team Manager, Interpretability\nAnthropic\nAnywhere • via Jobs - Lionheart Ventures\nWork from home\nFull-time\nNo degree mentioned\nHealth insurance\nPaid time off\nDental insurance",
-            "timestamp": "2025-01-02T15:47:40.257215"
+            "title": "SEAL Research Scientist, Scalable Oversight",
+            "company": "Scale AI",
+            "location": "New York, NY • via LinkedIn",
+            "timestamp": "2025-01-03T14:55:47.447918"
         }
     ],
-    "total_count": 40,
-    "extraction_date": "2025-01-02T15:47:40.598126"
+    "total_count": 6,
+    "extraction_date": "2025-01-03T14:55:47.814752"
 }
