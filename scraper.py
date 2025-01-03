@@ -265,6 +265,33 @@ class WebsiteAutomation:
                                     print("\nJob Details:")
                                     print(c_wiz.text)
                                     print('----------------------------------------')
+                                    
+                                    # Try to find and click "More job highlights"
+                                    try:
+                                        time.sleep(1)
+                                        more_highlights = c_wiz.find_element(By.XPATH, ".//null[text()='More job highlights']")
+                                        # self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", more_highlights)
+                                        # time.sleep(1)
+                                        more_highlights.click()
+                                        print('Clicked More Job Highlights for {position_title} ==================================')
+                                        time.sleep(2.5)
+                                    except Exception as e:
+                                        print(f"More job highlights not for {position_title} found: {str(e)}")
+                                    
+                                                                        # Try to find and click "More job highlights"
+                                    try:
+                                        time.sleep(1)
+                                        full_description = c_wiz.find_element(By.XPATH, ".//null[text()='Show full description']")
+                                        # self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", full_description)
+                                        # time.sleep(1)
+                                        full_description.click()
+                                        print('Clicked Show Full Description for {position_title} ==================================')
+                                        time.sleep(2.5)
+                                    except Exception as e:
+                                        print(f"More job highlights not for {position_title} found: {str(e)}")
+                                    
+                                    
+                                    
                                     break
                         except Exception as e:
                             print(f"Error getting job details from c_wiz: {str(e)}")
