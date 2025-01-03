@@ -227,8 +227,8 @@ class WebsiteAutomation:
                     # Get text content of the jsslot element
                     text = jsslot.text.strip()
                     # Get additional text from specific class elements
-                    company_location = jsslot.find_element(By.CLASS_NAME, "tNxQIb.PUpOsf").text.strip()
-                    job_type = jsslot.find_element(By.CLASS_NAME, "wHYlTd.MKCbgd.a3jPc").text.strip()
+                    position_title = jsslot.find_element(By.CLASS_NAME, "tNxQIb.PUpOsf").text.strip()
+                    company = jsslot.find_element(By.CLASS_NAME, "wHYlTd.MKCbgd.a3jPc").text.strip()
                     if text and text not in excluded_texts:  # Only include non-empty and non-excluded text
                         # Click the job listing
                         jsslot.click()
