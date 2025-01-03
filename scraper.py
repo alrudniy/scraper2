@@ -236,14 +236,23 @@ class WebsiteAutomation:
                         # Wait for job description to load
                         time.sleep(2)
                         
-                        job_listings.append({
-                            "listing_text": text,
-                            "timestamp": datetime.now().isoformat()
-                        })
+                       
                         
                         print(text)
+                        print("***")
+                        print(position_title)
+                        print("***")
+                        print(company)
+                        print("***")
+                        print(location)
                         print('--------------------------------------------------------------------------------------')
-                        
+                        job_listings.append({
+                            "title": position_title,
+                            "company": company,
+                            "location": location,
+                            "timestamp": datetime.now().isoformat() 
+                            # ,"listing_text": text
+                        })
                 except Exception as e:
                     print(f"Error processing listing: {str(e)}")
                     continue
