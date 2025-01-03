@@ -208,7 +208,7 @@ class WebsiteAutomation:
             time.sleep(scroll_pause_time)  # Wait for scroll up animation
             print("Scrolling complete")
 
-            # Find all jsslot divs
+            # Find all jsslot divs -----------------------------------------------------------------------------------------------
             print("Finding job listings...")
             jsslot_elements = self.driver.find_elements(By.CSS_SELECTOR, "div[jsslot]")
             
@@ -236,6 +236,10 @@ class WebsiteAutomation:
                             "listing_text": text,
                             "timestamp": datetime.now().isoformat()
                         })
+                        
+                        print(text)
+                        print('--------------------------------------------------------------------------------------')
+                        
                 except Exception as e:
                     print(f"Error processing listing: {str(e)}")
                     continue
