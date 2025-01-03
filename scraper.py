@@ -253,6 +253,21 @@ class WebsiteAutomation:
                             "timestamp": datetime.now().isoformat() 
                             # ,"listing_text": text
                         })
+                        
+                        # Find and print job details from c-wiz element
+                        try:
+                            # Find all c-wiz elements
+                            c_wiz_elements = self.driver.find_elements(By.TAG_NAME, "c-wiz")
+                            # Look for the one with matching aria-label
+                            for c_wiz in c_wiz_elements:
+                                aria_label = c_wiz.get_attribute("aria-label")
+                                if aria_label and aria_label.startswith("Job details for") and position_title in aria_label:
+                                    print("\nJob Details:")
+                                    print(c_wiz.text)
+                                    print('----------------------------------------')
+                                    break
+                        except Exception as e:
+                            print(f"Error getting job details: {str(e)}")
                 except Exception as e:
                     print(f"Error processing listing: {str(e)}")
                     continue
