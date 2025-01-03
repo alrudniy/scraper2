@@ -254,7 +254,7 @@ class WebsiteAutomation:
                             # ,"listing_text": text
                         })
                         
-                        # Find and print job details from c-wiz element
+                        # Find and print job details from c-wiz element ----------------------------
                         try:
                             # Find all c-wiz elements
                             c_wiz_elements = self.driver.find_elements(By.TAG_NAME, "c-wiz")
@@ -267,7 +267,9 @@ class WebsiteAutomation:
                                     print('----------------------------------------')
                                     break
                         except Exception as e:
-                            print(f"Error getting job details: {str(e)}")
+                            print(f"Error getting job details from c_wiz: {str(e)}")
+                            
+                            
                 except Exception as e:
                     print(f"Error processing listing: {str(e)}")
                     continue
