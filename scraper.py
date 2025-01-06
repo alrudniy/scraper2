@@ -13,6 +13,7 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 import keyboard
+from selenium.common.exceptions import NoSuchElementException
 
 class WebsiteAutomation:
     def __init__(self, url):
@@ -237,7 +238,7 @@ class WebsiteAutomation:
                         time.sleep(2)
                         
                        
-                        
+                        print('--------------------------------------------------------------------------------------') 
                         print(text)
                         print("***")
                         print(position_title)
@@ -245,14 +246,8 @@ class WebsiteAutomation:
                         print(company)
                         print("***")
                         print(location)
-                        print('--------------------------------------------------------------------------------------')
-                        job_listings.append({
-                            "title": position_title,
-                            "company": company,
-                            "location": location,
-                            "timestamp": datetime.now().isoformat() 
-                            # ,"listing_text": text
-                        })
+                       
+
                         
                         # Find and print job details from c-wiz element ----------------------------
                         try:
@@ -262,9 +257,9 @@ class WebsiteAutomation:
                             for c_wiz in c_wiz_elements:
                                 aria_label = c_wiz.get_attribute("aria-label")
                                 if aria_label and aria_label.startswith("Job details for") and position_title in aria_label:
-                                    print("\nJob Details:")
-                                    print(c_wiz.text)
-                                    print('----------------------------------------')
+                                    print("\nProcessing next job ...:")
+                                    #print(c_wiz.text)
+                                    #print('----------------------------------------')
                                     
                                     # Try to find and click "More job highlights"
                                     try:
@@ -278,7 +273,7 @@ class WebsiteAutomation:
                                     except Exception as e:
                                         print(f"More job highlights not for {position_title} found: {str(e)}")
                                     
-                                                                        # Try to find and click "More job highlights"
+                                   # Try to find and click "Show full description"
                                     try:
                                         time.sleep(1)
                                         full_description = c_wiz.find_element(By.XPATH, ".//null[text()='Show full description']")
@@ -290,6 +285,175 @@ class WebsiteAutomation:
                                     except Exception as e:
                                         print(f"More job highlights not for {position_title} found: {str(e)}")
                                     
+                                    job_highlight_items = []
+                                    job_highlight_text = ''
+                                    # get job highlights ==========================================================
+                                    try:
+                                        # Locate the <ul> that follows an <h3> containing text "Job highlights"
+                                        job_highlights_ul = c_wiz.find_element(
+                                            By.XPATH,
+                                            ".//h3[text()='Job highlights']/following-sibling::ul"
+                                        )
+                                        
+                                        # Find all <li> elements within this <ul>
+                                        li_elements = job_highlights_ul.find_elements(By.TAG_NAME, "li")
+                                                                                
+                                        # Once found, you can do whatever you need with it
+                                        print("Found Job Highlights <ul>:")
+                                        job_highlight_text = job_highlights_ul.text
+
+                                        # Collect each <li>'s text in a list
+                                        for li in li_elements:
+                                            highlight_text = li.text.strip()
+                                            if highlight_text:
+                                                job_highlight_items.append(highlight_text)
+
+                                        # (Optional) Print out the collected highlights
+                                        if job_highlight_items:
+                                            print("Job highlights found:")
+                                            for item in job_highlight_items:
+                                                print(f" • {item}")
+                                        print('oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo')
+
+                                    except NoSuchElementException:
+                                        print("Could not find the <ul> following <h3> with text 'Job highlights'")
+                                    except Exception as e:
+                                        print(f"An error occurred: {str(e)}")                                    
+                                    
+                                    
+                                    qualifications_items = []
+                                    qualifications_text = ''
+                                    # get qualifications ==========================================================
+                                    try:
+                                        # 1. Find the <ul> that follows an <h4> with the text "qualifications"
+                                        #    This <h4> should be a sibling of <h3> that has text "Job highlights".
+                                        qualifications_ul = c_wiz.find_element(
+                                            By.XPATH,
+                                            ".//h3[text()='Job highlights']/following-sibling::h4[text()='Qualifications']/following-sibling::ul"
+                                        )
+                                                                            
+                                       # 2. Within that <ul>, locate all <li> elements
+                                        li_elements = qualifications_ul.find_elements(By.TAG_NAME, "li")
+                                                                                
+                                        # Once found, you can do whatever you need with it
+                                        print("Found Qualifications <ul>:")
+                                        qualifications_text = qualifications_ul.text
+
+                                        # 3. Build a list of text from the <li> elements
+                                        for li in li_elements:
+                                            text_value = li.text.strip()
+                                            if text_value:
+                                                qualifications_items.append(text_value)
+
+                                        # (Optional) Print out the collected Qualifications
+                                        if qualifications_items:
+                                            print("Job Qualifications found:")
+                                            for item in qualifications_items:
+                                                print(f" • {item}")
+                                        print('oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo')
+
+                                    except NoSuchElementException:
+                                        print("Could not find the <ul> following <h3> with text 'Job highlights'")
+                                    except Exception as e:
+                                        print(f"An error occurred: {str(e)}")                                          
+                                    
+                                    
+                                    benefits_items = []
+                                    benefits_text = ''
+                                    # get benefits ==========================================================
+                                    try:
+                                        # 1. Find the <ul> that follows an <h4> with the text "Benefits"
+                                        #    This <h4> should be a sibling of <h3> that has text "Job highlights".
+                                        benefits_ul = c_wiz.find_element(
+                                            By.XPATH,
+                                            ".//h3[text()='Job highlights']/following-sibling::h4[text()='Benefits']/following-sibling::ul"
+                                        )
+
+                                        # 2. Within that <ul>, locate all <li> elements
+                                        li_elements = benefits_ul.find_elements(By.TAG_NAME, "li")
+
+                                        # Once found, log or store the full text of the <ul>
+                                        print("Found Benefits <ul>:")
+                                        benefits_text = benefits_ul.text
+
+                                        # 3. Build a list of text from the <li> elements
+                                        for li in li_elements:
+                                            text_value = li.text.strip()
+                                            if text_value:
+                                                benefits_items.append(text_value)
+
+                                        # (Optional) Print out the collected Benefits
+                                        if benefits_items:
+                                            print("Job Benefits found:")
+                                            for item in benefits_items:
+                                                print(f" • {item}")
+
+                                        print('oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo')
+
+                                    except NoSuchElementException:
+                                        print("Could not find the <ul> following <h3> with text 'Job highlights' for Benefits")
+                                    except Exception as e:
+                                        print(f"An error occurred: {str(e)}")                                    
+                                    
+                                    
+
+
+                                    responsibilities_items = []
+                                    responsibilities_text = ''
+                                     # get responsibilities ==========================================================
+                                    try:
+                                        # 1. Find the <ul> that follows an <h4> with the text "Responsibilities"
+                                        #    This <h4> should be a sibling of <h3> that has text "Job highlights".
+                                        responsibilities_ul = c_wiz.find_element(
+                                            By.XPATH,
+                                            ".//h3[text()='Job highlights']/following-sibling::h4[text()='Responsibilities']/following-sibling::ul"
+                                        )
+
+                                        # 2. Within that <ul>, locate all <li> elements
+                                        li_elements = responsibilities_ul.find_elements(By.TAG_NAME, "li")
+
+                                        # Once found, log or store the full text of the <ul>
+                                        print("Found Responsibilities <ul>:")
+                                        responsibilities_text = responsibilities_ul.text
+
+                                        # 3. Build a list of text from the <li> elements
+                                        for li in li_elements:
+                                            text_value = li.text.strip()
+                                            if text_value:
+                                                responsibilities_items.append(text_value)
+
+                                        # (Optional) Print out the collected Responsibilities
+                                        if responsibilities_items:
+                                            print("Job Responsibilities found:")
+                                            for item in responsibilities_items:
+                                                print(f" • {item}")
+
+                                        print('oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo')
+
+                                    except NoSuchElementException:
+                                        print("Could not find the <ul> following <h3> with text 'Job highlights' for Responsibilities")
+                                    except Exception as e:
+                                        print(f"An error occurred: {str(e)}")
+                                    
+                                    
+                                    
+                                    
+                                    job_listings.append({
+                                        "title": position_title,
+                                        "company": company,
+                                        "location": location,
+                                        "timestamp": datetime.now().isoformat(),
+                                        "job_highlights_text": job_highlight_text,
+                                        "job_highlights_items": job_highlight_items,
+                                        "qualifications_text": qualifications_text,
+                                        "qualifications_items": qualifications_items,
+                                        "benefits_text": benefits_text,
+                                        "benefits_items": benefits_items,
+                                        "responsibilities_text": benefits_text,
+                                        "responsibilities_items": benefits_items,
+                                        # ,"listing_text": text
+                                    })                                    
+                                                
                                     
                                     
                                     break
