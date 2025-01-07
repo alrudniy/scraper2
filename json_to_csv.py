@@ -57,8 +57,11 @@ def convert_json_to_csv(input_file=None):
             'Job Description'
         ]
 
+        # Create output filename for CSV
+        output_csv = input_file.rsplit('.', 1)[0] + '.csv'
+        
         # Write to CSV file
-        with open('job_listings.csv', 'w', newline='', encoding='utf-8') as csv_file:
+        with open(output_csv, 'w', newline='', encoding='utf-8') as csv_file:
             writer = csv.DictWriter(csv_file, fieldnames=csv_headers)
             writer.writeheader()
 
@@ -79,7 +82,7 @@ def convert_json_to_csv(input_file=None):
                     'Job Description': job.get('job_description', '')
                 })
 
-        print(f"Successfully converted job listings to CSV format. Output saved to job_listings.csv")
+        print(f"Successfully converted job listings to CSV format. Output saved to {output_csv}")
 
         # Create Excel workbook
         wb = openpyxl.Workbook()
@@ -132,9 +135,12 @@ def convert_json_to_csv(input_file=None):
             adjusted_width = (max_length + 2)
             ws.column_dimensions[column_letter].width = adjusted_width
 
+        # Create output filename by replacing .json extension with .xlsx
+        output_excel = input_file.rsplit('.', 1)[0] + '.xlsx'
+        
         # Save Excel file
-        wb.save('job_listings.xlsx')
-        print("Successfully exported to Excel format. Output saved to job_listings.xlsx")
+        wb.save(output_excel)
+        print(f"Successfully exported to Excel format. Output saved to {output_excel}")
         
     except FileNotFoundError:
         print("Error: job_listings.json file not found")
