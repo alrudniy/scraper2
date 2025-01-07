@@ -15,10 +15,15 @@ def flatten_list(items, for_excel=False):
     separator = "\n" if for_excel else "; "
     return separator.join(str(item) for item in items)
 
-def convert_json_to_csv():
+def convert_json_to_csv(input_file=None):
+    if not input_file:
+        print("Error: Input JSON file name is required")
+        print("Usage: python json_to_csv.py <input_json_file>")
+        return
+
     try:
         # Read JSON file
-        with open('job_listings.json', 'r', encoding='utf-8') as json_file:
+        with open(input_file, 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             job_listings = data.get('job_listings', [])
 
@@ -139,4 +144,8 @@ def convert_json_to_csv():
         print(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    convert_json_to_csv()
+    import sys
+    if len(sys.argv) < 2:
+        convert_json_to_csv()  # Will print usage message
+    else:
+        convert_json_to_csv(sys.argv[1])
