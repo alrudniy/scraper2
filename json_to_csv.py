@@ -23,7 +23,7 @@ def convert_json_to_csv():
             job_listings = data.get('job_listings', [])
 
         # Define CSV headers
-        headers = [
+        csv_headers = [
             'Title',
             'Company',
             'Location',
@@ -38,10 +38,23 @@ def convert_json_to_csv():
             'Responsibilities Items',
             'Job Description'
         ]
+        
+        # Define Excel headers (excluding Items columns)
+        excel_headers = [
+            'Title',
+            'Company',
+            'Location',
+            'Timestamp',
+            'Job Highlights',
+            'Qualifications',
+            'Benefits',
+            'Responsibilities',
+            'Job Description'
+        ]
 
         # Write to CSV file
         with open('job_listings.csv', 'w', newline='', encoding='utf-8') as csv_file:
-            writer = csv.DictWriter(csv_file, fieldnames=headers)
+            writer = csv.DictWriter(csv_file, fieldnames=csv_headers)
             writer.writeheader()
 
             for job in job_listings:
@@ -72,7 +85,7 @@ def convert_json_to_csv():
         header_font = Font(bold=True, color="FFFFFF")
         header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
         
-        for col, header in enumerate(headers, 1):
+        for col, header in enumerate(excel_headers, 1):
             cell = ws.cell(row=1, column=col, value=header)
             cell.font = header_font
             cell.fill = header_fill
@@ -84,14 +97,10 @@ def convert_json_to_csv():
             ws.cell(row=row_idx, column=3, value=job.get('location', ''))
             ws.cell(row=row_idx, column=4, value=job.get('timestamp', ''))
             ws.cell(row=row_idx, column=5, value=job.get('job_highlights_text', ''))
-            ws.cell(row=row_idx, column=6, value=flatten_list(job.get('job_highlights_items', []), for_excel=True))
-            ws.cell(row=row_idx, column=7, value=job.get('qualifications_text', ''))
-            ws.cell(row=row_idx, column=8, value=flatten_list(job.get('qualifications_items', []), for_excel=True))
-            ws.cell(row=row_idx, column=9, value=job.get('benefits_text', ''))
-            ws.cell(row=row_idx, column=10, value=flatten_list(job.get('benefits_items', []), for_excel=True))
-            ws.cell(row=row_idx, column=11, value=job.get('responsibilities_text', ''))
-            ws.cell(row=row_idx, column=12, value=flatten_list(job.get('responsibilities_items', []), for_excel=True))
-            ws.cell(row=row_idx, column=13, value=job.get('job_description', ''))
+            ws.cell(row=row_idx, column=6, value=job.get('qualifications_text', ''))
+            ws.cell(row=row_idx, column=7, value=job.get('benefits_text', ''))
+            ws.cell(row=row_idx, column=8, value=job.get('responsibilities_text', ''))
+            ws.cell(row=row_idx, column=9, value=job.get('job_description', ''))
 
         # Adjust column widths
         for column in ws.columns:
