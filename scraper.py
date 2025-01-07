@@ -437,6 +437,42 @@ class WebsiteAutomation:
                                     
                                     
                                     
+                                    # Get job description +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                    job_description_text = ""
+
+                                    try:
+                                        # 1. Find all <span> elements between <h3>Job description</h3> 
+                                        # and <div>Report this listing</div>
+                                        description_spans = c_wiz.find_elements(
+                                            By.XPATH,
+                                            (
+                                                #".//h3[text()='Job description']"
+                                                #"/following-sibling::span"
+                                                #"[following-sibling::div[text()='Report this listing']]"
+                                                ".//h3[text()='Job description']/following-sibling::span"
+                                            )
+                                        )
+
+                                        if not description_spans:
+                                            print("No <span> elements found between 'Job description' and 'Report this listing'.")
+                                        else:
+                                            # 2. Accumulate the text from each <span>
+                                            for span in description_spans:
+                                                text_value = span.text.strip()
+                                                if text_value:
+                                                    job_description_text += text_value + "\n"
+
+                                            # 3. Print or store the combined text
+                                            print("Job Description (extracted from multiple <span> elements):")
+                                            print(job_description_text)
+                                            print("oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+                                            print("oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+
+                                    except NoSuchElementException:
+                                        print("Could not find the required elements (<h3>Job description</h3> or <div>Report this listing</div>).")
+                                    except Exception as e:
+                                        print(f"An error occurred while extracting job description text: {str(e)}")                                    
+                                    
                                     
                                     job_listings.append({
                                         "title": position_title,
@@ -451,6 +487,7 @@ class WebsiteAutomation:
                                         "benefits_items": benefits_items,
                                         "responsibilities_text": benefits_text,
                                         "responsibilities_items": benefits_items,
+                                        "job_description": job_description_text
                                         # ,"listing_text": text
                                     })                                    
                                                 
