@@ -2,7 +2,7 @@ import json
 import csv
 import openpyxl
 from datetime import datetime
-from openpyxl.styles import Font, PatternFill
+from openpyxl.styles import Font, PatternFill, Alignment
 
 def flatten_list(items, for_excel=False):
     """Convert a list of items to a separated string
@@ -85,22 +85,34 @@ def convert_json_to_csv():
         header_font = Font(bold=True, color="FFFFFF")
         header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
         
+        # Freeze the top row
+        ws.freeze_panes = 'A2'
+        
         for col, header in enumerate(excel_headers, 1):
             cell = ws.cell(row=1, column=col, value=header)
             cell.font = header_font
             cell.fill = header_fill
+            # Set alignment for header
+            cell.alignment = openpyxl.styles.Alignment(horizontal='left', vertical='top', wrap_text=True)
 
         # Add data
         for row_idx, job in enumerate(job_listings, 2):
-            ws.cell(row=row_idx, column=1, value=job.get('title', ''))
-            ws.cell(row=row_idx, column=2, value=job.get('company', ''))
-            ws.cell(row=row_idx, column=3, value=job.get('location', ''))
-            ws.cell(row=row_idx, column=4, value=job.get('timestamp', ''))
-            ws.cell(row=row_idx, column=5, value=job.get('job_highlights_text', ''))
-            ws.cell(row=row_idx, column=6, value=job.get('qualifications_text', ''))
-            ws.cell(row=row_idx, column=7, value=job.get('benefits_text', ''))
-            ws.cell(row=row_idx, column=8, value=job.get('responsibilities_text', ''))
-            ws.cell(row=row_idx, column=9, value=job.get('job_description', ''))
+            # Create cells with data and formatting
+            cells = [
+                (1, job.get('title', '')),
+                (2, job.get('company', '')),
+                (3, job.get('location', '')),
+                (4, job.get('timestamp', '')),
+                (5, job.get('job_highlights_text', '')),
+                (6, job.get('qualifications_text', '')),
+                (7, job.get('benefits_text', '')),
+                (8, job.get('responsibilities_text', '')),
+                (9, job.get('job_description', ''))
+            ]
+            
+            for col, value in cells:
+                cell = ws.cell(row=row_idx, column=col, value=value)
+                cell.alignment = openpyxl.styles.Alignment(horizontal='left', vertical='top', wrap_text=True)
 
         # Adjust column widths
         for column in ws.columns:
