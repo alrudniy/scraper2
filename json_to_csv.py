@@ -1,6 +1,8 @@
 import json
 import csv
+import openpyxl
 from datetime import datetime
+from openpyxl.styles import Font, PatternFill
 
 def flatten_list(items):
     """Convert a list of items to a semicolon-separated string"""
@@ -55,6 +57,53 @@ def convert_json_to_csv():
                 })
 
         print(f"Successfully converted job listings to CSV format. Output saved to job_listings.csv")
+
+        # Create Excel workbook
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = "Job Listings"
+
+        # Add headers with formatting
+        header_font = Font(bold=True, color="FFFFFF")
+        header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
+        
+        for col, header in enumerate(headers, 1):
+            cell = ws.cell(row=1, column=col, value=header)
+            cell.font = header_font
+            cell.fill = header_fill
+
+        # Add data
+        for row_idx, job in enumerate(job_listings, 2):
+            ws.cell(row=row_idx, column=1, value=job.get('title', ''))
+            ws.cell(row=row_idx, column=2, value=job.get('company', ''))
+            ws.cell(row=row_idx, column=3, value=job.get('location', ''))
+            ws.cell(row=row_idx, column=4, value=job.get('timestamp', ''))
+            ws.cell(row=row_idx, column=5, value=job.get('job_highlights_text', ''))
+            ws.cell(row=row_idx, column=6, value=flatten_list(job.get('job_highlights_items', [])))
+            ws.cell(row=row_idx, column=7, value=job.get('qualifications_text', ''))
+            ws.cell(row=row_idx, column=8, value=flatten_list(job.get('qualifications_items', [])))
+            ws.cell(row=row_idx, column=9, value=job.get('benefits_text', ''))
+            ws.cell(row=row_idx, column=10, value=flatten_list(job.get('benefits_items', [])))
+            ws.cell(row=row_idx, column=11, value=job.get('responsibilities_text', ''))
+            ws.cell(row=row_idx, column=12, value=flatten_list(job.get('responsibilities_items', [])))
+            ws.cell(row=row_idx, column=13, value=job.get('job_description', ''))
+
+        # Adjust column widths
+        for column in ws.columns:
+            max_length = 0
+            column_letter = openpyxl.utils.get_column_letter(column[0].column)
+            for cell in column:
+                try:
+                    if len(str(cell.value)) > max_length:
+                        max_length = min(len(str(cell.value)), 100)  # Cap at 100 characters
+                except:
+                    pass
+            adjusted_width = (max_length + 2)
+            ws.column_dimensions[column_letter].width = adjusted_width
+
+        # Save Excel file
+        wb.save('job_listings.xlsx')
+        print("Successfully exported to Excel format. Output saved to job_listings.xlsx")
         
     except FileNotFoundError:
         print("Error: job_listings.json file not found")
