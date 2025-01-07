@@ -4,11 +4,16 @@ import openpyxl
 from datetime import datetime
 from openpyxl.styles import Font, PatternFill
 
-def flatten_list(items):
-    """Convert a list of items to a semicolon-separated string"""
+def flatten_list(items, for_excel=False):
+    """Convert a list of items to a separated string
+    Args:
+        items: List of items to flatten
+        for_excel: If True, use newlines, otherwise use semicolons
+    """
     if not items:
         return ""
-    return "; ".join(str(item) for item in items)
+    separator = "\n" if for_excel else "; "
+    return separator.join(str(item) for item in items)
 
 def convert_json_to_csv():
     try:
@@ -79,13 +84,13 @@ def convert_json_to_csv():
             ws.cell(row=row_idx, column=3, value=job.get('location', ''))
             ws.cell(row=row_idx, column=4, value=job.get('timestamp', ''))
             ws.cell(row=row_idx, column=5, value=job.get('job_highlights_text', ''))
-            ws.cell(row=row_idx, column=6, value=flatten_list(job.get('job_highlights_items', [])))
+            ws.cell(row=row_idx, column=6, value=flatten_list(job.get('job_highlights_items', []), for_excel=True))
             ws.cell(row=row_idx, column=7, value=job.get('qualifications_text', ''))
-            ws.cell(row=row_idx, column=8, value=flatten_list(job.get('qualifications_items', [])))
+            ws.cell(row=row_idx, column=8, value=flatten_list(job.get('qualifications_items', []), for_excel=True))
             ws.cell(row=row_idx, column=9, value=job.get('benefits_text', ''))
-            ws.cell(row=row_idx, column=10, value=flatten_list(job.get('benefits_items', [])))
+            ws.cell(row=row_idx, column=10, value=flatten_list(job.get('benefits_items', []), for_excel=True))
             ws.cell(row=row_idx, column=11, value=job.get('responsibilities_text', ''))
-            ws.cell(row=row_idx, column=12, value=flatten_list(job.get('responsibilities_items', [])))
+            ws.cell(row=row_idx, column=12, value=flatten_list(job.get('responsibilities_items', []), for_excel=True))
             ws.cell(row=row_idx, column=13, value=job.get('job_description', ''))
 
         # Adjust column widths
