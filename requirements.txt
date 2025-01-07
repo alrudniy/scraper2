@@ -2,3 +2,4 @@ selenium
 webdriver-manager
 keyboard
 beautifulsoup4
+openpyxl
