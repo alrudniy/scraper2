@@ -24,6 +24,7 @@ class WebsiteAutomation:
         
         # Initialize instance variables
         self.last_search_query = ""
+        self.start_timestamp = None  # Will be set in main()
         
         # Initialize the Chrome WebDriver with automatic driver management
         #service = Service(ChromeDriverManager().install())
@@ -508,11 +509,9 @@ class WebsiteAutomation:
                     print(f"Error processing listing: {str(e)}")
                     continue
             
-            # Generate timestamp and base filename
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             # Clean up query for filename
             clean_query = "".join(c if c.isalnum() else '_' for c in self.last_search_query).rstrip('_')
-            base_filename = f"{clean_query}_{timestamp}"
+            base_filename = f"{clean_query}_{self.start_timestamp}"
             
             # Save to JSON file
             json_filename = f"{base_filename}.json"
@@ -558,8 +557,12 @@ class WebsiteAutomation:
 
 # Example usage
 def main():
+    # Get timestamp at start of program
+    start_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
     # Initialize automation
     bot = WebsiteAutomation("https://www.google.com")
+    bot.start_timestamp = start_timestamp  # Store timestamp in bot instance
     
     print("Page saving enabled - Press Ctrl+S to save the current page")
     
