@@ -165,6 +165,12 @@ class WebsiteAutomation:
             # Store the search query
             self.last_search_query = query
             
+            # Create directory for this search session
+            clean_query = "".join(c if c.isalnum() else '_' for c in query).rstrip('_')
+            self.search_dir = f"{clean_query}_{self.start_timestamp}"
+            if not os.path.exists(self.search_dir):
+                os.makedirs(self.search_dir)
+            
             # Wait for Google search box and enter query
             search_box = self.wait.until(
                 EC.presence_of_element_located((By.NAME, "q"))
@@ -496,7 +502,25 @@ class WebsiteAutomation:
                                         "responsibilities_items": benefits_items,
                                         "job_description": job_description_text
                                         # ,"listing_text": text
-                                    })                                    
+                                    })
+                                    
+                                    # Save the current job listing page as HTML
+                                    try:
+                                        # Create safe filename from company and position
+                                        safe_company = "".join(c if c.isalnum() else '_' for c in company).rstrip('_')
+                                        safe_title = "".join(c if c.isalnum() else '_' for c in position_title).rstrip('_')
+                                        html_filename = f"{safe_company}_{safe_title}.html"
+                                        
+                                        # Get the current page HTML
+                                        page_html = self.driver.page_source
+                                        
+                                        # Save to file in the search directory
+                                        html_path = os.path.join(self.search_dir, html_filename)
+                                        with open(html_path, 'w', encoding='utf-8') as f:
+                                            f.write(page_html)
+                                        print(f"Saved job listing HTML to: {html_path}")
+                                    except Exception as e:
+                                        print(f"Error saving job listing HTML: {str(e)}")
                                                 
                                     
                                     
@@ -563,6 +587,9 @@ def main():
     # Initialize automation
     bot = WebsiteAutomation("https://www.google.com")
     bot.start_timestamp = start_timestamp  # Store timestamp in bot instance
+    
+    # Create folder for this search session
+    bot.search_dir = None  # Will be set after search query is known
     
     print("Page saving enabled - Press Ctrl+S to save the current page")
     
