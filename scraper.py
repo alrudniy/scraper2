@@ -581,6 +581,17 @@ class WebsiteAutomation:
 
 # Example usage
 def main():
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Error: Search query is required")
+        print("Usage: python scraper.py \"your search query\"")
+        print("Example: python scraper.py \"trustworthy ai jobs\"")
+        sys.exit(1)
+        
+    # Get the search query from command line
+    search_query = sys.argv[1]
+    
     # Get timestamp at start of program
     start_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
@@ -593,8 +604,8 @@ def main():
     
     print("Page saving enabled - Press Ctrl+S to save the current page")
     
-    # Perform search for AI jobs
-    bot.search("trustworthy ai jobs")
+    # Perform search using the provided query
+    bot.search(search_query)
     
     # Scroll through results and process each job listing
     bot.scroll_results()
