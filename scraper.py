@@ -22,6 +22,9 @@ class WebsiteAutomation:
         chrome_options.add_argument("--start-maximized")  # Maximize window
         chrome_options.add_experimental_option("detach", True)  # Keep browser open
         
+        # Initialize instance variables
+        self.last_search_query = ""
+        
         # Initialize the Chrome WebDriver with automatic driver management
         #service = Service(ChromeDriverManager().install())
         service = Service("./chromedriver.exe")
@@ -158,6 +161,9 @@ class WebsiteAutomation:
             
     def search(self, query):
         try:
+            # Store the search query
+            self.last_search_query = query
+            
             # Wait for Google search box and enter query
             search_box = self.wait.until(
                 EC.presence_of_element_located((By.NAME, "q"))
@@ -502,15 +508,23 @@ class WebsiteAutomation:
                     print(f"Error processing listing: {str(e)}")
                     continue
             
+            # Generate timestamp and base filename
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            # Clean up query for filename
+            clean_query = "".join(c if c.isalnum() else '_' for c in self.last_search_query).rstrip('_')
+            base_filename = f"{clean_query}_{timestamp}"
+            
             # Save to JSON file
-            with open("job_listings.json", "w", encoding="utf-8") as f:
+            json_filename = f"{base_filename}.json"
+            with open(json_filename, "w", encoding="utf-8") as f:
                 json.dump({
                     "job_listings": job_listings,
                     "total_count": len(job_listings),
-                    "extraction_date": datetime.now().isoformat()
+                    "extraction_date": datetime.now().isoformat(),
+                    "search_query": self.last_search_query
                 }, f, indent=4, ensure_ascii=False)
             
-            print(f"Job listing texts saved to job_listings.json ({len(job_listings)} listings)")
+            print(f"Job listing texts saved to {json_filename} ({len(job_listings)} listings)")
 
             
         except Exception as e:
