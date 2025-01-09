@@ -16,17 +16,17 @@ def flatten_list(items, for_excel=False):
     separator = "\n" if for_excel else "; "
     return separator.join(str(item) for item in items)
 
-def convert_json_to_csv(input_file=None):
-    if not input_file:
-        print("Error: Input JSON file name is required")
-        print("Usage: python json_to_csv.py <input_json_file>")
-        return
+def process_json_file(input_file):
 
     try:
         # Read JSON file
         with open(input_file, 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             job_listings = data.get('job_listings', [])
+        
+        if not job_listings:
+            print(f"Warning: No job listings found in {input_file}")
+            return
 
         # Define CSV headers
         csv_headers = [
@@ -159,6 +159,32 @@ def convert_json_to_csv(input_file=None):
         print("Error: Invalid JSON format in job_listings.json")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+
+def convert_json_to_csv(input_path=None):
+    if not input_path:
+        print("Error: Input path is required")
+        print("Usage: python json_to_csv.py <input_path>")
+        print("       input_path can be a .json file or a folder containing .json files")
+        return
+
+    if os.path.isfile(input_path):
+        if input_path.endswith('.json'):
+            process_json_file(input_path)
+        else:
+            print(f"Error: {input_path} is not a JSON file")
+    elif os.path.isdir(input_path):
+        json_files = [f for f in os.listdir(input_path) if f.endswith('.json')]
+        if not json_files:
+            print(f"Error: No JSON files found in {input_path}")
+            return
+        
+        print(f"Found {len(json_files)} JSON files to process")
+        for json_file in json_files:
+            full_path = os.path.join(input_path, json_file)
+            print(f"\nProcessing {json_file}...")
+            process_json_file(full_path)
+    else:
+        print(f"Error: {input_path} is not a valid file or directory")
 
 if __name__ == "__main__":
     import sys
