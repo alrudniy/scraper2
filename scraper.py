@@ -25,6 +25,7 @@ class WebsiteAutomation:
         # Initialize instance variables
         self.last_search_query = ""
         self.start_timestamp = None  # Will be set in main()
+        self.json_dir = None  # Will be set in main()
         
         # Initialize the Chrome WebDriver with automatic driver management
         #service = Service(ChromeDriverManager().install())
@@ -539,7 +540,8 @@ class WebsiteAutomation:
             
             # Save to JSON file
             json_filename = f"{base_filename}.json"
-            with open(json_filename, "w", encoding="utf-8") as f:
+            json_path = os.path.join(self.json_dir, json_filename)
+            with open(json_path, "w", encoding="utf-8") as f:
                 json.dump({
                     "job_listings": job_listings,
                     "total_count": len(job_listings),
@@ -595,9 +597,15 @@ def main():
     # Get timestamp at start of program
     start_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
+    # Create json directory with timestamp
+    json_dir = f"json_{start_timestamp}"
+    if not os.path.exists(json_dir):
+        os.makedirs(json_dir)
+    
     # Initialize automation
     bot = WebsiteAutomation("https://www.google.com")
     bot.start_timestamp = start_timestamp  # Store timestamp in bot instance
+    bot.json_dir = json_dir  # Store json directory path
     
     # Create folder for this search session
     bot.search_dir = None  # Will be set after search query is known
