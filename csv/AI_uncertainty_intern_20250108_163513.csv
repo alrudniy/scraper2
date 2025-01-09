@@ -1,0 +1,121 @@
+Title,Company,Location,Timestamp,Job Highlights,Job Highlights Items,Qualifications,Qualifications Items,Benefits,Benefits Items,Responsibilities,Responsibilities Items,Job Description
+Uncertainty-Aware AI&ML for Information Fusion,Zintellect,"Adelphi, MD • via Zintellect",2025-01-08T16:35:33.509314,"It is crucial to advance AI&ML technology so that it can properly express uncertainty in its inferences and identify the “unusual” observations and corresponding reasoning path to the user to achieve more robust decision making
+Curriculum Vitae or Resume
+References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+Transcript verifying receipt of degree must be submitted with the application
+Student/unofficial copy is acceptable
+Research topic should relate to a specific opportunity at ARL (see Research Areas)
+The objective of the research topic should be clear and have a defined outcome","It is crucial to advance AI&ML technology so that it can properly express uncertainty in its inferences and identify the “unusual” observations and corresponding reasoning path to the user to achieve more robust decision making; Curriculum Vitae or Resume; References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable); Transcript verifying receipt of degree must be submitted with the application; Student/unofficial copy is acceptable; Research topic should relate to a specific opportunity at ARL (see Research Areas); The objective of the research topic should be clear and have a defined outcome","It is crucial to advance AI&ML technology so that it can properly express uncertainty in its inferences and identify the “unusual” observations and corresponding reasoning path to the user to achieve more robust decision making
+Curriculum Vitae or Resume
+References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+Transcript verifying receipt of degree must be submitted with the application
+Student/unofficial copy is acceptable
+Research topic should relate to a specific opportunity at ARL (see Research Areas)
+The objective of the research topic should be clear and have a defined outcome","It is crucial to advance AI&ML technology so that it can properly express uncertainty in its inferences and identify the “unusual” observations and corresponding reasoning path to the user to achieve more robust decision making; Curriculum Vitae or Resume; References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable); Transcript verifying receipt of degree must be submitted with the application; Student/unofficial copy is acceptable; Research topic should relate to a specific opportunity at ARL (see Research Areas); The objective of the research topic should be clear and have a defined outcome",,,,,"About the Research
+
+Information fusion systems to meet future Army challenges will require advanced AI&ML technology that can learn and make inferences over sparse, conflicting, and heterogeneous data from possibly unreliable information sources. Currently, AI&ML systems can achieve high performance under “normal” conditions for which they were trained. However, the quality of their inferences deg
+rade rapidly as conditions change. Furthermore, AI&ML systems have high vulnerability to adversarial attacks. It is crucial to advance AI&ML technology so that it can properly express uncertainty in its inferences and identify the “unusual” observations and corresponding reasoning path to the user to achieve more robust decision making. Recent advances in Bayesian and evidential neural networks, second-order probabilities, trust/reputation systems, and subjective logic appear to provide a pathway to achieve such uncertainty-awareness. This project seeks further research in these areas.
+
+ARL Advisor: Lance Kaplan
+
+ARL Advisor Email: lance.m.kaplan.civ@mail.mil
+
+About SEDD
+
+The Sensors and Electron Devices Directorate (SEDD) is the Army’s principal center for research and development in the exploration and exploitation of the electromagnetic spectrum, which includes radio frequency, microwave, millimeter-wave, infrared (IR), visible, and audio regions. SEDD is responsible for advances in laser sources, RF sources, IR sensors, signature detection and decoding, target imaging and its interpretation, fusion of data derived from several sensors, and electromagnetic protection.
+
+In addition, SEDD is responsible for improving the technology base for electron devices and materials related to sensors and power devices. Research is conducted in related aspects of physics, electrical engineering, computer science, solid-state physics, chemical engineering, material sciences, and electrochemistry.
+
+About ARL-RAP
+
+The Army Research Laboratory Research Associateship Program (ARL-RAP) is designed to significantly increase the involvement of creative and highly trained scientists and engineers from academia and industry in scientific and technical areas of interest and relevance to the Army. Scientists and Engineers at the CCDC Army Research Laboratory (ARL) help shape and execute the Army's program for meeting the challenge of developing technologies that will support Army forces in meeting future operational needs by pursuing scientific research and technological developments in diverse fields such as: applied mathematics, atmospheric characterization, simulation and human modeling, digital/optical signal processing, nanotechnology, material science and technology, multifunctional technology, combustion processes, propulsion and flight physics, communication and networking, and computational and information sciences.
+
+A complete application includes:
+• Curriculum Vitae or Resume
+• Three References Forms
+• An email with a link to the reference form will be available in Zintellect to the applicant upon completion of the on-line application. Please send this email to persons you have selected to complete a reference.
+• References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+• Transcripts
+• Transcript verifying receipt of degree must be submitted with the application. Student/unofficial copy is acceptable
+
+If selected by an advisor the participant will also be required to write a research proposal to submit to the ARL-RAP review panel for :
+• Research topic should relate to a specific opportunity at ARL (see Research Areas)
+• The objective of the research topic should be clear and have a defined outcome
+• Explain the direction you plan to pursue
+• Include expected period for completing the study
+• Include a brief background such as preparation and motivation for the research
+• References of published efforts may be used to improve the proposal
+
+A link to upload the proposal will be provided to the applicant once the advisor has made their selection.
+
+Questions about this opportunity? Please email ARLFellowship@orau.org
+"
+Uncertainty Quantification for Machine Learning Research,Zintellect,"Adelphi, MD • via Zintellect",2025-01-08T16:35:43.177007,"Curriculum Vitae or Resume
+References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+Transcript verifying receipt of degree must be submitted with the application
+Student/unofficial copy is acceptable
+Research topic should relate to a specific opportunity at ARL (see Research Areas)
+The objective of the research topic should be clear and have a defined outcome","Curriculum Vitae or Resume; References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable); Transcript verifying receipt of degree must be submitted with the application; Student/unofficial copy is acceptable; Research topic should relate to a specific opportunity at ARL (see Research Areas); The objective of the research topic should be clear and have a defined outcome","Curriculum Vitae or Resume
+References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+Transcript verifying receipt of degree must be submitted with the application
+Student/unofficial copy is acceptable
+Research topic should relate to a specific opportunity at ARL (see Research Areas)
+The objective of the research topic should be clear and have a defined outcome","Curriculum Vitae or Resume; References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable); Transcript verifying receipt of degree must be submitted with the application; Student/unofficial copy is acceptable; Research topic should relate to a specific opportunity at ARL (see Research Areas); The objective of the research topic should be clear and have a defined outcome",,,,,"About the Research
+
+There has been a growing interest to deploy advanced machine learning model in intelligent systems. While there has been a lot of work on producing accurate output, there is less attention on the uncertainty of the output. The aim of this research is to develop theoretical foundation and computational framework to estimate the uncertainty in large-scale learning models. These u
+ncertainty measure will be utilized to i) Explore trade-offs with computational complexity, learning time, and accuracy for various intelligent system application. ii) Provide feedback to higher level artificial reasoning intelligent systems assisting missions. iii) Enable optimal risk-aware learning. Research opportunities exist in the following areas:
+
+- Uncertainty quantification for DNN
+
+- Gaussian Processes for classification/regression in Machine Learning
+
+- Bayesian Sampling in Neural Network
+
+- Stochastic Optimization
+
+ARL Advisor: Brian Jalaian
+
+ARL Advisor Email: brian.a.jalaian.civ@army.mil
+
+About CISD
+
+The Computational and Information Sciences Directorate (CISD) conducts research in a variety of disciplines relevant to achieving and implementing the so-called digital battlefield. Problems address the sensing, distribution, analysis, and display of information in the modern battle space. CISD research focuses on four major areas: communications, atmospheric modeling, battlefield visualization, and computing
+
+About ARL-RAP
+
+The Army Research Laboratory Research Associateship Program (ARL-RAP) is designed to significantly increase the involvement of creative and highly trained scientists and engineers from academia and industry in scientific and technical areas of interest and relevance to the Army. Scientists and Engineers at the CCDC Army Research Laboratory (ARL) help shape and execute the Army's program for meeting the challenge of developing technologies that will support Army forces in meeting future operational needs by pursuing scientific research and technological developments in diverse fields such as: applied mathematics, atmospheric characterization, simulation and human modeling, digital/optical signal processing, nanotechnology, material science and technology, multifunctional technology, combustion processes, propulsion and flight physics, communication and networking, and computational and information sciences.
+
+A complete application includes:
+• Curriculum Vitae or Resume
+• Three References Forms
+• An email with a link to the reference form will be available in Zintellect to the applicant upon completion of the on-line application. Please send this email to persons you have selected to complete a reference.
+• References should be from persons familiar with your educational and professional qualifications (include your thesis or dissertation advisor, if applicable)
+• Transcripts
+• Transcript verifying receipt of degree must be submitted with the application. Student/unofficial copy is acceptable
+
+If selected by an advisor the participant will also be required to write a research proposal to submit to the ARL-RAP review panel for :
+• Research topic should relate to a specific opportunity at ARL (see Research Areas)
+• The objective of the research topic should be clear and have a defined outcome
+• Explain the direction you plan to pursue
+• Include expected period for completing the study
+• Include a brief background such as preparation and motivation for the research
+• References of published efforts may be used to improve the proposal
+
+A link to upload the proposal will be provided to the applicant once the advisor has made their selection.
+
+Questions about this opportunity? Please email ARLFellowship@orau.org
+"
+"Applied Deep Learning, Graduate Intern (Master's or PhD)",square,"San Francisco, CA • via InterviewHelp",2025-01-08T16:35:50.118953,,,,,,,,,"Company DescriptionIt all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 47 million monthly active customers. We want to
+redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.
+
+Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.
+
+Check out our locations, benefits, and more at cash.app/careers.Job DescriptionThis opportunity is only open to students who are currently enrolled in either a Masters or PhD program and offers an 8-month term (with a possibility for extension) on Cash App's Risk AI team starting in Summer or Fall of 2024. If you've already graduated (or are set to graduate before May 2023) please apply to one of our full-time roles.Machine Learning is an integral part of how we design products, operate, and pursue Cash App's mission to serve the unbanked as well as disrupt traditional financial institutions. Our massive scale and deep trove of transaction data create an endless number of opportunities to use artificial intelligence to better understand our customers and offer new products and experiences that can improve their lives. We are a highly creative group that prefers to solve problems from first principles; we move quickly, make incremental changes, and deploy to production every day.The objective of this project is to systematically test and validate advanced sequential models (including bi-directional RNN, auto-regressive CNN, transformers, and neural controlled differential equations) on time-series data generated within Cash. Cash App collects a variety of signals about how our customers interact with the platform - we will determine the best way to make use of these data using state-of-the-art deep learning methods.Deep sequential models offer the potential to significantly improve our ability to detect fraudulent behaviour while reducing the time-consuming (and hence expensive) process of manual feature-creation and curation. Models will be benchmarked for automated extraction and detection of fraud patterns within sequential transactional data (e.g. cash in, cash out, p2p, etc).Over the course of your term, you will:Craft standardized and reusable datasets for consistent benchmarking and testing of sequence modelsProvide quantitative assessment of the advantages and disadvantages of different model classes based on accuracy, precision/recall, training cost, training time, data requirements, and interpretabilityCreate a modular and well documented codebase which can be easily used for other sources of sequential data within the Block ecosystem Technologies we use (and teach):Technologies we use (and teach):Python, NumPy, Pandas, PyTorch, TensorFlow, keras, JAX, JuliaMySQL, Snowflake, GCP/AWS and TableauJavaQualificationsYou have:1-2 years of experience with applied Deep LearningProven ability to implement in practice neural network architectures described in literature using frameworks such as PyTorch or TensorflowExperience with advanced techniques like graph embeddings, irregular sequence modeling and time-series forecasting, uncertainty quantification, anomaly detection, and neural ODEs is a big plusAn appreciation for the connection between the software and models you build and the experience it delivers to customersHave a curious, passionate, growth-oriented mindsetAdditional InformationBlock takes a market-based approach to pay, and pay may vary depending on your location. U.S. locations are categorized into one of four zones based on a cost of labor index for that geographic area. The successful candidate’s starting pay will be determined based on the candidate's work location and may be may be modified in the future.
+
+Zone A: USD $51.00
+Zone B: USD $48.45
+Zone C: USD $45.90
+Zone D: USD $43.35To find a location’s zone designation, please refer to this resource. If a location of interest is not listed, please speak with a recruiter for additional information. To find a location’s zone designation, please refer to this resource. If a location of interest is not listed, please speak with a recruiter for additional information. Full-time employee benefits include the following:Healthcare coverage (Medical, Vision and Dental insurance)Health Savings Account and Flexible Spending AccountRetirement Plans including company match Employee Stock Purchase ProgramWellness programs, including access to mental health, 1:1 financial planners, and a monthly wellness allowance Paid parental and caregiving leavePaid time off (including 12 paid holidays)Paid sick leave (1 hour per 26 hours worked (max 80 hours per calendar year to the extent legally permissible) for non-exempt employees and covered by our Flexible Time Off policy for exempt employees) Learning and Development resourcesPaid Life insurance, AD&D, and disability benefits Additional Perks such as WFH reimbursements and free access to caregiving, legal, and discounted resources These benefits are further detailed in Block's policies. This role is also eligible to participate in Block's equity plan subject to the terms of the applicable plans and policies, and may be eligible for a sign-on bonus. Sales roles may be eligible to participate in a commission plan subject to the terms of the applicable plans and policies. Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation or benefit plans.
+We’re working to build a more inclusive economy where our customers have equal access to opportunity, and we strive to live by these same values in building our workplace. Block is a proud equal opportunity employer. We work hard to evaluate all employees and job applicants consistently, without regard to race, color, religion, gender, national origin, age, disability, veteran status, pregnancy, gender expression or identity, sexual orientation, citizenship, or any other legally protected class. We believe in being fair, and are committed to an inclusive interview experience, including providing reasonable accommodations to disabled applicants throughout the recruitment process. We encourage applicants to share any needed accommodations with their recruiter, who will treat these requests as confidentially as possible. Want to learn more about what we’re doing to build a workplace that is fair and square? Check out our I+D page.Additionally, we consider qualified applicants with criminal histories for employment on our team, assessing candidates in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance.
+Block, Inc. (NYSE: SQ) is a global technology company with a focus on financial services. Made up of Square, Cash App, Spiral, TIDAL, and TBD, we build tools to help more people access the economy. Square helps sellers run and grow their businesses with its integrated ecosystem of commerce solutions, business software, and banking services. With Cash App, anyone can easily send, spend, or invest their money in stocks or Bitcoin. Spiral (formerly Square Crypto) builds and funds free, open-source Bitcoin projects. Artists use TIDAL to help them succeed as entrepreneurs and connect more deeply with fans. TBD is building an open developer platform to make it easier to access Bitcoin and other blockchain technologies without having to go through an institution.
+"

@@ -1,0 +1,507 @@
+Title,Company,Location,Timestamp,Job Highlights,Job Highlights Items,Qualifications,Qualifications Items,Benefits,Benefits Items,Responsibilities,Responsibilities Items,Job Description
+"Research Engineer/Scientist, Robustness & Safety Training",OpenAI,"San Francisco, CA • via Jobs",2025-01-08T16:37:20.089445,"Are excited about OpenAI’s mission of building safe, universally beneficial AGI and are aligned with OpenAI’s charter
+Demonstrate a passion for AI safety and making cutting-edge AI models safer for real-world use
+Bring 4+ years of experience in the field of AI safety, especially in areas like RLHF, adversarial training, robustness, fairness & biases
+Hold a Ph.D. or other degree in computer science, machine learning, or a related field
+Possess experience in safety work for AI model deployment
+Have an in-depth understanding of deep learning research and/or strong engineering skills
+Are a team player who enjoys collaborative work environments","Are excited about OpenAI’s mission of building safe, universally beneficial AGI and are aligned with OpenAI’s charter; Demonstrate a passion for AI safety and making cutting-edge AI models safer for real-world use; Bring 4+ years of experience in the field of AI safety, especially in areas like RLHF, adversarial training, robustness, fairness & biases; Hold a Ph.D. or other degree in computer science, machine learning, or a related field; Possess experience in safety work for AI model deployment; Have an in-depth understanding of deep learning research and/or strong engineering skills; Are a team player who enjoys collaborative work environments","Are excited about OpenAI’s mission of building safe, universally beneficial AGI and are aligned with OpenAI’s charter
+Demonstrate a passion for AI safety and making cutting-edge AI models safer for real-world use
+Bring 4+ years of experience in the field of AI safety, especially in areas like RLHF, adversarial training, robustness, fairness & biases
+Hold a Ph.D. or other degree in computer science, machine learning, or a related field
+Possess experience in safety work for AI model deployment
+Have an in-depth understanding of deep learning research and/or strong engineering skills
+Are a team player who enjoys collaborative work environments","Are excited about OpenAI’s mission of building safe, universally beneficial AGI and are aligned with OpenAI’s charter; Demonstrate a passion for AI safety and making cutting-edge AI models safer for real-world use; Bring 4+ years of experience in the field of AI safety, especially in areas like RLHF, adversarial training, robustness, fairness & biases; Hold a Ph.D. or other degree in computer science, machine learning, or a related field; Possess experience in safety work for AI model deployment; Have an in-depth understanding of deep learning research and/or strong engineering skills; Are a team player who enjoys collaborative work environments",,,,,"About the Team
+
+The Safety Systems team is responsible for various safety work to ensure our best models can be safely deployed to the real world to benefit the society and is at the forefront of OpenAI's mission to build and deploy safe AGI, driving our commitment to AI safety and fostering a culture of trust and transparency.
+
+The Model Safety Research team aims to fundamentally advance our capa
+bilities for precisely implementing robust, safe behavior in AI models, and to leverage these advances to make OpenAI’s deployed models safe and beneficial. This requires a breadth of new ML research to address the growing set of safety challenges as AI becomes more powerful and used in more settings. Key focus areas include how to enforce nuanced safety policies without trading off helpfulness and capabilities, how to make the model robust to adversaries, how to address privacy and security risks, and how to make the model trustworthy in safety-critical domains.
+
+We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely.
+About the Role
+
+OpenAI is seeking a senior researcher with passion for AI safety and experience in safety research. Your role will set directions for research to enable and empower safe AGI and work on research projects to make our AI systems safer, more aligned and more robust to adversarial or malicious use cases. You will play a critical role in shaping how a safe AI system should look like in the future at OpenAI, making a significant impact on our mission to build and deploy safe AGI.
+In this role, you will:
+• Conduct state-of-the-art research on AI safety topics such as RLHF, adversarial training, robustness, and more.
+• Implement new methods in OpenAI’s core model training and launch safety improvements in OpenAI’s products.
+• Set the research directions and strategies to make our AI systems safer, more aligned and more robust.
+• Coordinate and collaborate with cross-functional teams, including T&S, legal, policy and other research teams, to ensure that our products meet the highest safety standards.
+• Actively evaluate and understand the safety of our models and systems, identifying areas of risk and proposing mitigation strategies.
+
+You might thrive in this role if you:
+• Are excited about OpenAI’s mission of building safe, universally beneficial AGI and are aligned with OpenAI’s charter
+• Demonstrate a passion for AI safety and making cutting-edge AI models safer for real-world use.
+• Bring 4+ years of experience in the field of AI safety, especially in areas like RLHF, adversarial training, robustness, fairness & biases.
+• Hold a Ph.D. or other degree in computer science, machine learning, or a related field.
+• Possess experience in safety work for AI model deployment
+• Have an in-depth understanding of deep learning research and/or strong engineering skills.
+• Are a team player who enjoys collaborative work environments.
+
+About OpenAI
+
+OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+
+We are an equal opportunity employer and do not discriminate on the basis of race, religion, national origin, gender, sexual orientation, age, veteran status, disability or any other legally protected status.
+
+OpenAI Affirmative Action and Equal Employment Opportunity Policy Statement
+
+For US Based Candidates: Pursuant to the San Francisco Fair Chance Ordinance, we will consider qualified applicants with arrest and conviction records.
+
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link.
+
+OpenAI Global Applicant Privacy Policy
+
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+"
+Senior AI Security Researcher Jobs,Software Engineering Institute,"Pittsburgh, PA • via Clearance Jobs",2025-01-08T16:37:29.940015,"You have a deep interest in AI/ML and cybersecurity with a penchant for intellectual curiosity and a desire to make an impact beyond your organization
+You have practical experience with applying cybersecurity knowledge toward vulnerability research, analysis, disclosure, or mitigation
+You have experience with advising on a range of security topics based on research and expert opinion
+You have familiarity with implementing and applying AI/ML techniques to solving practical problems
+You have familiarity with common AI/ML software packages and tools (e.g., Numpy, Pytorch, Tensorflow, ART)
+You have knowledge or familiarity with reverse engineering tools (e.g
+NSA Ghidra, IDA Pro)
+You have experience with Python, C/C++, or low-level programming
+You have experience developing frameworks, methodologies, or assessments to evaluate effectiveness and robustness of technologies
+You have superb communication skills (oral and written), particularly regarding technical communications with non-experts
+You enjoy mentoring and cross-training others and sharing knowledgewithin the broader community
+You have BS in machine learning, cybersecurity, statistics, or related discipline with ten (10) years of experience; OR MS in the same fields with eight (8) years of experience; OR PhD in the same fields with five (5) years of experience
+Applicants with a solid technical background in AI/ML or cybersecurity, but not both, are encouraged to apply provided a strong desire to rapidly learn on the job
+You will be subject to a background check and will need to obtain and maintain a Department of Defense security clearance
+Be surrounded by friendly and knowledgeable staff with broad expertise across AI/ML, cybersecurity, software engineering, risk management, and policy creation","You have a deep interest in AI/ML and cybersecurity with a penchant for intellectual curiosity and a desire to make an impact beyond your organization; You have practical experience with applying cybersecurity knowledge toward vulnerability research, analysis, disclosure, or mitigation; You have experience with advising on a range of security topics based on research and expert opinion; You have familiarity with implementing and applying AI/ML techniques to solving practical problems; You have familiarity with common AI/ML software packages and tools (e.g., Numpy, Pytorch, Tensorflow, ART); You have knowledge or familiarity with reverse engineering tools (e.g; NSA Ghidra, IDA Pro); You have experience with Python, C/C++, or low-level programming; You have experience developing frameworks, methodologies, or assessments to evaluate effectiveness and robustness of technologies; You have superb communication skills (oral and written), particularly regarding technical communications with non-experts; You enjoy mentoring and cross-training others and sharing knowledgewithin the broader community; You have BS in machine learning, cybersecurity, statistics, or related discipline with ten (10) years of experience; OR MS in the same fields with eight (8) years of experience; OR PhD in the same fields with five (5) years of experience; Applicants with a solid technical background in AI/ML or cybersecurity, but not both, are encouraged to apply provided a strong desire to rapidly learn on the job; You will be subject to a background check and will need to obtain and maintain a Department of Defense security clearance; Be surrounded by friendly and knowledgeable staff with broad expertise across AI/ML, cybersecurity, software engineering, risk management, and policy creation","You have a deep interest in AI/ML and cybersecurity with a penchant for intellectual curiosity and a desire to make an impact beyond your organization
+You have practical experience with applying cybersecurity knowledge toward vulnerability research, analysis, disclosure, or mitigation
+You have experience with advising on a range of security topics based on research and expert opinion
+You have familiarity with implementing and applying AI/ML techniques to solving practical problems
+You have familiarity with common AI/ML software packages and tools (e.g., Numpy, Pytorch, Tensorflow, ART)
+You have knowledge or familiarity with reverse engineering tools (e.g
+NSA Ghidra, IDA Pro)
+You have experience with Python, C/C++, or low-level programming
+You have experience developing frameworks, methodologies, or assessments to evaluate effectiveness and robustness of technologies
+You have superb communication skills (oral and written), particularly regarding technical communications with non-experts
+You enjoy mentoring and cross-training others and sharing knowledgewithin the broader community
+You have BS in machine learning, cybersecurity, statistics, or related discipline with ten (10) years of experience; OR MS in the same fields with eight (8) years of experience; OR PhD in the same fields with five (5) years of experience
+Applicants with a solid technical background in AI/ML or cybersecurity, but not both, are encouraged to apply provided a strong desire to rapidly learn on the job
+You will be subject to a background check and will need to obtain and maintain a Department of Defense security clearance
+Be surrounded by friendly and knowledgeable staff with broad expertise across AI/ML, cybersecurity, software engineering, risk management, and policy creation","You have a deep interest in AI/ML and cybersecurity with a penchant for intellectual curiosity and a desire to make an impact beyond your organization; You have practical experience with applying cybersecurity knowledge toward vulnerability research, analysis, disclosure, or mitigation; You have experience with advising on a range of security topics based on research and expert opinion; You have familiarity with implementing and applying AI/ML techniques to solving practical problems; You have familiarity with common AI/ML software packages and tools (e.g., Numpy, Pytorch, Tensorflow, ART); You have knowledge or familiarity with reverse engineering tools (e.g; NSA Ghidra, IDA Pro); You have experience with Python, C/C++, or low-level programming; You have experience developing frameworks, methodologies, or assessments to evaluate effectiveness and robustness of technologies; You have superb communication skills (oral and written), particularly regarding technical communications with non-experts; You enjoy mentoring and cross-training others and sharing knowledgewithin the broader community; You have BS in machine learning, cybersecurity, statistics, or related discipline with ten (10) years of experience; OR MS in the same fields with eight (8) years of experience; OR PhD in the same fields with five (5) years of experience; Applicants with a solid technical background in AI/ML or cybersecurity, but not both, are encouraged to apply provided a strong desire to rapidly learn on the job; You will be subject to a background check and will need to obtain and maintain a Department of Defense security clearance; Be surrounded by friendly and knowledgeable staff with broad expertise across AI/ML, cybersecurity, software engineering, risk management, and policy creation","Travel to various locations to support the SEI's overall mission
+Join a world-class organization that continues to have a significant impact on software
+Work with cutting-edge technologies and dedicated experts to solve tough problems for the government and the nation
+Get 8% monthly contribution for your retirement, without having to contribute yourself
+Get tuition benefits to CMU and other institutions for you andyour dependent children
+Enjoy a healthy work/life balance withflexible work arrangements and paid parental and military leave
+Get access to university resources including mindfulness programs, childcare and back-up care benefits, a monthly transit benefit on WMATA, free transportation on the Pittsburgh Regional Transit System
+Enjoy annual professional development opportunities; attend conferences and training or obtain a certification and get reimbursed for membership in professional societies
+Qualify for relocation assistance and so much more
+Full time/Part time
+Full time
+Pay Basis
+Salary","Travel to various locations to support the SEI's overall mission; Join a world-class organization that continues to have a significant impact on software; Work with cutting-edge technologies and dedicated experts to solve tough problems for the government and the nation; Get 8% monthly contribution for your retirement, without having to contribute yourself; Get tuition benefits to CMU and other institutions for you andyour dependent children; Enjoy a healthy work/life balance withflexible work arrangements and paid parental and military leave; Get access to university resources including mindfulness programs, childcare and back-up care benefits, a monthly transit benefit on WMATA, free transportation on the Pittsburgh Regional Transit System; Enjoy annual professional development opportunities; attend conferences and training or obtain a certification and get reimbursed for membership in professional societies; Qualify for relocation assistance and so much more; Full time/Part time; Full time; Pay Basis; Salary","Travel to various locations to support the SEI's overall mission
+Join a world-class organization that continues to have a significant impact on software
+Work with cutting-edge technologies and dedicated experts to solve tough problems for the government and the nation
+Get 8% monthly contribution for your retirement, without having to contribute yourself
+Get tuition benefits to CMU and other institutions for you andyour dependent children
+Enjoy a healthy work/life balance withflexible work arrangements and paid parental and military leave
+Get access to university resources including mindfulness programs, childcare and back-up care benefits, a monthly transit benefit on WMATA, free transportation on the Pittsburgh Regional Transit System
+Enjoy annual professional development opportunities; attend conferences and training or obtain a certification and get reimbursed for membership in professional societies
+Qualify for relocation assistance and so much more
+Full time/Part time
+Full time
+Pay Basis
+Salary","Travel to various locations to support the SEI's overall mission; Join a world-class organization that continues to have a significant impact on software; Work with cutting-edge technologies and dedicated experts to solve tough problems for the government and the nation; Get 8% monthly contribution for your retirement, without having to contribute yourself; Get tuition benefits to CMU and other institutions for you andyour dependent children; Enjoy a healthy work/life balance withflexible work arrangements and paid parental and military leave; Get access to university resources including mindfulness programs, childcare and back-up care benefits, a monthly transit benefit on WMATA, free transportation on the Pittsburgh Regional Transit System; Enjoy annual professional development opportunities; attend conferences and training or obtain a certification and get reimbursed for membership in professional societies; Qualify for relocation assistance and so much more; Full time/Part time; Full time; Pay Basis; Salary","Are you a cybersecurity and/or AI researcher who enjoys a challenge? Are you excited about pioneering new research areas that will impact academia, industry, and national security? If so, we want you for our team, where you'll collaborate to deliver high-quality results in the emerging area of AI security.
+
+The CERT Division of the Software Engineering Institute (SEI) is seeking applicants for the
+AI Security Researcher role. Originally created in response to one of the first computer viruses -- the Morris worm - in 1988, CERT has remained a leader in cybersecurity research, improving the robustness of software systems, and in responding to sophisticated cybersecurity threats. Ensuring the robustness and security of AI systems is the next big challenge on the horizon, and we are seeking life-long learners in the fields of cybersecurity, AI/ML, or related areas, who are willing to cross-train to address AI Security.
+
+The Threat Analysis Directorate, is a group of security experts focused on advancing the state of the art in AI security at a national and global scale. Our tasks include vulnerability discovery and assessments, evaluation of the effectiveness and robustness of AI systems, exploit discovery and reverse engineering, and identifying new areas where security research is needed. We participate in communities of network defenders, software developers and vendors, security researchers, AI practitioners, and policymakers.
+
+You'll get a chance to work with elite AI and cybersecurity professionals, university faculty, and government representatives to build new methodologies and technologies that will influence national AI security strategy for decades to come. You will co-author research proposals, execute studies, and present findings and recommendations to our DoD sponsors, decision makers within government and industry, and at academic conferences. The SEI is a non-profit, federally funded research and development center (FFRDC) at Carnegie Mellon University.
+
+What you'll do:
+• Develop state of the art approaches for analyzing robustness of AI systems.
+• Apply these approaches to understanding vulnerabilities in AI systems and how attackers adapt their tradecraft to exploit those vulnerabilities.
+• Reverse engineer malicious code in support of high-impact customers, design and develop new analysis methods and tools, work to identify and address emerging and complex threats to AI systems, and effectively participate in the broader security community.
+• Study and influence the AI security and vulnerability disclosure ecosystems.
+• Evaluate the effectiveness of tools, techniques and processes developed by industry and the AI security research community.
+• Uncover and shape some of the fundamental assumptions underlying current best practice in AI security.
+• Develop models, tools and data sets that can be used to characterize the threats to, and vulnerabilities in, AI systems, and publish those results. You will also use these results to aid in the testing, evaluation and transition of technologies developed by government-funded research programs.
+• Identify opportunities to apply AI to improve existing cybersecurity research.
+
+Who you are:
+• You have a deep interest in AI/ML and cybersecurity with a penchant for intellectual curiosity and a desire to make an impact beyond your organization.
+• You have practical experience with applying cybersecurity knowledge toward vulnerability research, analysis, disclosure, or mitigation.
+• You have experience with advising on a range of security topics based on research and expert opinion.
+• You have familiarity with implementing and applying AI/ML techniques to solving practical problems.
+• You have familiarity with common AI/ML software packages and tools (e.g., Numpy, Pytorch, Tensorflow, ART).
+• You have knowledge or familiarity with reverse engineering tools (e.g. NSA Ghidra, IDA Pro)
+• You have experience with Python, C/C++, or low-level programming.
+• You have experience developing frameworks, methodologies, or assessments to evaluate effectiveness and robustness of technologies.
+• You have superb communication skills (oral and written), particularly regarding technical communications with non-experts.
+• You enjoy mentoring and cross-training others and sharing knowledgewithin the broader community.
+• You have BS in machine learning, cybersecurity, statistics, or related discipline with ten (10) years of experience; OR MS in the same fields with eight (8) years of experience; OR PhD in the same fields with five (5) years of experience.
+• Applicants with a solid technical background in AI/ML or cybersecurity, but not both, are encouraged to apply provided a strong desire to rapidly learn on the job.
+
+You are able to:
+• Travel to various locations to support the SEI's overall mission. This includes within the SEI and CMU community, sponsor sites, conferences, and offsite meetings on occasion (5%).
+• You will be subject to a background check and will need to obtain and maintain a Department of Defense security clearance.
+
+Why work here?
+• Join a world-class organization that continues to have a significant impact on software.
+• Work with cutting-edge technologies and dedicated experts to solve tough problems for the government and the nation.
+• Be surrounded by friendly and knowledgeable staff with broad expertise across AI/ML, cybersecurity, software engineering, risk management, and policy creation.
+• Get 8% monthly contribution for your retirement, without having to contribute yourself.
+• Get tuition benefits to CMU and other institutions for you andyour dependent children.
+• Enjoy a healthy work/life balance withflexible work arrangements and paid parental and military leave.
+• Get access to university resources including mindfulness programs, childcare and back-up care benefits, a monthly transit benefit on WMATA, free transportation on the Pittsburgh Regional Transit System.
+• Enjoy annual professional development opportunities; attend conferences and training or obtain a certification and get reimbursed for membership in professional societies.
+• Qualify for relocation assistance and so much more.
+
+Location
+Arlington, VA, Pittsburgh, PA
+Job Function
+Software/Applications Development/Engineering
+Position Type
+Staff - Regular
+Full time/Part time
+Full time
+Pay Basis
+Salary
+More Information:
+• Please visit "" Why Carnegie Mellon "" to learn more about becoming part of an institution inspiring innovations that change the world.
+• Click here to view a listing of employee benefits
+• Carnegie Mellon University is an Equal Opportunity Employer/Disability/Veteran .
+• Statement of Assurance
+"
+AI/ML Research Intern - Robust and Efficient LLMs,Intel Corporation,Anywhere • via Karkidi,2025-01-08T16:37:39.837736,"The candidate is expected to have strong research ability, problem-solving and analytical skills
+You must possess the below requirements to be initially considered for this position
+Experience listed below would be obtained through a combination of your schoolwork and/or classes and/or research and/or relevant previous job and/or internship experiences
+The candidate must be pursuing a Master's degree or Ph.D. degree in Computer Science, Electrical Engineering, Electrical Computer Engineering or in relevant technical field
+1+ years’ experience in below areas:
+Artificial Intelligence /Machine Learning
+Natural language processing techniques and generative large language models with strong deep learning fundamentals
+Python programming, and experience with PyTorch framework and other scientific libraries such as scikit-learn","The candidate is expected to have strong research ability, problem-solving and analytical skills; You must possess the below requirements to be initially considered for this position; Experience listed below would be obtained through a combination of your schoolwork and/or classes and/or research and/or relevant previous job and/or internship experiences; The candidate must be pursuing a Master's degree or Ph.D. degree in Computer Science, Electrical Engineering, Electrical Computer Engineering or in relevant technical field; 1+ years’ experience in below areas:; Artificial Intelligence /Machine Learning; Natural language processing techniques and generative large language models with strong deep learning fundamentals; Python programming, and experience with PyTorch framework and other scientific libraries such as scikit-learn","The candidate is expected to have strong research ability, problem-solving and analytical skills
+You must possess the below requirements to be initially considered for this position
+Experience listed below would be obtained through a combination of your schoolwork and/or classes and/or research and/or relevant previous job and/or internship experiences
+The candidate must be pursuing a Master's degree or Ph.D. degree in Computer Science, Electrical Engineering, Electrical Computer Engineering or in relevant technical field
+1+ years’ experience in below areas:
+Artificial Intelligence /Machine Learning
+Natural language processing techniques and generative large language models with strong deep learning fundamentals
+Python programming, and experience with PyTorch framework and other scientific libraries such as scikit-learn","The candidate is expected to have strong research ability, problem-solving and analytical skills; You must possess the below requirements to be initially considered for this position; Experience listed below would be obtained through a combination of your schoolwork and/or classes and/or research and/or relevant previous job and/or internship experiences; The candidate must be pursuing a Master's degree or Ph.D. degree in Computer Science, Electrical Engineering, Electrical Computer Engineering or in relevant technical field; 1+ years’ experience in below areas:; Artificial Intelligence /Machine Learning; Natural language processing techniques and generative large language models with strong deep learning fundamentals; Python programming, and experience with PyTorch framework and other scientific libraries such as scikit-learn",,,,,"We are seeking a highly motivated and passionate Research Intern to join our team in Intel Labs, focusing on robustness of foundational models and AI systems research. The ideal candidate will be responsible for performing state-of-the-art research in machine learning and AI, collaborate with the research team contributing original research in advancing robustness of natural language understanding
+and generative AI systems, and implement optimized solutions on Intel platforms.
+
+Join a team of researchers at Intel's System, Software and Architecture (SSA) Labs. SSA team's mission is to research and develop software-driven system architecture innovations to fuel Intel's continued growth in hyper-scale cloud datacenters, high-performance computing (HPC) and intelligent edge infrastructure. As a Research Intern in our organization, you will have the unique opportunity to learn and enhance your deep learning and AI systems skills. You will gain experience working in a research organization, collaborating with talented researchers who have a proven track record of publishing in leading AI/ML venues and real-world product impacts. The candidate is expected to have strong research ability, problem-solving and analytical skills.
+
+Responsibilities:
+• Perform state of the art research in machine learning and AI to advance robustness of foundational AI models.
+• Design and implement advanced AI techniques for trustworthy natural language generation and understanding.
+• Implement and optimize models on Intel platforms with machine learning frameworks and languages, including but not limited to PyTorch and Python.
+• Conduct literature review and evaluate state of the art methods in the field.
+• Collaborate with the team to publish research and transfer technology to product groups.
+
+This is an internship role and compensation will be given accordingly based on candidate education level and internship duration.
+
+Qualifications
+
+You must possess the below requirements to be initially considered for this position. Preferred qualifications are in addition to the requirements and are considered a plus factor in identifying top candidates. Experience listed below would be obtained through a combination of your schoolwork and/or classes and/or research and/or relevant previous job and/or internship experiences.
+
+Minimum Qualifications:
+• The candidate must be pursuing a Master's degree or Ph.D. degree in Computer Science, Electrical Engineering, Electrical Computer Engineering or in relevant technical field.
+
+1+ years’ experience in below areas:
+• Artificial Intelligence /Machine Learning
+• Natural language processing techniques and generative large language models with strong deep learning fundamentals.
+• Python programming, and experience with PyTorch framework and other scientific libraries such as scikit-learn.
+
+Preferred Qualifications:
+• Track record of publications in AI/ML conferences such as NeurIPS, ICLR, ICML, EMNLP etc.
+• Demonstrated deep learning and software development experience with open-source contributions and participation in AI/coding challenges.
+• Familiarity with Transformer models and Hugging Face libraries.
+• Research experience in data-efficient and adaptive AI algorithms design and development such as domain adaptation, active learning etc.
+• Experience in low-precision optimizations and quantization framework.
+
+Inside this Business Group
+
+Intel Labs is the company's world-class, industry leading research organization, responsible for driving Intel's technology pipeline and creating new opportunities. The mission of Intel Labs is to deliver breakthrough technologies to fuel Intel's growth. This includes identifying and exploring compelling new technologies and high risk opportunities ahead of business unit investment and demonstrating first-to-market technologies and innovative new usages for computing technology. Intel Labs engages the leading thinkers in academia and industry in addition to partnering closely with Intel business units.
+"
+AI Safety & Robustness Analysis Manager - System Intelligent and Machine Learning - ISE,Apple Inc.,"Cupertino, CA • via Karkidi",2025-01-08T16:37:49.613067,"2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models
+M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field; or equivalent practical experience","2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership; Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability; Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch; Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models; M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field; or equivalent practical experience","2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models
+M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field; or equivalent practical experience","2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership; Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability; Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch; Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models; M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field; or equivalent practical experience","Pay & Benefits
+At Apple, base pay is one part of our total compensation package and is determined within a range
+This provides the opportunity to progress as you grow and develop within a role
+The base pay range for this role is between $183,400 and $275,600, and your base pay will depend on your skills, qualifications, experience, and location
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs
+Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan
+You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition
+Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits; At Apple, base pay is one part of our total compensation package and is determined within a range; This provides the opportunity to progress as you grow and develop within a role; The base pay range for this role is between $183,400 and $275,600, and your base pay will depend on your skills, qualifications, experience, and location; Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs; Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan; You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition; Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation; Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits
+At Apple, base pay is one part of our total compensation package and is determined within a range
+This provides the opportunity to progress as you grow and develop within a role
+The base pay range for this role is between $183,400 and $275,600, and your base pay will depend on your skills, qualifications, experience, and location
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs
+Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan
+You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition
+Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits; At Apple, base pay is one part of our total compensation package and is determined within a range; This provides the opportunity to progress as you grow and develop within a role; The base pay range for this role is between $183,400 and $275,600, and your base pay will depend on your skills, qualifications, experience, and location; Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs; Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan; You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition; Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation; Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","In this position, you will manage a team of people passionate about leading RA operations for key future facing Apple features with focus on ensuring safety and robustness for generative models. Apple’s dedication to deliver incredible experiences to a global and diverse set of users, in full respect of their privacy, has led to the development of a dedicated Robustness Analysis function. With the
+generative experience, creating a safe and robust platform is vital to our mission. Team’s responsibilities include monitoring ML model performance on relevant axes, and surfacing, measuring and mitigating ML failure modes, in order to improve overall user experience and reduce risks, with specific attention given to safety, inclusion and fairness.
+
+THE TEAM’S RESPONSIBILITIES INCLUDE:
+• research and develop approaches to mitigate harmful and risk behaviors in generative models
+• define product-centered axes of analysis relevant to target feature, in collaboration with model DRI and feature DRI
+• develop processes (models, tools and data) to identify other potential biases or failure modes
+• implement automated pipelines based on advanced ML technology and humans/models in the loop to create test sets covering the various axes of investigation
+• report progress and issues found in technical and sponsor meetings
+• suggest mitigation options (data and/or model) and lead mitigation experiments, when issues are found
+• become key contact within our organization, in company wide efforts related to safety, fairness and inclusion, robustness analysis, interpretability
+
+Key Qualifications
+• 2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+• Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+• Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+• Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models. Prior experience in LLM Safety is desired
+• Strong experience in quantitative methods, data analysis and machine learning, leading to a deep understanding of the challenges associated to building ML datasets and machine learning models (potential biases, potential failure modes)
+• Capacity to operate at the intersection of ethics, product experience and machine learning: translate product needs (e.g. fairness & safety) into analytical requirements; design and lead experiments to answer feature level questions
+
+Education & Experience
+
+M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field; or equivalent practical experience
+
+Pay & Benefits
+
+At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $183,400 and $275,600, and your base pay will depend on your skills, qualifications, experience, and location.
+
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits.
+
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program.
+"
+"Robustness Analysis & AI Safety ML Engineer - SIML, ISE",Apple Inc.,"Cupertino, CA • via Karkidi",2025-01-08T16:37:56.601035,,,,,,,,,"We are the Intelligence System Experience (ISE) team within Apple’s software organization. The team works at the intersection between multimodal machine learning and system experiences. System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees. These experiences that our users enjoy are backed by production scale ML workflows
+. Visual Understanding of People, Text, Handwriting & Scenes, multilingual NLP for writing workflows & knowledge extraction, behavioral modeling for proactive suggestions, and privacy preserving learning are areas our multi disciplinary ML teams focus on. We have multiple ongoing efforts involving generative models, and we are looking for talented candidates to ensure that features built on top of such models are safe for deployment, and perform equally well for diverse customers within Apple's global user base. This is an exciting time to join us: grow fast, and have a positive impact on multiple key features on your first day at Apple!
+
+Key Qualifications
+• Good ML fundamentals
+• Experience in training machine learning models (NLP or computer vision)
+• Familiarity with challenges associated to building robust ML datasets and models: definition and coverage of target data distribution, potential biases, potential failure modes
+• Demonstrated experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models. Prior experience in LLM Safety is a big plus.
+• Strong programming skills in Python to operate models and data at scale
+• Familiarity with ML toolkits, e.g., PyTorch
+• Excellent drive, problem solving skills and analytical approach
+• Strong communication and collaboration skills in a cross-functional setting. Ability to work hands-on with multi-functional teams
+
+Description
+
+Apple’s commitment to deliver incredible experiences to a global and diverse set of users, in full respect of their privacy, has led to the development of a dedicated Robustness Analysis function. With the generative experience, creating a safe and robust platform is vital to our mission. Team’s responsibilities include monitoring ML model performance on relevant axes, and surfacing, measuring and mitigating ML failure modes, in order to improve overall user experience and reduce risks, with specific attention given to safety, inclusion and fairness. In this position, you will join a team of people passionate about leading RA operations for key future facing Apple features with focus on ensuring safety and robustness for generative models. THIS INCLUDES: -research and develop approaches to mitigate harmful and risk behaviors in generative models -define product-centered axes of analysis relevant to target feature, in collaboration with model DRI and feature DRI -develop processes (models, tools and data) to identify other potential biases or failure modes -when applicable, benchmark model using targeted public datasets -characterize potential biases in training set and model along chosen axes -request data collection efforts and/or implement automated pipelines based on advanced ML technology and humans/models in the loop to create test sets covering the various axes of investigation -report progress and issues found in technical and sponsor meetings -suggest mitigation options (data and/or model) and lead mitigation experiments, when issues are found
+
+Education & Experience
+
+M.S. or PhD in Computer Science, Data Science, Mathematics, Physics, or a related field (or equivalent practical experience)
+
+Pay & Benefits
+• At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $170,700 and $300,200, and your base pay will depend on your skills, qualifications, experience, and location.
+
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits.
+
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program.
+"
+"AI Safety & Robustness Analysis Manager - SIML, ISE",Apple Inc.,"Cupertino, CA • via Karkidi",2025-01-08T16:38:06.247322,"System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees
+We have multiple on-going efforts involving generative models, and we are looking for talented candidates to led the Robustness Analysis effort in ISE to ensure that features built on top of generative models are safe for deployment, and perform equally well for diverse customers within Apple's global user base
+2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models","System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees; We have multiple on-going efforts involving generative models, and we are looking for talented candidates to led the Robustness Analysis effort in ISE to ensure that features built on top of generative models are safe for deployment, and perform equally well for diverse customers within Apple's global user base; 2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership; Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability; Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch; Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models","System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees
+We have multiple on-going efforts involving generative models, and we are looking for talented candidates to led the Robustness Analysis effort in ISE to ensure that features built on top of generative models are safe for deployment, and perform equally well for diverse customers within Apple's global user base
+2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models","System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees; We have multiple on-going efforts involving generative models, and we are looking for talented candidates to led the Robustness Analysis effort in ISE to ensure that features built on top of generative models are safe for deployment, and perform equally well for diverse customers within Apple's global user base; 2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership; Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability; Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch; Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models",,,,,"• Are you passionate about inclusion, fairness and safety in AI powered features that ship on 1.5B Apple products across the globe? Are you excited about Generative AI and motivated to build out robust and safety capabilities of generative models?
+• We are the Intelligence System Experience (ISE) team within Apple’s software organization. The team works at the intersection between multimodal machi
+ne learning and system experiences. System Experience (Springboard, Settings), Keyboards, Pencil & Paper, Shortcuts are some of the experiences that the team oversees. These experiences that our users enjoy are backed by production scale ML workflows. Visual Understanding of People, Text, Handwriting & Scenes, multilingual NLP for writing workflows & knowledge extraction, behavioral modeling for proactive suggestions, and privacy preserving learning are areas our multi disciplinary ML teams focus on.
+• We have multiple on-going efforts involving generative models, and we are looking for talented candidates to led the Robustness Analysis effort in ISE to ensure that features built on top of generative models are safe for deployment, and perform equally well for diverse customers within Apple's global user base.
+
+This is an exciting time to join us: grow fast, and have a positive impact on multiple key features on your first day at Apple!
+
+Key Qualifications
+• 2+ years of experience as a machine learning manager, or 7+ years of professional machine learning experience with demonstrated technical leadership
+• Capacity to build a team and establish innovative and agile processes that push for a high level of service and for scalability
+• Strong ML fundamentals and hands-on experience in training ML models (NLP or Computer Vision), familiarity with ML toolkits, e.g., PyTorch
+• Proven experience in accessing and addressing potential risks and ensuring the safety and fairness in generative models. Prior experience in LLM Safety is desired
+• Strong experience in quantitative methods, data analysis and machine learning, leading to a deep understanding of the challenges associated to building ML datasets and machine learning models (potential biases, potential failure modes)
+• Capacity to operate at the intersection of ethics, product experience and machine learning: translate product needs (e.g. fairness & safety) into analytical requirements; design and lead experiments to answer feature level questions
+• In this position, you will manage a team of people passionate about leading RA operations for key future facing Apple features with focus on ensuring safety and robustness for generative models. Apple’s dedication to deliver incredible experiences to a global and diverse set of users, in full respect of their privacy, has led to the development of a dedicated Robustness Analysis function. With the generative experience, creating a safe and robust platform is vital to our mission. Team’s responsibilities include monitoring ML model performance on relevant axes, and surfacing, measuring and mitigating ML failure modes, in order to improve overall user experience and reduce risks, with specific attention given to safety, inclusion and fairness.
+"
+AI Security Engineer,Robust Intelligence,"San Francisco, CA • via Karkidi",2025-01-08T16:38:16.059501,"Strong Software Engineer with a passion for AI/Security, with a 0-4 years experience building enterprise software
+Hands-on experience with AI technologies and/or information security
+Strong programming skills in generic programming languages such as Python or Golang
+Excellent written and verbal communication skills, strong analytical and problem-solving skills
+Python and specifically numpy, pandas
+ML frameworks like pytorch, tensorflow, fastai, xgboost, catboost, lightgbm, sklearn etc","Strong Software Engineer with a passion for AI/Security, with a 0-4 years experience building enterprise software; Hands-on experience with AI technologies and/or information security; Strong programming skills in generic programming languages such as Python or Golang; Excellent written and verbal communication skills, strong analytical and problem-solving skills; Python and specifically numpy, pandas; ML frameworks like pytorch, tensorflow, fastai, xgboost, catboost, lightgbm, sklearn etc","Strong Software Engineer with a passion for AI/Security, with a 0-4 years experience building enterprise software
+Hands-on experience with AI technologies and/or information security
+Strong programming skills in generic programming languages such as Python or Golang
+Excellent written and verbal communication skills, strong analytical and problem-solving skills
+Python and specifically numpy, pandas
+ML frameworks like pytorch, tensorflow, fastai, xgboost, catboost, lightgbm, sklearn etc","Strong Software Engineer with a passion for AI/Security, with a 0-4 years experience building enterprise software; Hands-on experience with AI technologies and/or information security; Strong programming skills in generic programming languages such as Python or Golang; Excellent written and verbal communication skills, strong analytical and problem-solving skills; Python and specifically numpy, pandas; ML frameworks like pytorch, tensorflow, fastai, xgboost, catboost, lightgbm, sklearn etc","GRPC for integrating with our platform
+Bonus: Golang
+$160,000 - $220,000 a year
+Base Salary plus Equity
+We offer an array of perks and benefits that ensures our employees’ health and well-being
+With RI’s in-office company culture, we offer our employees free daily lunches and dinners (if you are working late), free snacks and beverages, commuter benefits, and an office gym
+Hence, RI ensures that employees have the benefits and resources needed to spend time with their families and live a fulfilling life outside of work
+Benefits include a flexible time off policy, paid parental/family leave, child care allowance, 401(k) retirement plan, and market-leading health, dental, and vision insurance for employees and dependents
+We also have an education reimbursement program for individual learning
+Competitive salary and company ownership through equity
+Market-leading health, dental, and vision insurance for employees and dependents
+Flexible Time Off Policy and Paid Parental/Family Leave
+Education reimbursement program for Individual Learning
+401(k) Retirement plan
+Commuter benefits
+Immigration sponsorship - H1B and Green Card
+On-site gym and wellness program","GRPC for integrating with our platform; Bonus: Golang; $160,000 - $220,000 a year; Base Salary plus Equity; We offer an array of perks and benefits that ensures our employees’ health and well-being; With RI’s in-office company culture, we offer our employees free daily lunches and dinners (if you are working late), free snacks and beverages, commuter benefits, and an office gym; Hence, RI ensures that employees have the benefits and resources needed to spend time with their families and live a fulfilling life outside of work; Benefits include a flexible time off policy, paid parental/family leave, child care allowance, 401(k) retirement plan, and market-leading health, dental, and vision insurance for employees and dependents; We also have an education reimbursement program for individual learning; Competitive salary and company ownership through equity; Market-leading health, dental, and vision insurance for employees and dependents; Flexible Time Off Policy and Paid Parental/Family Leave; Education reimbursement program for Individual Learning; 401(k) Retirement plan; Commuter benefits; Immigration sponsorship - H1B and Green Card; On-site gym and wellness program","GRPC for integrating with our platform
+Bonus: Golang
+$160,000 - $220,000 a year
+Base Salary plus Equity
+We offer an array of perks and benefits that ensures our employees’ health and well-being
+With RI’s in-office company culture, we offer our employees free daily lunches and dinners (if you are working late), free snacks and beverages, commuter benefits, and an office gym
+Hence, RI ensures that employees have the benefits and resources needed to spend time with their families and live a fulfilling life outside of work
+Benefits include a flexible time off policy, paid parental/family leave, child care allowance, 401(k) retirement plan, and market-leading health, dental, and vision insurance for employees and dependents
+We also have an education reimbursement program for individual learning
+Competitive salary and company ownership through equity
+Market-leading health, dental, and vision insurance for employees and dependents
+Flexible Time Off Policy and Paid Parental/Family Leave
+Education reimbursement program for Individual Learning
+401(k) Retirement plan
+Commuter benefits
+Immigration sponsorship - H1B and Green Card
+On-site gym and wellness program","GRPC for integrating with our platform; Bonus: Golang; $160,000 - $220,000 a year; Base Salary plus Equity; We offer an array of perks and benefits that ensures our employees’ health and well-being; With RI’s in-office company culture, we offer our employees free daily lunches and dinners (if you are working late), free snacks and beverages, commuter benefits, and an office gym; Hence, RI ensures that employees have the benefits and resources needed to spend time with their families and live a fulfilling life outside of work; Benefits include a flexible time off policy, paid parental/family leave, child care allowance, 401(k) retirement plan, and market-leading health, dental, and vision insurance for employees and dependents; We also have an education reimbursement program for individual learning; Competitive salary and company ownership through equity; Market-leading health, dental, and vision insurance for employees and dependents; Flexible Time Off Policy and Paid Parental/Family Leave; Education reimbursement program for Individual Learning; 401(k) Retirement plan; Commuter benefits; Immigration sponsorship - H1B and Green Card; On-site gym and wellness program","Robust Intelligence's mission is to eliminate AI Risk. As the world increasingly adopts AI into automated decision processes, we inherit great risk.
+
+Our flagship product is built to be integrated with existing AI systems to enumerate and eliminate risks caused by unintentional and intentional (adversarial) failure modes. With Generative AI becoming increasingly popular, new vulnerabilities and at
+tacks present a significant threat to AI companies and their consumers. Our Generative AI Firewall provides a safety net against these failure modes.
+
+At Robust Intelligence, we have built a multidisciplinary team of ML Engineers, AI security experts, and software engineers to advance the state of AI security. Together, we're building the future of secure, trustworthy AI.
+
+About The Role
+
+As an AI Security Engineer, you will build novel solutions to protect AI against new and existing vulnerabilities. You have a software engineering or security engineering background and have a tenacious “build it” mentality, using whatever tools are at your disposal to detect and mitigate threats against AI, including traditional security controls, novel algorithms, and ML models. You are comfortable working with a cross-functional team of researchers, engineers, and AI experts to design, develop, and deploy best-in-class solutions.
+
+As an AI Security Engineer you will
+• Be hands-on and develop detections for AI vulnerabilities and attacks, e.g. Prompt Injection, poisoning, PII extraction, DoS attacks etc…
+• Use traditional security tooling to detect common attacks patterns
+• Instrument automated red-teaming tooling to uncover threats, to gather context, collect data and conduct gap analysis.
+• Use analysis for feature discovery and prioritization to influence product roadmap
+• Closely collaborate with researchers and ML engineers to help build enduring generalized solutions using SoTA AI techniques.
+
+What we look for:
+• Strong Software Engineer with a passion for AI/Security, with a 0-4 years experience building enterprise software.
+• Hands-on experience with AI technologies and/or information security.
+• Strong programming skills in generic programming languages such as Python or Golang.
+• Experience in applying AI technology to security domain is highly preferred.
+• Excellent written and verbal communication skills, strong analytical and problem-solving skills.
+
+Technologies we use:
+• Python and specifically numpy, pandas
+• ML frameworks like pytorch, tensorflow, fastai, xgboost, catboost, lightgbm, sklearn etc
+• GRPC for integrating with our platform
+• Bonus: Golang
+
+$160,000 - $220,000 a year
+
+Base Salary plus Equity
+
+Robust intelligence (RI) is a people-first company. We offer an array of perks and benefits that ensures our employees’ health and well-being. With RI’s in-office company culture, we offer our employees free daily lunches and dinners (if you are working late), free snacks and beverages, commuter benefits, and an office gym.
+
+Our leaders recognize that all of our employees are humans first. Employees at the company are parents, pet owners, siblings, and a long list more. Hence, RI ensures that employees have the benefits and resources needed to spend time with their families and live a fulfilling life outside of work. Benefits include a flexible time off policy, paid parental/family leave, child care allowance, 401(k) retirement plan, and market-leading health, dental, and vision insurance for employees and dependents. We also have an education reimbursement program for individual learning.
+
+What we offer:
+
+We offer the opportunity to significantly contribute to shaping AI's future. This opportunity is a collaborative effort between impossibly talented individuals who share a passion for this mission. Our biggest asset is inclusion, as building a diverse community is the key to succeeding in our mission. In addition to the goal and environment we offer:
+
+Competitive salary and company ownership through equity
+• Market-leading health, dental, and vision insurance for employees and dependents
+• Flexible Time Off Policy and Paid Parental/Family Leave
+• Education reimbursement program for Individual Learning
+• 401(k) Retirement plan
+• Commuter benefits
+• Immigration sponsorship - H1B and Green Card
+• Company lunches, dinners, and kitchens stocked with snacks and drinks
+• On-site gym and wellness program
+"
+"Natural Language Generative Modeling Research Engineer, Robustness & Safety AI - SIML, ISE",Apple Inc.,"Cupertino, CA • via Karkidi",2025-01-08T16:38:25.866172,"An ideal candidate will have solid ML fundamentals and ability to turn research contributions into products
+Proven experience in Conversation Understanding and Synthesis, Reinforcement and Human Preference Learning, and Large Language Model Training are essential for this role
+Strong ML and NLP fundamentals
+Hands on experience training LLMs
+Experience adapting pre-trained LLMs for downstream tasks & human alignment
+Familiarity with distributed training
+Proficiency in using ML toolkits, e.g., PyTorch
+Strong programming skills in Python, C and C++
+You're aware of the challenges associated to the transition of a prototype into a final product
+We are seeking a candidate with a proven track record in applied ML research
+The user experience initiative would focus on enriching system safety experience
+MS
+or PhD in Electrical Engineering, Computer Science or a related field ie, mathematics, physics or computer engineering with a focus on computer vision and/or machine learning or comparable professional experience","An ideal candidate will have solid ML fundamentals and ability to turn research contributions into products; Proven experience in Conversation Understanding and Synthesis, Reinforcement and Human Preference Learning, and Large Language Model Training are essential for this role; Strong ML and NLP fundamentals; Hands on experience training LLMs; Experience adapting pre-trained LLMs for downstream tasks & human alignment; Familiarity with distributed training; Proficiency in using ML toolkits, e.g., PyTorch; Strong programming skills in Python, C and C++; You're aware of the challenges associated to the transition of a prototype into a final product; We are seeking a candidate with a proven track record in applied ML research; The user experience initiative would focus on enriching system safety experience; MS; or PhD in Electrical Engineering, Computer Science or a related field ie, mathematics, physics or computer engineering with a focus on computer vision and/or machine learning or comparable professional experience","An ideal candidate will have solid ML fundamentals and ability to turn research contributions into products
+Proven experience in Conversation Understanding and Synthesis, Reinforcement and Human Preference Learning, and Large Language Model Training are essential for this role
+Strong ML and NLP fundamentals
+Hands on experience training LLMs
+Experience adapting pre-trained LLMs for downstream tasks & human alignment
+Familiarity with distributed training
+Proficiency in using ML toolkits, e.g., PyTorch
+Strong programming skills in Python, C and C++
+You're aware of the challenges associated to the transition of a prototype into a final product
+We are seeking a candidate with a proven track record in applied ML research
+The user experience initiative would focus on enriching system safety experience
+MS
+or PhD in Electrical Engineering, Computer Science or a related field ie, mathematics, physics or computer engineering with a focus on computer vision and/or machine learning or comparable professional experience","An ideal candidate will have solid ML fundamentals and ability to turn research contributions into products; Proven experience in Conversation Understanding and Synthesis, Reinforcement and Human Preference Learning, and Large Language Model Training are essential for this role; Strong ML and NLP fundamentals; Hands on experience training LLMs; Experience adapting pre-trained LLMs for downstream tasks & human alignment; Familiarity with distributed training; Proficiency in using ML toolkits, e.g., PyTorch; Strong programming skills in Python, C and C++; You're aware of the challenges associated to the transition of a prototype into a final product; We are seeking a candidate with a proven track record in applied ML research; The user experience initiative would focus on enriching system safety experience; MS; or PhD in Electrical Engineering, Computer Science or a related field ie, mathematics, physics or computer engineering with a focus on computer vision and/or machine learning or comparable professional experience","Pay & Benefits
+At Apple, base pay is one part of our total compensation package and is determined within a range
+This provides the opportunity to progress as you grow and develop within a role
+The base pay range for this role is between $170,700 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs
+Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan
+You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition
+Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits; At Apple, base pay is one part of our total compensation package and is determined within a range; This provides the opportunity to progress as you grow and develop within a role; The base pay range for this role is between $170,700 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location; Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs; Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan; You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition; Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation; Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits
+At Apple, base pay is one part of our total compensation package and is determined within a range
+This provides the opportunity to progress as you grow and develop within a role
+The base pay range for this role is between $170,700 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs
+Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan
+You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition
+Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Pay & Benefits; At Apple, base pay is one part of our total compensation package and is determined within a range; This provides the opportunity to progress as you grow and develop within a role; The base pay range for this role is between $170,700 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location; Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs; Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan; You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition; Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation; Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program","Are you excited about Generative AI and Large Language Models? Are you interested in working on cutting edge generative modeling technologies to enrich billions of people!? We are looking for senior research engineers experienced in training, adapting and deploying large scale ML models with a focus on natural language and multimodal understanding and generation. You will be inventing and shipping
+the next generation of core technologies to enable system wide experience! The mission of Robustness & Safety AI team is to develop core technologies to ensure safety on Apple’s devices and services.
+
+This includes technologies to ensure communication safety for our users as well as to ensure ML models and features built on top of generative AI are robust and safe. The team comprises of domain experts in NLP, Computer Vision, and ML Fairness who contribute to significant system wide safety experience. Our team provides an opportunity to be part of an incredible research and engineering organization focusing on System Intelligent Machine Learning (SIML) within Apple. An ideal candidate will have solid ML fundamentals and ability to turn research contributions into products. Proven experience in Conversation Understanding and Synthesis, Reinforcement and Human Preference Learning, and Large Language Model Training are essential for this role. SELECTED REFERENCES TO OUR TEAM’S WORK: Communication Safety & Sensitive Content Warning https://www.apple.com/newsroom/2023/06/apple-announces-powerful-new-privacy-and-security-features/
+
+Key Qualifications
+• Strong ML and NLP fundamentals
+• Hands on experience training LLMs
+• Experience adapting pre-trained LLMs for downstream tasks & human alignment
+• Familiarity with distributed training
+• Proficiency in using ML toolkits, e.g., PyTorch
+• Strong programming skills in Python, C and C++
+• You're aware of the challenges associated to the transition of a prototype into a final product
+
+Description
+
+We are seeking a candidate with a proven track record in applied ML research.
+
+Responsibilities in the role will include training large scale language and multimodal models on distributed backends, deployment of compact neural architectures such as transformers efficiently on device, and learning policies that can be personalized to the user in a privacy preserving manner.
+
+Ensuring quality with an emphasis on fairness and model robustness would constitute an important part of the role.
+
+You will be interacting very closely with a variety of ML researchers, software engineers, hardware & design teams cross functionally.
+
+Your primary responsibilities will center on enriching conversation understanding capabilities through LLM and multimodal models. The user experience initiative would focus on enriching system safety experience.
+
+Education & Experience
+• MS. or PhD in Electrical Engineering, Computer Science or a related field ie, mathematics, physics or computer engineering with a focus on computer vision and/or machine learning or comparable professional experience.
+
+Apple is an equal opportunity employer that is committed to inclusion and diversity. We also take affirmative action to offer employment and advancement opportunities to all applicants. Apple is committed to working with and providing reasonable accommodation to applicants with physical and mental disabilities. Apple is a drug-free workplace.
+
+Pay & Benefits
+
+At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $170,700 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location.
+
+Apple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits.
+
+Note: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program.
+"

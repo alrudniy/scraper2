@@ -1,0 +1,557 @@
+Title,Company,Location,Timestamp,Job Highlights,Job Highlights Items,Qualifications,Qualifications Items,Benefits,Benefits Items,Responsibilities,Responsibilities Items,Job Description
+Applied AI Engineer II (Audio),Reality Defender,"New York, NY • via Reality Defender",2025-01-08T21:11:32.047779,"Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+2+ years coding experience in Python; Strong programming skills required
+2+ years industry experience with model training/finetuning in PyTorch
+Experience with automated testing and CI/CD concepts in machine learning workflow
+Strong foundation in machine learning and data science
+Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL); 2+ years coding experience in Python; Strong programming skills required; 2+ years industry experience with model training/finetuning in PyTorch; Experience with automated testing and CI/CD concepts in machine learning workflow; Strong foundation in machine learning and data science; Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+2+ years coding experience in Python; Strong programming skills required
+2+ years industry experience with model training/finetuning in PyTorch
+Experience with automated testing and CI/CD concepts in machine learning workflow
+Strong foundation in machine learning and data science
+Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL); 2+ years coding experience in Python; Strong programming skills required; 2+ years industry experience with model training/finetuning in PyTorch; Experience with automated testing and CI/CD concepts in machine learning workflow; Strong foundation in machine learning and data science; Good communication and inter-personal skills, comfortable with client-facing responsibilities",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multi-modal AI-generated media detection solutions to enable enterprises and governments to identify and prevent fraud, disinformation, and harmful deepfakes in real time. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC, Reality Defender is the first company to pioneer multi-modal and multi-model detecti
+on of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Why we stand out:
+• Our best-in-class accuracy is derived from our sole, research-backed mission and use of multiple models per modality
+• We can detect AI-generated fraud and disinformation in near- or real time across all modalities including audio, video, image, and text.
+• Our platform is designed for ease of use, featuring a versatile API that integrates seamlessly with any system, an intuitive drag-and-drop web application for quick ad hoc analysis, and platform-agnostic real-time audio detection tailored for call center deployments.
+• We’re privacy first, ensuring the strongest standards of compliance and keeping customer data away from the training of our detection models.
+
+Role and Responsibilities
+• Train/finetune deep learning models in PyTorch on new datasets and per client requirements
+• Model monitoring and quality assurance for deployed models
+• ML workflow automation and continuous integration/continuous delivery (CI/CD) for client-facing models
+• Adopt standard model optimization/compression methods for inference speed-up
+• Implement model obfuscation and vulnerability checks
+• Collaborate with both AI and Engineering teams for model/infrastructure needs and performance guidance
+
+About You
+• Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+• 2+ years coding experience in Python; Strong programming skills required
+• 2+ years industry experience with model training/finetuning in PyTorch
+• [Preferred] Experience finetuning large foundation models, e.g. wav2vec, HuBERT for downstream classification
+• Experience with automated testing and CI/CD concepts in machine learning workflow
+• Strong foundation in machine learning and data science
+• Good communication and inter-personal skills, comfortable with client-facing responsibilities
+"
+Applied AI Engineer II - Audio,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:11:42.150126,"Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+2+ years coding experience in Python; Strong programming skills required
+2+ years industry experience with model training/finetuning in PyTorch
+Experience with automated testing and CI/CD concepts in machine learning workflow
+Strong foundation in machine learning and data science
+Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL); 2+ years coding experience in Python; Strong programming skills required; 2+ years industry experience with model training/finetuning in PyTorch; Experience with automated testing and CI/CD concepts in machine learning workflow; Strong foundation in machine learning and data science; Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+2+ years coding experience in Python; Strong programming skills required
+2+ years industry experience with model training/finetuning in PyTorch
+Experience with automated testing and CI/CD concepts in machine learning workflow
+Strong foundation in machine learning and data science
+Good communication and inter-personal skills, comfortable with client-facing responsibilities","Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL); 2+ years coding experience in Python; Strong programming skills required; 2+ years industry experience with model training/finetuning in PyTorch; Experience with automated testing and CI/CD concepts in machine learning workflow; Strong foundation in machine learning and data science; Good communication and inter-personal skills, comfortable with client-facing responsibilities",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multi-modal AI-generated media detection solutions to enable enterprises and governments to identify and prevent fraud, disinformation, and harmful deepfakes in real time. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC, Reality Defender is the first company to pioneer multi-modal and multi-model detecti
+on of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Why we stand out:
+• Our best-in-class accuracy is derived from our sole, research-backed mission and use of multiple models per modality
+• We can detect AI-generated fraud and disinformation in near- or real time across all modalities including audio, video, image, and text.
+• Our platform is designed for ease of use, featuring a versatile API that integrates seamlessly with any system, an intuitive drag-and-drop web application for quick ad hoc analysis, and platform-agnostic real-time audio detection tailored for call center deployments.
+• We’re privacy first, ensuring the strongest standards of compliance and keeping customer data away from the training of our detection models.
+
+Role and Responsibilities
+• Train/finetune deep learning models in PyTorch on new datasets and per client requirements
+• Model monitoring and quality assurance for deployed models
+• ML workflow automation and continuous integration/continuous delivery (CI/CD) for client-facing models
+• Adopt standard model optimization/compression methods for inference speed-up
+• Implement model obfuscation and vulnerability checks
+• Collaborate with both AI and Engineering teams for model/infrastructure needs and performance guidance
+
+About You
+• Masters or PhD in Computer Science with specialization in machine learning/deep learning (ML/DL)
+• 2+ years coding experience in Python; Strong programming skills required
+• 2+ years industry experience with model training/finetuning in PyTorch
+• [Preferred] Experience finetuning large foundation models, e.g. wav2vec, HuBERT for downstream classification
+• Experience with automated testing and CI/CD concepts in machine learning workflow
+• Strong foundation in machine learning and data science
+• Good communication and inter-personal skills, comfortable with client-facing responsibilities
+"
+Digital Marketing Manager,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:11:52.612914,"5+ years of experience in digital marketing for enterprise B2B SaaS, ideally within cybersecurity or API-based products
+2+ years of Account Based Marketing experience
+Strong expertise in managing paid digital campaigns across platforms like Google Ads, LinkedIn, and media partners
+Hands-on experience with marketing automation tools such as HubSpot and web management platforms like Webflow
+Proven ability to optimize campaigns and websites for SEO and lead conversion
+Data-driven mindset, with a track record of using analytics to refine strategies and demonstrate impact
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in digital marketing for enterprise B2B SaaS, ideally within cybersecurity or API-based products; 2+ years of Account Based Marketing experience; Strong expertise in managing paid digital campaigns across platforms like Google Ads, LinkedIn, and media partners; Hands-on experience with marketing automation tools such as HubSpot and web management platforms like Webflow; Proven ability to optimize campaigns and websites for SEO and lead conversion; Data-driven mindset, with a track record of using analytics to refine strategies and demonstrate impact; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in digital marketing for enterprise B2B SaaS, ideally within cybersecurity or API-based products
+2+ years of Account Based Marketing experience
+Strong expertise in managing paid digital campaigns across platforms like Google Ads, LinkedIn, and media partners
+Hands-on experience with marketing automation tools such as HubSpot and web management platforms like Webflow
+Proven ability to optimize campaigns and websites for SEO and lead conversion
+Data-driven mindset, with a track record of using analytics to refine strategies and demonstrate impact
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in digital marketing for enterprise B2B SaaS, ideally within cybersecurity or API-based products; 2+ years of Account Based Marketing experience; Strong expertise in managing paid digital campaigns across platforms like Google Ads, LinkedIn, and media partners; Hands-on experience with marketing automation tools such as HubSpot and web management platforms like Webflow; Proven ability to optimize campaigns and websites for SEO and lead conversion; Data-driven mindset, with a track record of using analytics to refine strategies and demonstrate impact; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multimodal AI-generated media detection solutions to enable enterprises and governments to identify and prevent deepfake-driven fraud in real time. The winner of RSA’s 2024 Innovation Sandbox, a Y Combinator graduate, and backed by DCVC, Accenture, IBM, and Booz Allen Hamilton, Reality Defender is the first company to pioneer multimodal a
+nd multi-model detection of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Reality Defender’s solutions stand out because they are:
+• Proven: Accurate in the real world and continuously engineered to be resilient
+• Multimodal: Detects impersonations in any multimedia format
+• Real Time: Automated alerting of ongoing deepfake attempts
+• Integrated: Flexible deployment options across existing tech stack and applications
+• **Only accepting candidates that can be on-site at NYC Office.
+Role and Responsibilities
+• Develop and execute a comprehensive digital marketing strategy to drive awareness, engagement, and conversion among enterprise B2B audiences.
+• Plan and manage paid and organic digital campaigns, including search, display, and social media advertising, with a focus on measurable ROI.
+• Optimize the company website for user experience, SEO, and lead generation, using tools like Webflow and HubSpot.
+• Create and implement email marketing campaigns to nurture leads and engage existing customers.
+• Analyze digital marketing performance using analytics tools, providing regular reports and actionable insights to stakeholders.
+• Collaborate with your marketing peers and sales and product teams to ensure digital strategies align with customer needs and market trends.
+• Stay updated on the latest digital marketing trends and technologies, and identify opportunities to implement innovative tactics.
+• Partner with external vendors, agencies, and contractors to scale digital marketing and content efforts as needed.
+• Own the content calendar necessary for driving lifecycle and ABM campaigns.
+
+About You
+• 5+ years of experience in digital marketing for enterprise B2B SaaS, ideally within cybersecurity or API-based products
+• 2+ years of Account Based Marketing experience
+• Strong expertise in managing paid digital campaigns across platforms like Google Ads, LinkedIn, and media partners.
+• Hands-on experience with marketing automation tools such as HubSpot and web management platforms like Webflow.
+• Proven ability to optimize campaigns and websites for SEO and lead conversion.
+• Data-driven mindset, with a track record of using analytics to refine strategies and demonstrate impact.
+• Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies.
+"
+Senior Account Executive,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:12:02.698203,"The ideal candidate is a strategic thinker with a proven ability to sell new products addressing emerging problems into challenging markets, communicate effectively, and deliver results in a fast-paced environment
+8+ years of enterprise-level sales experience with a proven track record in closing high-value deals
+Bias for action
+Demonstrated success in introducing and selling new or complex products in challenging or evolving markets
+Track record of managing enterprise deals and solid understanding of complex sales cycles
+Experience building a pipeline independently while also collaborating with SDR/BDR/SE teams
+Expertise in objection handling, sales pipeline management, and executing within complex sales environments
+Strong ability to communicate, present, and explain concepts effectively, including the ability to ""teach"" complex ideas in simple terms
+Proficiency in sales tools (e.g., HubSpot) and an expertise with qualification methodologies
+Demonstrated ability to work independently, communicate effectively, learn quickly, and adapt in a dynamic environment
+Experience in sales enablement or revenue operations
+Background in managing or contributing to organizational structure and processes
+Strategic prospecting skills with a focus on identifying key accounts and stakeholders","The ideal candidate is a strategic thinker with a proven ability to sell new products addressing emerging problems into challenging markets, communicate effectively, and deliver results in a fast-paced environment; 8+ years of enterprise-level sales experience with a proven track record in closing high-value deals; Bias for action; Demonstrated success in introducing and selling new or complex products in challenging or evolving markets; Track record of managing enterprise deals and solid understanding of complex sales cycles; Experience building a pipeline independently while also collaborating with SDR/BDR/SE teams; Expertise in objection handling, sales pipeline management, and executing within complex sales environments; Strong ability to communicate, present, and explain concepts effectively, including the ability to ""teach"" complex ideas in simple terms; Proficiency in sales tools (e.g., HubSpot) and an expertise with qualification methodologies; Demonstrated ability to work independently, communicate effectively, learn quickly, and adapt in a dynamic environment; Experience in sales enablement or revenue operations; Background in managing or contributing to organizational structure and processes; Strategic prospecting skills with a focus on identifying key accounts and stakeholders","The ideal candidate is a strategic thinker with a proven ability to sell new products addressing emerging problems into challenging markets, communicate effectively, and deliver results in a fast-paced environment
+8+ years of enterprise-level sales experience with a proven track record in closing high-value deals
+Bias for action
+Demonstrated success in introducing and selling new or complex products in challenging or evolving markets
+Track record of managing enterprise deals and solid understanding of complex sales cycles
+Experience building a pipeline independently while also collaborating with SDR/BDR/SE teams
+Expertise in objection handling, sales pipeline management, and executing within complex sales environments
+Strong ability to communicate, present, and explain concepts effectively, including the ability to ""teach"" complex ideas in simple terms
+Proficiency in sales tools (e.g., HubSpot) and an expertise with qualification methodologies
+Demonstrated ability to work independently, communicate effectively, learn quickly, and adapt in a dynamic environment
+Experience in sales enablement or revenue operations
+Background in managing or contributing to organizational structure and processes
+Strategic prospecting skills with a focus on identifying key accounts and stakeholders","The ideal candidate is a strategic thinker with a proven ability to sell new products addressing emerging problems into challenging markets, communicate effectively, and deliver results in a fast-paced environment; 8+ years of enterprise-level sales experience with a proven track record in closing high-value deals; Bias for action; Demonstrated success in introducing and selling new or complex products in challenging or evolving markets; Track record of managing enterprise deals and solid understanding of complex sales cycles; Experience building a pipeline independently while also collaborating with SDR/BDR/SE teams; Expertise in objection handling, sales pipeline management, and executing within complex sales environments; Strong ability to communicate, present, and explain concepts effectively, including the ability to ""teach"" complex ideas in simple terms; Proficiency in sales tools (e.g., HubSpot) and an expertise with qualification methodologies; Demonstrated ability to work independently, communicate effectively, learn quickly, and adapt in a dynamic environment; Experience in sales enablement or revenue operations; Background in managing or contributing to organizational structure and processes; Strategic prospecting skills with a focus on identifying key accounts and stakeholders",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multi-modal AI-generated media detection solutions to enable enterprises and governments to identify and prevent fraud, disinformation, and harmful deepfakes in real time. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC, Reality Defender is the first company to pioneer multi-modal and multi-model detecti
+on of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Why we stand out:
+• Our best-in-class accuracy is derived from our sole, research-backed mission and use of multiple models per modality
+• We can detect AI-generated fraud and disinformation in near- or real time across all modalities including audio, video, image, and text.
+• Our platform is designed for ease of use, featuring a versatile API that integrates seamlessly with any system, an intuitive drag-and-drop web application for quick ad hoc analysis, and platform-agnostic real-time audio detection tailored for call center deployments.
+• We’re privacy first, ensuring the strongest standards of compliance and keeping customer data away from the training of our detection models.
+
+Role
+
+Reality Defender is seeking a dynamic Senior Account Executive to lead enterprise sales efforts and drive revenue growth. This role involves selling innovative AI-driven solutions to enterprise customers, managing complex sales cycles, and collaborating across teams to close high-value opportunities. The ideal candidate is a strategic thinker with a proven ability to sell new products addressing emerging problems into challenging markets, communicate effectively, and deliver results in a fast-paced environment.
+Responsibilities
+• Identify, qualify, and close enterprise-level opportunities. Bonus: experience selling into financial institutions
+• Develop account strategies, perform account mapping, and build strong relationships with key stakeholders.
+• Drive and iterate on the sales process, pipeline management, achieve and surpass revenue targets.
+• Articulate complex technical solutions clearly and persuasively to diverse audiences.
+• Address objections effectively and guide prospects through the sales funnel using the best practice qualification methodology.
+• Deliver compelling proposals and presentations tailored to client needs.
+• Maintain strong funnel hygiene and enforce accurate forecasting in tools like HubSpot.
+• Collaborate with internal teams, including revenue operations, sales engineering, and product, to streamline the sales process.
+• Ensure consistent adherence to timelines, deliverables, and deal standards.
+
+About You
+• 8+ years of enterprise-level sales experience with a proven track record in closing high-value deals.
+• Bias for action
+• Demonstrated success in introducing and selling new or complex products in challenging or evolving markets.
+• Track record of managing enterprise deals and solid understanding of complex sales cycles
+• Experience building a pipeline independently while also collaborating with SDR/BDR/SE teams.
+• Expertise in objection handling, sales pipeline management, and executing within complex sales environments.
+• Strong ability to communicate, present, and explain concepts effectively, including the ability to ""teach"" complex ideas in simple terms.
+• Proficiency in sales tools (e.g., HubSpot) and an expertise with qualification methodologies.
+• Demonstrated ability to work independently, communicate effectively, learn quickly, and adapt in a dynamic environment.
+
+Nice to have:
+• Experience in sales enablement or revenue operations.
+• Background in managing or contributing to organizational structure and processes.
+• Strategic prospecting skills with a focus on identifying key accounts and stakeholders.
+"
+Deepfake Detection and AI Researcher,Persona,"New York, NY • via BeBee",2025-01-08T21:12:12.724997,"A competitive salary range of $130,000 - $220,000 per year
+Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO
+A collaborative and dynamic work environment
+The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI","A competitive salary range of $130,000 - $220,000 per year; Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO; A collaborative and dynamic work environment; The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI",,,"A competitive salary range of $130,000 - $220,000 per year
+Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO
+A collaborative and dynamic work environment
+The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI","A competitive salary range of $130,000 - $220,000 per year; Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO; A collaborative and dynamic work environment; The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI","A competitive salary range of $130,000 - $220,000 per year
+Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO
+A collaborative and dynamic work environment
+The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI","A competitive salary range of $130,000 - $220,000 per year; Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO; A collaborative and dynamic work environment; The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI","As a Deepfake Detection and AI Researcher at Persona, you'll have the opportunity to work on some of the most exciting and challenging projects in the field of AI and machine learning. Our team is passionate about creating a safer and more secure digital world, and we're committed to delivering exceptional results.
+About the Role
+
+You'll be responsible for designing, building, and deploying machin
+e learning models for identity verification and fraud prevention. This will involve fine-tuning large language models, training vision models, and conducting research in generative AI and deepfake detection. Your expertise in ML techniques will be crucial in solving real-world problems.
+Your Key Responsibilities
+• Design, build, and deploy machine learning models for identity verification and fraud prevention
+• Fine-tune large language models (LLMs) to enhance natural language processing capabilities
+• Train and optimize vision models such as CLIP, YOLO, and others for image recognition and processing tasks
+• Conduct research in generative AI and deepfake technologies to stay ahead of emerging threats
+• Collaborate with cross-functional teams to integrate ML solutions into our platform
+What We Offer
+• A competitive salary range of $130,000 - $220,000 per year
+• Best-in-class benefits, including 401K matching, parental leave, and unlimited PTO
+• A collaborative and dynamic work environment
+• The opportunity to work on cutting-edge projects and develop expertise in machine learning and AI
+"
+Applied Scientist (Core) at Reality Defender Remote,Reality Defender,United States • via Palm Springs Middle School,2025-01-08T21:12:22.854957,"PhD or relevant industry experience in computer science, machine learning, or a related field
+You have implemented and/or published papers at top AI research venues NeurIPS, ICLR, ICML, etc
+In-depth understanding of deep learning research
+Excellent software development skills
+Team player with a positive attitude and good communication skills","PhD or relevant industry experience in computer science, machine learning, or a related field; You have implemented and/or published papers at top AI research venues NeurIPS, ICLR, ICML, etc; In-depth understanding of deep learning research; Excellent software development skills; Team player with a positive attitude and good communication skills","PhD or relevant industry experience in computer science, machine learning, or a related field
+You have implemented and/or published papers at top AI research venues NeurIPS, ICLR, ICML, etc
+In-depth understanding of deep learning research
+Excellent software development skills
+Team player with a positive attitude and good communication skills","PhD or relevant industry experience in computer science, machine learning, or a related field; You have implemented and/or published papers at top AI research venues NeurIPS, ICLR, ICML, etc; In-depth understanding of deep learning research; Excellent software development skills; Team player with a positive attitude and good communication skills","Compensation
+$150K – $200K
+Offers Equity
+Offers Bonus
+This salary range is reflective of the total compensation offering for this position
+The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits","Compensation; $150K – $200K; Offers Equity; Offers Bonus; This salary range is reflective of the total compensation offering for this position; The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits","Compensation
+$150K – $200K
+Offers Equity
+Offers Bonus
+This salary range is reflective of the total compensation offering for this position
+The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits","Compensation; $150K – $200K; Offers Equity; Offers Bonus; This salary range is reflective of the total compensation offering for this position; The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits","Applied Scientist (Core) job at Reality Defender. Remote.
+
+About Reality Defender
+
+Reality Defender provides accurate, multi-modal AI-generated media detection solutions to enable enterprises and governments to identify and prevent fraud, disinformation, and harmful deepfakes in real time. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC , Reality Defender is the
+first company to pioneer multi-modal and multi-model detection of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Why we stand out:
+• Our best-in-class accuracy is derived from our sole, research-backed mission and use of multiple models per modality
+• We can detect AI-generated fraud and disinformation in near- or real time across all modalities including audio, video, image, and text.
+• Our platform is designed for ease of use , featuring a versatile API that integrates seamlessly with any system, an intuitive drag-and-drop web application for quick ad hoc analysis, and platform-agnostic real-time audio detection tailored for call center deployments.
+• We’re privacy first , ensuring the strongest standards of compliance and keeping customer data away from the training of our detection models.
+
+Role and Responsibilities
+• Work with scientists to improve classification performance of deepfake detectors across all modalities (image, video, audio, and text)
+• Build techniques to assess and improve deep learning classifier reliability, including unsupervised bias and adversarial robustness modeling. Independently implement and evaluate ideas on a modern deep learning stack (Python, PyTorch, and GPU-enabled cloud compute).
+• Collaborate with scientists and engineers across the organization.
+
+About You
+• PhD or relevant industry experience in computer science, machine learning, or a related field.
+• You have implemented and/or published papers at top AI research venues NeurIPS, ICLR, ICML, etc. In-depth understanding of deep learning research.
+• Excellent software development skills.
+• Team player with a positive attitude and good communication skills.
+
+Compensation
+
+$150K – $200K • Offers Equity • Offers Bonus
+
+This salary range is reflective of the total compensation offering for this position. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits. Actual compensation will be determined based on various factors, including the candidate's qualifications, skills, relevant experience, and internal equity. Reality Defender is an equal opportunity employer and committed to fostering a diverse and inclusive culture where everyone can excel.
+"
+Marketing Program Manager,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:12:32.915838,"5+ years of experience in enterprise B2B SaaS marketing, with a preference for cybersecurity or API-based products
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies
+Strong project management skills with the ability to handle multiple priorities simultaneously and using project management tools (ex
+Proficiency in marketing automation tools and CRM platforms (ex
+Exceptional communication and collaboration skills, with experience being external facing","5+ years of experience in enterprise B2B SaaS marketing, with a preference for cybersecurity or API-based products; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies; Strong project management skills with the ability to handle multiple priorities simultaneously and using project management tools (ex; Proficiency in marketing automation tools and CRM platforms (ex; Exceptional communication and collaboration skills, with experience being external facing","5+ years of experience in enterprise B2B SaaS marketing, with a preference for cybersecurity or API-based products
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies
+Strong project management skills with the ability to handle multiple priorities simultaneously and using project management tools (ex
+Proficiency in marketing automation tools and CRM platforms (ex
+Exceptional communication and collaboration skills, with experience being external facing","5+ years of experience in enterprise B2B SaaS marketing, with a preference for cybersecurity or API-based products; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies; Strong project management skills with the ability to handle multiple priorities simultaneously and using project management tools (ex; Proficiency in marketing automation tools and CRM platforms (ex; Exceptional communication and collaboration skills, with experience being external facing",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multimodal AI-generated media detection solutions to enable enterprises and governments to identify and prevent deepfake-driven fraud in real time. The winner of RSA’s 2024 Innovation Sandbox, a Y Combinator graduate, and backed by DCVC, Accenture, IBM, and Booz Allen Hamilton, Reality Defender is the first company to pioneer multimodal a
+nd multi-model detection of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Reality Defender’s solutions stand out because they are:
+• Proven: Accurate in the real world and continuously engineered to be resilient
+• Multimodal: Detects impersonations in any multimedia format
+• Real Time: Automated alerting of ongoing deepfake attempts
+• Integrated: Flexible deployment options across existing tech stack and applications
+• **Only accepting candidates that can be on-site at NYC Office.
+Role and Responsibilities
+• Develop and execute integrated marketing programs that drive lead generation, pipeline growth, customer retention, and channel enablement
+• Create and manage multi-channel campaigns, including digital, email, events, and partner marketing.
+• Work closely with sales and product teams to align on go-to-market strategies and campaign objectives.
+• Track and analyze program performance, reporting on key metrics and ROI to stakeholders.
+• Coordinate with external vendors and agencies for design, content creation, and campaign execution.
+• Collaborate with cross-functional teams to ensure consistency in messaging and branding across all initiatives.
+• Manage budgets for marketing programs, ensuring efficient allocation and spending.
+
+About You
+• 5+ years of experience in enterprise B2B SaaS marketing, with a preference for cybersecurity or API-based products.
+• Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies.
+• Strong project management skills with the ability to handle multiple priorities simultaneously and using project management tools (ex. Monday)
+• Proficiency in marketing automation tools and CRM platforms (ex. HubSpot)
+• Exceptional communication and collaboration skills, with experience being external facing
+"
+Account Executive - Public Sector,Blackbird.AI,"Washington, DC • via Ladders",2025-01-08T21:12:43.010284,"Proven track record of success selling SaaS or software solutions to public sector clients, with a focus on federal departments and agencies
+Experience selling SaaS solutions in SLED (State, Local, Education)
+Located in or around the Washington D.C. area, with the ability to travel as needed to meet with clients and prospects
+Demonstrated ability to consistently achieve or exceed sales quotas, with a track record of carrying quotas of $1.5M or more
+Experience working with resellers, VARs, distributors, small business partners as well as large integrators to advance opportunities and close new business
+3-5 years of experience in a hunter role, driving new logo sales and building a pipeline of qualified opportunities
+At least 3 years of selling security software
+Strong understanding of the public sector landscape, including government procurement processes and regulatory requirements
+Ability to thrive in a fast-paced, high-pressure environment, with excellent time management and prioritization skills
+Excellent communication and presentation skills, with the ability to articulate complex concepts clearly and persuasively
+Proven ability of discovering, building and closing net new accounts
+Navigate complex org structures and tech stacks across the business as you lead discovery and solution conversations
+BS/BA degree in a technology-related field or equivalent experience
+B2B, AI and/or Start-up experience","Proven track record of success selling SaaS or software solutions to public sector clients, with a focus on federal departments and agencies; Experience selling SaaS solutions in SLED (State, Local, Education); Located in or around the Washington D.C. area, with the ability to travel as needed to meet with clients and prospects; Demonstrated ability to consistently achieve or exceed sales quotas, with a track record of carrying quotas of $1.5M or more; Experience working with resellers, VARs, distributors, small business partners as well as large integrators to advance opportunities and close new business; 3-5 years of experience in a hunter role, driving new logo sales and building a pipeline of qualified opportunities; At least 3 years of selling security software; Strong understanding of the public sector landscape, including government procurement processes and regulatory requirements; Ability to thrive in a fast-paced, high-pressure environment, with excellent time management and prioritization skills; Excellent communication and presentation skills, with the ability to articulate complex concepts clearly and persuasively; Proven ability of discovering, building and closing net new accounts; Navigate complex org structures and tech stacks across the business as you lead discovery and solution conversations; BS/BA degree in a technology-related field or equivalent experience; B2B, AI and/or Start-up experience","Proven track record of success selling SaaS or software solutions to public sector clients, with a focus on federal departments and agencies
+Experience selling SaaS solutions in SLED (State, Local, Education)
+Located in or around the Washington D.C. area, with the ability to travel as needed to meet with clients and prospects
+Demonstrated ability to consistently achieve or exceed sales quotas, with a track record of carrying quotas of $1.5M or more
+Experience working with resellers, VARs, distributors, small business partners as well as large integrators to advance opportunities and close new business
+3-5 years of experience in a hunter role, driving new logo sales and building a pipeline of qualified opportunities
+At least 3 years of selling security software
+Strong understanding of the public sector landscape, including government procurement processes and regulatory requirements
+Ability to thrive in a fast-paced, high-pressure environment, with excellent time management and prioritization skills
+Excellent communication and presentation skills, with the ability to articulate complex concepts clearly and persuasively
+Proven ability of discovering, building and closing net new accounts
+Navigate complex org structures and tech stacks across the business as you lead discovery and solution conversations
+BS/BA degree in a technology-related field or equivalent experience
+B2B, AI and/or Start-up experience","Proven track record of success selling SaaS or software solutions to public sector clients, with a focus on federal departments and agencies; Experience selling SaaS solutions in SLED (State, Local, Education); Located in or around the Washington D.C. area, with the ability to travel as needed to meet with clients and prospects; Demonstrated ability to consistently achieve or exceed sales quotas, with a track record of carrying quotas of $1.5M or more; Experience working with resellers, VARs, distributors, small business partners as well as large integrators to advance opportunities and close new business; 3-5 years of experience in a hunter role, driving new logo sales and building a pipeline of qualified opportunities; At least 3 years of selling security software; Strong understanding of the public sector landscape, including government procurement processes and regulatory requirements; Ability to thrive in a fast-paced, high-pressure environment, with excellent time management and prioritization skills; Excellent communication and presentation skills, with the ability to articulate complex concepts clearly and persuasively; Proven ability of discovering, building and closing net new accounts; Navigate complex org structures and tech stacks across the business as you lead discovery and solution conversations; BS/BA degree in a technology-related field or equivalent experience; B2B, AI and/or Start-up experience","Competitive compensation package, 401(k), and equity - everyone has a stake in our growth!
+Comprehensive health benefits for you and your loved ones, including wellness days and monthly wellness reimbursements - an apple a day doesn't always keep the doctor away!
+Generous vacation policy, encouraging you to take the time you need - we trust you to strike the right work/life balance!
+A flexible work environment with opportunities to collaborate with your team in person - you can have it all!
+Inclusion and Impact - soar to new heights!
+Bi-annual offsites - have fun with your colleagues!
+Professional development stipend - never stop learning!
+For individuals assigned and/or hired to work in Washington, D.C., Blackbird.AI is required by law to include a reasonable estimate of the compensation range for this role
+This compensation range is specific to Washington D.C. It takes into account the wide range of factors that are considered in making compensation decisions, including, but not limited to, skill sets, experience and training, licensure and certifications, and other business and organizational needs
+At Blackbird.AI, it is not typical for an individual to be hired at or near the top of the range for their role, and compensation decisions are dependent on the facts and circumstances of each case
+A reasonable estimate of the current compensation range for this position is expected to be $110,000-$140,000
+This range may vary for positions outside of Washington D.C. and as it has not been adjusted for the applicable geographic differential associated with the location where the position may be filled and does not consider our bonus and commission structures
+AI's Talent Team and Hiring Managers to share any approved budget and details on our competitive incentive bonus or commission packages for positions where applicable","Competitive compensation package, 401(k), and equity - everyone has a stake in our growth!; Comprehensive health benefits for you and your loved ones, including wellness days and monthly wellness reimbursements - an apple a day doesn't always keep the doctor away!; Generous vacation policy, encouraging you to take the time you need - we trust you to strike the right work/life balance!; A flexible work environment with opportunities to collaborate with your team in person - you can have it all!; Inclusion and Impact - soar to new heights!; Bi-annual offsites - have fun with your colleagues!; Professional development stipend - never stop learning!; For individuals assigned and/or hired to work in Washington, D.C., Blackbird.AI is required by law to include a reasonable estimate of the compensation range for this role; This compensation range is specific to Washington D.C. It takes into account the wide range of factors that are considered in making compensation decisions, including, but not limited to, skill sets, experience and training, licensure and certifications, and other business and organizational needs; At Blackbird.AI, it is not typical for an individual to be hired at or near the top of the range for their role, and compensation decisions are dependent on the facts and circumstances of each case; A reasonable estimate of the current compensation range for this position is expected to be $110,000-$140,000; This range may vary for positions outside of Washington D.C. and as it has not been adjusted for the applicable geographic differential associated with the location where the position may be filled and does not consider our bonus and commission structures; AI's Talent Team and Hiring Managers to share any approved budget and details on our competitive incentive bonus or commission packages for positions where applicable","Competitive compensation package, 401(k), and equity - everyone has a stake in our growth!
+Comprehensive health benefits for you and your loved ones, including wellness days and monthly wellness reimbursements - an apple a day doesn't always keep the doctor away!
+Generous vacation policy, encouraging you to take the time you need - we trust you to strike the right work/life balance!
+A flexible work environment with opportunities to collaborate with your team in person - you can have it all!
+Inclusion and Impact - soar to new heights!
+Bi-annual offsites - have fun with your colleagues!
+Professional development stipend - never stop learning!
+For individuals assigned and/or hired to work in Washington, D.C., Blackbird.AI is required by law to include a reasonable estimate of the compensation range for this role
+This compensation range is specific to Washington D.C. It takes into account the wide range of factors that are considered in making compensation decisions, including, but not limited to, skill sets, experience and training, licensure and certifications, and other business and organizational needs
+At Blackbird.AI, it is not typical for an individual to be hired at or near the top of the range for their role, and compensation decisions are dependent on the facts and circumstances of each case
+A reasonable estimate of the current compensation range for this position is expected to be $110,000-$140,000
+This range may vary for positions outside of Washington D.C. and as it has not been adjusted for the applicable geographic differential associated with the location where the position may be filled and does not consider our bonus and commission structures
+AI's Talent Team and Hiring Managers to share any approved budget and details on our competitive incentive bonus or commission packages for positions where applicable","Competitive compensation package, 401(k), and equity - everyone has a stake in our growth!; Comprehensive health benefits for you and your loved ones, including wellness days and monthly wellness reimbursements - an apple a day doesn't always keep the doctor away!; Generous vacation policy, encouraging you to take the time you need - we trust you to strike the right work/life balance!; A flexible work environment with opportunities to collaborate with your team in person - you can have it all!; Inclusion and Impact - soar to new heights!; Bi-annual offsites - have fun with your colleagues!; Professional development stipend - never stop learning!; For individuals assigned and/or hired to work in Washington, D.C., Blackbird.AI is required by law to include a reasonable estimate of the compensation range for this role; This compensation range is specific to Washington D.C. It takes into account the wide range of factors that are considered in making compensation decisions, including, but not limited to, skill sets, experience and training, licensure and certifications, and other business and organizational needs; At Blackbird.AI, it is not typical for an individual to be hired at or near the top of the range for their role, and compensation decisions are dependent on the facts and circumstances of each case; A reasonable estimate of the current compensation range for this position is expected to be $110,000-$140,000; This range may vary for positions outside of Washington D.C. and as it has not been adjusted for the applicable geographic differential associated with the location where the position may be filled and does not consider our bonus and commission structures; AI's Talent Team and Hiring Managers to share any approved budget and details on our competitive incentive bonus or commission packages for positions where applicable","What you'll do:
+
+Blackbird.AI is arming the world with technology and insights to combat the harmful effects of misinformation and disinformation. Our solutions are powering this work inside Fortune 500 companies and Governments around the world. As we continue to expand our ability to deliver on our mission of protecting trust, safety and integrity across the information ecosystem we are seeking
+dynamic sales professionals to drive and support our growth across government and commercial markets.
+
+As an Account Executive - Public Sector, you'll report to the Head of Government Sales. You'll discover and win new business and collaborate with the Sales team to strategically develop accounts. You'll also partner closely with Product, Partnerships, Marketing, Solutions Engineering, and Customer Success teams to continuously provide feedback on our messaging, positioning, and solution capabilities and road map.
+
+As the Account Executive, you'll have the chance to:
+• Develop a deep understanding of Blackbird.AI's product offering and how to align it to our clients' requirements and operational needs.
+• Plan and implement a full cycle sales strategy targeting new customer acquisition and expansion within the install base for the Public Sector vertical, partnering collaboratively with teammates to align on the best approach.
+• Provide an increased level of public sector knowledge that leads to improved solution selling, strategic alignment and growth across multiple segments.
+• Develop deep insights regarding customer use cases, internal decision making nuances, budget cycles and other key information necessary to close the sale and shape the success of this new vertical.
+• In close partnership with our Sales Team, ensuring a balanced pipeline of multiple opportunities against quarterly and annual growth targets.
+
+Requirements
+
+What you'll bring:
+• Proven track record of success selling SaaS or software solutions to public sector clients, with a focus on federal departments and agencies.
+• Experience selling SaaS solutions in SLED (State, Local, Education).
+• Located in or around the Washington D.C. area, with the ability to travel as needed to meet with clients and prospects.
+• Demonstrated ability to consistently achieve or exceed sales quotas, with a track record of carrying quotas of $1.5M or more.
+• Experience working with resellers, VARs, distributors, small business partners as well as large integrators to advance opportunities and close new business.
+• 3-5 years of experience in a hunter role, driving new logo sales and building a pipeline of qualified opportunities.
+• At least 3 years of selling security software.
+• Strong understanding of the public sector landscape, including government procurement processes and regulatory requirements.
+• Ability to thrive in a fast-paced, high-pressure environment, with excellent time management and prioritization skills.
+• Excellent communication and presentation skills, with the ability to articulate complex concepts clearly and persuasively.
+• Proven ability of discovering, building and closing net new accounts.
+• Navigate complex org structures and tech stacks across the business as you lead discovery and solution conversations.
+
+Nice to have:
+• BS/BA degree in a technology-related field or equivalent experience.
+• B2B, AI and/or Start-up experience.
+
+Benefits
+
+Why you'll love working here:
+• Competitive compensation package, 401(k), and equity - everyone has a stake in our growth!
+• Comprehensive health benefits for you and your loved ones, including wellness days and monthly wellness reimbursements - an apple a day doesn't always keep the doctor away!
+• Generous vacation policy, encouraging you to take the time you need - we trust you to strike the right work/life balance!
+• A flexible work environment with opportunities to collaborate with your team in person - you can have it all!
+• Inclusion and Impact - soar to new heights!
+• Bi-annual offsites - have fun with your colleagues!
+• Professional development stipend - never stop learning!
+
+Pay Transparency:
+
+For individuals assigned and/or hired to work in Washington, D.C., Blackbird.AI is required by law to include a reasonable estimate of the compensation range for this role. This compensation range is specific to Washington D.C. It takes into account the wide range of factors that are considered in making compensation decisions, including, but not limited to, skill sets, experience and training, licensure and certifications, and other business and organizational needs. At Blackbird.AI, it is not typical for an individual to be hired at or near the top of the range for their role, and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current compensation range for this position is expected to be $110,000-$140,000. This range may vary for positions outside of Washington D.C. and as it has not been adjusted for the applicable geographic differential associated with the location where the position may be filled and does not consider our bonus and commission structures.
+
+Regardless of location, candidates can expect during the first few conversations with Blackbird.AI's Talent Team and Hiring Managers to share any approved budget and details on our competitive incentive bonus or commission packages for positions where applicable.
+
+Apply Today
+
+Equal Opportunity Employer
+"
+Senior Devops Engineer,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:12:53.214189,"BS or MS in Computer Science, related technical field, or equivalent experience
+Minimum of 5 years of experience in DevOps or SRE
+Deep experience with AWS cloud services including
+In-depth knowledge of Kubernetes, including experience with deploying, managing, scaling, and orchestrating clusters
+Familiarity with our core tech stack of Docker, K8s, Terraform, Helm, ArgoCD, Grafana
+Proficient in Python, Go, and/or Node.js,
+Extensive experience with cloud platforms (AWS, Azure, Google Cloud) and cloud-native services
+Familiarity with automation and configuration management tools","BS or MS in Computer Science, related technical field, or equivalent experience; Minimum of 5 years of experience in DevOps or SRE; Deep experience with AWS cloud services including; In-depth knowledge of Kubernetes, including experience with deploying, managing, scaling, and orchestrating clusters; Familiarity with our core tech stack of Docker, K8s, Terraform, Helm, ArgoCD, Grafana; Proficient in Python, Go, and/or Node.js,; Extensive experience with cloud platforms (AWS, Azure, Google Cloud) and cloud-native services; Familiarity with automation and configuration management tools","BS or MS in Computer Science, related technical field, or equivalent experience
+Minimum of 5 years of experience in DevOps or SRE
+Deep experience with AWS cloud services including
+In-depth knowledge of Kubernetes, including experience with deploying, managing, scaling, and orchestrating clusters
+Familiarity with our core tech stack of Docker, K8s, Terraform, Helm, ArgoCD, Grafana
+Proficient in Python, Go, and/or Node.js,
+Extensive experience with cloud platforms (AWS, Azure, Google Cloud) and cloud-native services
+Familiarity with automation and configuration management tools","BS or MS in Computer Science, related technical field, or equivalent experience; Minimum of 5 years of experience in DevOps or SRE; Deep experience with AWS cloud services including; In-depth knowledge of Kubernetes, including experience with deploying, managing, scaling, and orchestrating clusters; Familiarity with our core tech stack of Docker, K8s, Terraform, Helm, ArgoCD, Grafana; Proficient in Python, Go, and/or Node.js,; Extensive experience with cloud platforms (AWS, Azure, Google Cloud) and cloud-native services; Familiarity with automation and configuration management tools",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multi-modal AI-generated media detection solutions to enable enterprises and governments to identify and prevent fraud, disinformation, and harmful deepfakes in real time. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC, Reality Defender is the first company to pioneer multi-modal and multi-model detecti
+on of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Why we stand out:
+• Our best-in-class accuracy is derived from our sole, research-backed mission and use of multiple models per modality
+• We can detect AI-generated fraud and disinformation in near- or real time across all modalities including audio, video, image, and text.
+• Our platform is designed for ease of use, featuring a versatile API that integrates seamlessly with any system, an intuitive drag-and-drop web application for quick ad hoc analysis, and platform-agnostic real-time audio detection tailored for call center deployments.
+• We’re privacy first, ensuring the strongest standards of compliance and keeping customer data away from the training of our detection models.
+
+Role and Responsibilities
+• Design and manage scalable, secure AWS and cloud-agnostic infrastructure
+• Maintain up-to-date documentation for infrastructure, CI/CD pipelines, and disaster recovery processes
+• Develop and maintain robust monitoring, logging, and alerting solutions using tools like Prometheus, Grafana, NewRelic or Datadog, and ensure high visibility into system health and performance metrics
+• Monitor and optimize infrastructure costs
+• Implement and enforce security best practices and ensure compliance with industry standards such as SOC 2 or GDPR
+• Set up and manage Kubernetes clusters to support containerized applications at scale using modern orchestration tools
+• Manage our infrastructure with Terraform, partnering with feature teams to teach and share Infrastructure-as-Code (IaC) best practices
+• Lead incident management and disaster recovery planning, testing, and documentation. Collaborate with teams and establish department wide best practices around incident response playbooks
+• Provide technical guidance and mentorship to junior engineers and team members.
+• Be a thought leader and help foster a culture of ownership by mentoring teams on leading DevOps principles and practices around resiliency, availability, and complex systems
+
+About You
+• BS or MS in Computer Science, related technical field, or equivalent experience
+• Minimum of 5 years of experience in DevOps or SRE
+• Deep experience with AWS cloud services including
+• In-depth knowledge of Kubernetes, including experience with deploying, managing, scaling, and orchestrating clusters
+• Familiarity with our core tech stack of Docker, K8s, Terraform, Helm, ArgoCD, Grafana
+• Proficient in Python, Go, and/or Node.js,
+• Extensive experience with cloud platforms (AWS, Azure, Google Cloud) and cloud-native services.
+• Familiarity with automation and configuration management tools.
+"
+Channel Sales Manager,Reality Defender,"Union City, NJ • via Simplify Jobs",2025-01-08T21:13:03.207536,"5+ years of experience in Sales, Technical Enablement, and/or Channel Enablement
+Proven track record of influencing channel / strategic and other partners to build with and/or sell your company’s solutions
+Skilled at simplifying complex concepts and clearly communicating value propositions
+Proven ability to build strategic relationships with partners and drive mutual success
+Successful track record of managing full sales cycles in collaboration with partners
+Proficient in creating accountability plans and analyzing partner performance to drive results
+Passionate about cyber security, AI, innovative technologies and adept at promoting technical solutions across partner ecosystems
+Strong collaboration skills, with experience working cross-functionally to achieve business goals
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in Sales, Technical Enablement, and/or Channel Enablement; Proven track record of influencing channel / strategic and other partners to build with and/or sell your company’s solutions; Skilled at simplifying complex concepts and clearly communicating value propositions; Proven ability to build strategic relationships with partners and drive mutual success; Successful track record of managing full sales cycles in collaboration with partners; Proficient in creating accountability plans and analyzing partner performance to drive results; Passionate about cyber security, AI, innovative technologies and adept at promoting technical solutions across partner ecosystems; Strong collaboration skills, with experience working cross-functionally to achieve business goals; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in Sales, Technical Enablement, and/or Channel Enablement
+Proven track record of influencing channel / strategic and other partners to build with and/or sell your company’s solutions
+Skilled at simplifying complex concepts and clearly communicating value propositions
+Proven ability to build strategic relationships with partners and drive mutual success
+Successful track record of managing full sales cycles in collaboration with partners
+Proficient in creating accountability plans and analyzing partner performance to drive results
+Passionate about cyber security, AI, innovative technologies and adept at promoting technical solutions across partner ecosystems
+Strong collaboration skills, with experience working cross-functionally to achieve business goals
+Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies","5+ years of experience in Sales, Technical Enablement, and/or Channel Enablement; Proven track record of influencing channel / strategic and other partners to build with and/or sell your company’s solutions; Skilled at simplifying complex concepts and clearly communicating value propositions; Proven ability to build strategic relationships with partners and drive mutual success; Successful track record of managing full sales cycles in collaboration with partners; Proficient in creating accountability plans and analyzing partner performance to drive results; Passionate about cyber security, AI, innovative technologies and adept at promoting technical solutions across partner ecosystems; Strong collaboration skills, with experience working cross-functionally to achieve business goals; Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies",,,,,"About Reality Defender
+
+Reality Defender provides accurate, multimodal AI-generated media detection solutions to enable enterprises and governments to identify and prevent deepfake-driven fraud in real time. The winner of RSA’s 2024 Innovation Sandbox, a Y Combinator graduate, and backed by DCVC, Accenture, IBM, and Booze Allen Hamilton, Reality Defender is the first company to pioneer multimodal
+and multi-model detection of AI-generated media. Our web app and platform-agnostic API built by our research-forward team ensures that our customers can swiftly and securely mitigate fraud and cybersecurity risks in real time with a frictionless, robust solution.
+
+Youtube: Reality Defender Wins RSA Most Innovative Startup
+
+Reality Defender’s solutions stand out because they are:
+• Proven: Accurate in the real world and continuously engineered to be resilient
+• Multimodal: Detects impersonations in any multimedia format
+• Real Time: Automated alerting of ongoing deepfake attempts
+• Integrated: Flexible deployment options across existing tech stack and applications
+
+About the Role
+
+We’re seeking an experienced Channel Sales Manager to lead the growth and enablement of our partner ecosystem. This role combines strategic thinking, the ability to simplify complex concepts, and strong relationship-building skills to empower partners to effectively position and build with or sell Reality Defender’s deepfake detection solutions. You’ll drive partner engagement, align efforts with business goals, and deliver impactful education, training and support.
+Responsibilities
+• Build interest, trust, and evangelism amongst our existing partner network. Empower our partners to do the same amongst their clients.
+• Design and deliver training programs for channel partners to “train the trainers”, leveraging formats like slides, pitch decks, and video content, while integrating adult education principles.
+• Bring in new strategic partners that align with our roadmap, ICP and ecosystem opportunities. These may unlock new feature sets and / or new growth opportunities
+• Develop and enhance the partner program, including processes and materials, to enable partners to effectively position and build with our platform.
+• Facilitate account mapping sessions and joint meetings to identify target accounts and opportunities for partner-initiated deals and proof of concepts (POCs).
+• Educate partners on product offerings, competitive positioning, and differentiators through enablement sessions and ongoing training.
+• Collaborate with Product, Sales, and Technical Teams to ensure partners are fully equipped with resources and tools.
+• Manage full sales cycles with partners acting in a support function including exploratory calls, demos, creating and providing custom materials and closing deals.
+• Track and report partner and sales execution against key performance indicators (KPIs), ensuring alignment with business objectives.
+• Evangelize the company’s AI and solution offerings internally and externally to strengthen the partner ecosystem.
+
+About You
+• 5+ years of experience in Sales, Technical Enablement, and/or Channel Enablement
+• Proven track record of influencing channel / strategic and other partners to build with and/or sell your company’s solutions
+• Skilled at simplifying complex concepts and clearly communicating value propositions.
+• Proven ability to build strategic relationships with partners and drive mutual success.
+• Successful track record of managing full sales cycles in collaboration with partners.
+• Proficient in creating accountability plans and analyzing partner performance to drive results.
+• Passionate about cyber security, AI, innovative technologies and adept at promoting technical solutions across partner ecosystems.
+• Strong collaboration skills, with experience working cross-functionally to achieve business goals.
+• Proven track record of managing and executing successful multi-channel marketing campaigns in fast-growth or early-stage companies.
+"
+Technical Sales Expert - Reality Defender,Reality Defender,"New York, NY • via BeBee",2025-01-08T21:13:13.014687,"Bachelor's degree or equivalent and 4-8 years of relevant experience in Engineering and/or AI
+Excellent knowledge and proven experience selling to enterprise customers
+Strong problem-solving skills, ability to analyze complex multivariate problems, and use a systematic approach to gain quick resolution under pressure
+The ideal candidate will have a deep understanding of SaaS-based technologies and their implications for the enterprise
+With outstanding verbal and written communication skills, you will be able to effectively communicate with executives, architects, and operators alike","Bachelor's degree or equivalent and 4-8 years of relevant experience in Engineering and/or AI; Excellent knowledge and proven experience selling to enterprise customers; Strong problem-solving skills, ability to analyze complex multivariate problems, and use a systematic approach to gain quick resolution under pressure; The ideal candidate will have a deep understanding of SaaS-based technologies and their implications for the enterprise; With outstanding verbal and written communication skills, you will be able to effectively communicate with executives, architects, and operators alike","Bachelor's degree or equivalent and 4-8 years of relevant experience in Engineering and/or AI
+Excellent knowledge and proven experience selling to enterprise customers
+Strong problem-solving skills, ability to analyze complex multivariate problems, and use a systematic approach to gain quick resolution under pressure
+The ideal candidate will have a deep understanding of SaaS-based technologies and their implications for the enterprise
+With outstanding verbal and written communication skills, you will be able to effectively communicate with executives, architects, and operators alike","Bachelor's degree or equivalent and 4-8 years of relevant experience in Engineering and/or AI; Excellent knowledge and proven experience selling to enterprise customers; Strong problem-solving skills, ability to analyze complex multivariate problems, and use a systematic approach to gain quick resolution under pressure; The ideal candidate will have a deep understanding of SaaS-based technologies and their implications for the enterprise; With outstanding verbal and written communication skills, you will be able to effectively communicate with executives, architects, and operators alike","We offer an estimated salary range of $150K - $180K, depending on location and experience","We offer an estimated salary range of $150K - $180K, depending on location and experience","We offer an estimated salary range of $150K - $180K, depending on location and experience","We offer an estimated salary range of $150K - $180K, depending on location and experience","Reality Defender is a cutting-edge AI-generated media detection solutions provider, backed by DCVC and recognized for its pioneering multi-modal and multi-model detection capabilities. As a Solutions Engineer, you will join the Engineering team while serving as the primary support for the Growth Team during the sales process, demoing our deepfake detection platform, and integrating it with prospec
+tive clients.
+Key Responsibilities:
+• Deliver technical product demos and presentations, and act as the technical point of contact during pilots
+• Provide real-time recommendations during client interactions and scope technical integrations based on client requirements
+• Communicate cross-functionally with Product and Engineering to troubleshoot integrations and represent the technical customer internally
+• Build and maintain strong relationships with key customer stakeholders, reseller partners, and internal resources
+
+You will work closely with both technical and non-technical stakeholders, acting as a translator between the two worlds. Your outstanding verbal and written communication skills will enable you to create crisp, informative presentations and demos tailored to your audience.
+Requirements:
+• Bachelor's degree or equivalent and 4-8 years of relevant experience in Engineering and/or AI
+• Background in Software Engineering or similar field is a plus
+• Excellent knowledge and proven experience selling to enterprise customers
+• Strong problem-solving skills, ability to analyze complex multivariate problems, and use a systematic approach to gain quick resolution under pressure
+
+The ideal candidate will have a deep understanding of SaaS-based technologies and their implications for the enterprise. With outstanding verbal and written communication skills, you will be able to effectively communicate with executives, architects, and operators alike.
+
+We offer an estimated salary range of $150K - $180K, depending on location and experience. If you are a motivated and detail-oriented professional looking to make a meaningful impact in the field of AI-generated media detection, we encourage you to apply.
+"
+Deepfake Detection Solutions Engineer,Reality Defender,"New York, NY • via Trabajo.org",2025-01-08T21:13:22.616168,"The ideal candidate will possess proficiency in at least one coding language, such as Python, as well as experience working with Docker containers and Kubernetes
+This role requires excellent problem-solving skills, ability to analyze complex scenarios, and strong verbal and written communication skills
+The candidate should have outstanding presentation and demo skills tailored to their audience","The ideal candidate will possess proficiency in at least one coding language, such as Python, as well as experience working with Docker containers and Kubernetes; This role requires excellent problem-solving skills, ability to analyze complex scenarios, and strong verbal and written communication skills; The candidate should have outstanding presentation and demo skills tailored to their audience","The ideal candidate will possess proficiency in at least one coding language, such as Python, as well as experience working with Docker containers and Kubernetes
+This role requires excellent problem-solving skills, ability to analyze complex scenarios, and strong verbal and written communication skills
+The candidate should have outstanding presentation and demo skills tailored to their audience","The ideal candidate will possess proficiency in at least one coding language, such as Python, as well as experience working with Docker containers and Kubernetes; This role requires excellent problem-solving skills, ability to analyze complex scenarios, and strong verbal and written communication skills; The candidate should have outstanding presentation and demo skills tailored to their audience","We offer a competitive compensation package, including a salary range of $150K - $180K per year","We offer a competitive compensation package, including a salary range of $150K - $180K per year","We offer a competitive compensation package, including a salary range of $150K - $180K per year","We offer a competitive compensation package, including a salary range of $150K - $180K per year","Reality Defender is seeking a skilled Sales Engineer to join their team in NYC. This role will serve as the primary technical point of contact for potential clients, demoing the company's deepfake detection platform and solutioning potential API integrations.
+Job Responsibilities
+
+The ideal candidate will possess proficiency in at least one coding language, such as Python, as well as experience wo
+rking with Docker containers and Kubernetes. They will also be familiar with architecting solutions deployed on public cloud and on-premises.
+• Techincal Sales Process: Work closely with the Head of Growth to identify, qualify, and scope opportunities; build and maintain account plans; and execute proof of concept engagements.
+• Cross-Functional Collaboration: Communicate effectively with Product and Engineering teams to troubleshoot integrations and provide internal support.
+• Sales and Business Development: Deliver technical product demos and presentations; think critically to provide real-time recommendations during client interactions.
+
+This role requires excellent problem-solving skills, ability to analyze complex scenarios, and strong verbal and written communication skills. The candidate should have outstanding presentation and demo skills tailored to their audience.
+
+We offer a competitive compensation package, including a salary range of $150K - $180K per year.
+"
