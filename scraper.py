@@ -38,10 +38,12 @@ class WebsiteAutomation:
         # Navigate to the URL
         self.driver.get(self.url)
         
-        # Create saves directory if it doesn't exist
+        # Create saves and evidence directories if they don't exist
         self.saves_dir = "webpage_saves"
-        if not os.path.exists(self.saves_dir):
-            os.makedirs(self.saves_dir)
+        self.evidence_dir = "evidence"
+        for directory in [self.saves_dir, self.evidence_dir]:
+            if not os.path.exists(directory):
+                os.makedirs(directory)
         
         # Set up keyboard shortcut for saving
         keyboard.add_hotkey('ctrl+s', self.save_current_page)
@@ -166,9 +168,9 @@ class WebsiteAutomation:
             # Store the search query
             self.last_search_query = query
             
-            # Create directory for this search session
+            # Create directory for this search session under evidence folder
             clean_query = "".join(c if c.isalnum() else '_' for c in query).rstrip('_')
-            self.search_dir = f"{clean_query}_{self.start_timestamp}"
+            self.search_dir = os.path.join(self.evidence_dir, f"{clean_query}_{self.start_timestamp}")
             if not os.path.exists(self.search_dir):
                 os.makedirs(self.search_dir)
             
