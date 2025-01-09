@@ -1,6 +1,7 @@
 import json
 import csv
 import openpyxl
+import os
 from datetime import datetime
 from openpyxl.styles import Font, PatternFill, Alignment
 
@@ -57,8 +58,13 @@ def convert_json_to_csv(input_file=None):
             'Job Description'
         ]
 
-        # Create output filename for CSV
-        output_csv = input_file.rsplit('.', 1)[0] + '.csv'
+        # Create csv directory if it doesn't exist
+        if not os.path.exists('csv'):
+            os.makedirs('csv')
+            
+        # Create output filename for CSV in csv folder
+        base_name = os.path.basename(input_file).rsplit('.', 1)[0]
+        output_csv = os.path.join('csv', base_name + '.csv')
         
         # Write to CSV file
         with open(output_csv, 'w', newline='', encoding='utf-8') as csv_file:
@@ -135,8 +141,13 @@ def convert_json_to_csv(input_file=None):
             adjusted_width = (max_length + 2)
             ws.column_dimensions[column_letter].width = adjusted_width
 
-        # Create output filename by replacing .json extension with .xlsx
-        output_excel = input_file.rsplit('.', 1)[0] + '.xlsx'
+        # Create xlsx directory if it doesn't exist
+        if not os.path.exists('xlsx'):
+            os.makedirs('xlsx')
+            
+        # Create output filename in xlsx folder
+        base_name = os.path.basename(input_file).rsplit('.', 1)[0]
+        output_excel = os.path.join('xlsx', base_name + '.xlsx')
         
         # Save Excel file
         wb.save(output_excel)
