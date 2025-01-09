@@ -1,0 +1,36 @@
+{
+    "job_listings": [
+        {
+            "title": "AS Intern (NLP)",
+            "company": "Reality Defender",
+            "location": "New York, NY • via Rise",
+            "timestamp": "2025-01-08T21:14:16.070672",
+            "job_highlights_text": "Ideally enrolled in a PhD program with a research focus related to NLP\nVery strong understanding of data science fundamentals (i.e. not just Neural Networks!)\nIn-depth understanding of deep learning research\nProficiency with Python, PyTorch, AWS\nExcellent software engineering skills\nTeam player with a positive attitude and good communication skills",
+            "job_highlights_items": [
+                "Ideally enrolled in a PhD program with a research focus related to NLP",
+                "Very strong understanding of data science fundamentals (i.e. not just Neural Networks!)",
+                "In-depth understanding of deep learning research",
+                "Proficiency with Python, PyTorch, AWS",
+                "Excellent software engineering skills",
+                "Team player with a positive attitude and good communication skills"
+            ],
+            "qualifications_text": "Ideally enrolled in a PhD program with a research focus related to NLP\nVery strong understanding of data science fundamentals (i.e. not just Neural Networks!)\nIn-depth understanding of deep learning research\nProficiency with Python, PyTorch, AWS\nExcellent software engineering skills\nTeam player with a positive attitude and good communication skills",
+            "qualifications_items": [
+                "Ideally enrolled in a PhD program with a research focus related to NLP",
+                "Very strong understanding of data science fundamentals (i.e. not just Neural Networks!)",
+                "In-depth understanding of deep learning research",
+                "Proficiency with Python, PyTorch, AWS",
+                "Excellent software engineering skills",
+                "Team player with a positive attitude and good communication skills"
+            ],
+            "benefits_text": "",
+            "benefits_items": [],
+            "responsibilities_text": "",
+            "responsibilities_items": [],
+            "job_description": "About Reality Defender\n\nReality Defender is a groundbreaking security platform offering comprehensive deepfake detection. A Y Combinator graduate, Comcast NBCUniversal LIFT Labs alumni, and backed by DCVC, Reality Defender's proactive deepfake and AI-generated content detection technology is developed by a leadership team with over 20 years of experience in applied research at the intersection of\nmachine learning, data science, and cybersecurity.\n\nWith models defending against present and future fabrication techniques, Reality Defender is the best way to detect and deter fraudulent text, audio, and visual content, partnering with government agencies and enterprise clients to enhance security and detect fraud.\n\nRole and Responsibilities\n• Work on NLP and NLG approaches for generative text detection esp. from large language models.\n• Independently implement and evaluate ideas on modern deep learning stack - Python, PyTorch, and GPU-enabled cloud compute, like AWS.\n• Collaborate with scientists and engineers across the organization.\n\nAbout You\n• Ideally enrolled in a PhD program with a research focus related to NLP.\n• Very strong understanding of data science fundamentals (i.e. not just Neural Networks!)\n• In-depth understanding of deep learning research.\n• Proficiency with Python, PyTorch, AWS\n• Excellent software engineering skills.\n• Team player with a positive attitude and good communication skills.\n"
+        }
+    ],
+    "total_count": 1,
+    "extraction_date": "2025-01-08T21:14:16.240942",
+    "search_query": "AI disinformation intern"
+}
