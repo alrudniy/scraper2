@@ -597,8 +597,8 @@ def main():
     # Get timestamp at start of program
     start_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
-    # Create json directory with timestamp
-    json_dir = f"json_{start_timestamp}"
+    # Create json directory if it doesn't exist
+    json_dir = "json"
     if not os.path.exists(json_dir):
         os.makedirs(json_dir)
     
