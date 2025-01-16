@@ -2,6 +2,8 @@ import pandas as pd
 import os
 import glob
 from datetime import datetime
+from openpyxl.styles import Alignment
+from openpyxl.utils import get_column_letter
 
 def extract_keyword(filename):
     # Get base filename without path and extension
@@ -39,6 +41,39 @@ def combine_excel_files():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = f'combined_output_{timestamp}.xlsx'
     combined_df.to_excel(output_file, index=False)
+
+    # Apply Excel formatting
+    wb = pd.ExcelWriter(output_file, engine='openpyxl').book
+    ws = wb.active
+
+    # Freeze top row and left column
+    ws.freeze_panes = 'B2'
+
+    # Center align headers
+    for cell in ws[1]:
+        cell.alignment = Alignment(horizontal='center', vertical='center')
+
+    # Set row heights (starting from row 2)
+    for row in range(2, ws.max_row + 1):
+        ws.row_dimensions[row].height = 200
+
+    # Set column widths
+    width_22_cols = ['A', 'B', 'C', 'D', 'E']  # Keyword, Title, Company, Location, Timestamp
+    width_50_cols = ['F', 'G', 'H', 'I', 'J']  # Job Highlights, Qualifications, Benefits, Responsibilities, Job Description
+    width_10_cols = ['K', 'L', 'M', 'N', 'O', 'P']  # Boolean columns
+    width_20_cols = ['Q', 'R', 'S', 'T', 'U']  # Evidence columns
+
+    for col in width_22_cols:
+        ws.column_dimensions[col].width = 22
+    for col in width_50_cols:
+        ws.column_dimensions[col].width = 50
+    for col in width_10_cols:
+        ws.column_dimensions[col].width = 10
+    for col in width_20_cols:
+        ws.column_dimensions[col].width = 20
+
+    # Save the workbook with formatting
+    wb.save(output_file)
     print(f"Combined data saved to {output_file}")
 
 if __name__ == "__main__":
