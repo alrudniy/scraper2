@@ -16,12 +16,13 @@ def analyze_job_description(description):
     model = genai.GenerativeModel('gemini-pro')
     
     prompt = f"""
-    Analyze this job description and provide five pieces of information:
+    Analyze this job description and provide six pieces of information:
     1. Is this an entry-level position?
     2. What is the minimum degree required?
     3. Is this an engineering position?
     4. Is this an administrative position?
     5. Is this a trustworthy AI position?
+    6. Is this an internship position?
 
     Format your response exactly as follows:
     Line 1: Either "Yes" or "No" (for entry-level)
@@ -33,6 +34,8 @@ def analyze_job_description(description):
     Line 7: Explain why this is or isn't an administrative position in 1-2 sentences.
     Line 8: Either "Yes" or "No" (for trustworthy AI position)
     Line 9: Explain why this is or isn't a trustworthy AI position in 1-2 sentences.
+    Line 10: Either "Yes" or "No" (for internship position)
+    Line 11: Explain why this is or isn't an internship position in 1-2 sentences.
     
     Job Description:
     {description}
@@ -50,9 +53,11 @@ def analyze_job_description(description):
         admin_evidence = lines[6].strip() if len(lines) > 6 else "No evidence provided"
         is_trustworthy_ai = lines[7].strip() if len(lines) > 7 else "No"
         trustworthy_ai_evidence = lines[8].strip() if len(lines) > 8 else "No evidence provided"
-        return answer, evidence, degree, is_engineering, engineering_evidence, is_admin, admin_evidence, is_trustworthy_ai, trustworthy_ai_evidence
+        is_internship = lines[9].strip() if len(lines) > 9 else "No"
+        internship_evidence = lines[10].strip() if len(lines) > 10 else "No evidence provided"
+        return answer, evidence, degree, is_engineering, engineering_evidence, is_admin, admin_evidence, is_trustworthy_ai, trustworthy_ai_evidence, is_internship, internship_evidence
     except Exception as e:
-        return "Error", f"Error analyzing description: {str(e)}", "Not Specified", "No", "Error analyzing description", "No", "Error analyzing description", "No", "Error analyzing description"
+        return "Error", f"Error analyzing description: {str(e)}", "Not Specified", "No", "Error analyzing description", "No", "Error analyzing description", "No", "Error analyzing description", "No", "Error analyzing description"
 
 def process_excel_file(filename):
     """
@@ -67,8 +72,8 @@ def process_excel_file(filename):
             raise ValueError("Excel file must contain a 'Job Description' column")
             
         # Create new columns for analysis
-        df['Is Entry Level?'], df['Is Entry Level - Evidence'], df['Minimum Degree Required'], df['Is Engineering Position?'], df['Is Engineering Position - Evidence'], df['Is Administrative Position?'], df['Is Administrative Position - Evidence'], df['Is Trustworthy AI Position?'], df['Is Trustworthy AI Position - Evidence'] = zip(*df['Job Description'].apply(
-            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided", "Not Specified", "No", "No description provided", "No", "No description provided", "No", "No description provided")
+        df['Is Entry Level?'], df['Is Entry Level - Evidence'], df['Minimum Degree Required'], df['Is Engineering Position?'], df['Is Engineering Position - Evidence'], df['Is Administrative Position?'], df['Is Administrative Position - Evidence'], df['Is Trustworthy AI Position?'], df['Is Trustworthy AI Position - Evidence'], df['Is Internship Position?'], df['Is Internship Position - Evidence'] = zip(*df['Job Description'].apply(
+            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided", "Not Specified", "No", "No description provided", "No", "No description provided", "No", "No description provided", "No", "No description provided")
         ))
         
         # Save updated file
