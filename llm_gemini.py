@@ -23,7 +23,7 @@ def analyze_job_description(description):
     4. Is this an administrative position?
     5. Is this a trustworthy AI position?
     6. Is this an internship position?
-    7. What are the required Knowledge, Skills, and Abilities (KSAs)?
+    7. What are the required Knowledge, Skills, and Abilities (KSAs) for this position?
 
     Format your response exactly as follows:
     Line 1: Either "Yes" or "No" (for entry-level)

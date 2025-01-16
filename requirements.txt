@@ -3,3 +3,6 @@ webdriver-manager
 keyboard
 beautifulsoup4
 openpyxl
+google-generativeai
+pandas
+anthropic
