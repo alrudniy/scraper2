@@ -62,13 +62,21 @@ def combine_excel_files():
     # Save combined data with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = f'combined_output_{timestamp}.xlsx'
+    output_file_unduplicated = f'combined_output_{timestamp}_unduplicated.xlsx'
+    
+    # Save full dataset
     combined_df.to_excel(output_file, index=False)
+    
+    # Save unduplicated dataset
+    unduplicated_df = combined_df[combined_df['Duplicate Flag'] != 'Y'].copy()
+    unduplicated_df.to_excel(output_file_unduplicated, index=False)
 
-    # Apply Excel formatting
-    with pd.ExcelWriter(output_file, engine='openpyxl', mode='a') as writer:
-        ws = writer.book.active
+    # Apply Excel formatting to both files
+    for current_file in [output_file, output_file_unduplicated]:
+        with pd.ExcelWriter(current_file, engine='openpyxl', mode='a') as writer:
+            ws = writer.book.active
 
-    # Freeze top row and left column
+            # Freeze top row and left column
     ws.freeze_panes = 'B2'
 
     # Center align headers
@@ -104,9 +112,11 @@ def combine_excel_files():
     # Add autofilter
     ws.auto_filter.ref = ws.dimensions
     
-    # Save the workbook with formatting
-    writer.book.save(output_file)
+            # Save the workbook with formatting
+            writer.book.save(current_file)
+    
     print(f"Combined data saved to {output_file}")
+    print(f"Unduplicated data saved to {output_file_unduplicated}")
 
 if __name__ == "__main__":
     combine_excel_files()
