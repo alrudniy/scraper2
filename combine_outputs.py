@@ -37,6 +37,9 @@ def combine_excel_files():
     # Combine all dataframes
     combined_df = pd.concat(dfs, ignore_index=True)
     
+    # Remove Benefits and Responsibilities columns
+    combined_df = combined_df.drop(['Benefits', 'Responsibilities'], axis=1)
+    
     # Sort the dataframe
     combined_df = combined_df.sort_values(['Title', 'Company', 'Keyword'])
     
@@ -85,9 +88,9 @@ def combine_excel_files():
     width_22_cols = ['C', 'D', 'E', 'F']  # Title, Company, Location, Timestamp
     ws.column_dimensions['A'].width = 14  # Keyword column
     ws.column_dimensions['B'].width = 10  # Duplicate Flag column
-    width_50_cols = ['G', 'H', 'I', 'J', 'K']  # Job Highlights, Qualifications, Benefits, Responsibilities, Job Description
-    width_10_cols = ['L', 'M', 'N', 'O', 'P', 'Q']  # Boolean columns
-    width_20_cols = ['R', 'S', 'T', 'U', 'V']  # Evidence columns
+    width_50_cols = ['G', 'H', 'I']  # Job Highlights, Qualifications, Job Description
+    width_10_cols = ['J', 'K', 'L', 'M', 'N', 'O']  # Boolean columns
+    width_20_cols = ['P', 'Q', 'R', 'S', 'T']  # Evidence columns
 
     for col in width_22_cols:
         ws.column_dimensions[col].width = 22
@@ -97,6 +100,10 @@ def combine_excel_files():
         ws.column_dimensions[col].width = 10
     for col in width_20_cols:
         ws.column_dimensions[col].width = 20
+
+    # Add autofilter and apply filter to hide rows with 'Y' in Duplicate Flag
+    ws.auto_filter.ref = ws.dimensions
+    ws.auto_filter.add_filter_column(1, ["1", ""])  # Column B (index 1) for Duplicate Flag
 
     # Save the workbook with formatting
     writer.book.save(output_file)
