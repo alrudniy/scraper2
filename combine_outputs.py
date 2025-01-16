@@ -103,7 +103,8 @@ def combine_excel_files():
 
     # Add autofilter and apply filter to hide rows with 'Y' in Duplicate Flag
     ws.auto_filter.ref = ws.dimensions
-    ws.auto_filter.add_filter_column(1, ["1", ""])  # Column B (index 1) for Duplicate Flag
+    # Set filter criteria to exclude 'Y' (show blanks and '1')
+    ws.auto_filter.add_filter_column(1, [''], blank=True)
 
     # Save the workbook with formatting
     writer.book.save(output_file)
