@@ -51,14 +51,20 @@ def combine_excel_files():
 
     # Center align headers
     for cell in ws[1]:
-        cell.alignment = Alignment(horizontal='center', vertical='center')
+        cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+
+    # Set alignment for all cells except headers
+    for row in ws.iter_rows(min_row=2):
+        for cell in row:
+            cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
 
     # Set row heights (starting from row 2)
     for row in range(2, ws.max_row + 1):
         ws.row_dimensions[row].height = 200
 
     # Set column widths
-    width_22_cols = ['A', 'B', 'C', 'D', 'E']  # Keyword, Title, Company, Location, Timestamp
+    width_22_cols = ['B', 'C', 'D', 'E']  # Title, Company, Location, Timestamp
+    ws.column_dimensions['A'].width = 14  # Keyword column
     width_50_cols = ['F', 'G', 'H', 'I', 'J']  # Job Highlights, Qualifications, Benefits, Responsibilities, Job Description
     width_10_cols = ['K', 'L', 'M', 'N', 'O', 'P']  # Boolean columns
     width_20_cols = ['Q', 'R', 'S', 'T', 'U']  # Evidence columns
