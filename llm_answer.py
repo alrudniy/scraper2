@@ -9,18 +9,19 @@ genai.configure(api_key=GEMINI_API_KEY)
 def analyze_job_description(description):
     """
     Analyze job description using Gemini to determine if it's entry-level, minimum degree required,
-    if it's an engineering position, and if it's an administrative position
-    Returns tuple of (yes/no answer, evidence, minimum degree, is_engineering, engineering_evidence, is_admin, admin_evidence)
+    if it's an engineering position, if it's an administrative position, and if it's a trustworthy AI position
+    Returns tuple of (yes/no answer, evidence, minimum degree, is_engineering, engineering_evidence, is_admin, admin_evidence, is_trustworthy_ai, trustworthy_ai_evidence)
     """
     # Configure the model
     model = genai.GenerativeModel('gemini-pro')
     
     prompt = f"""
-    Analyze this job description and provide four pieces of information:
+    Analyze this job description and provide five pieces of information:
     1. Is this an entry-level position?
     2. What is the minimum degree required?
     3. Is this an engineering position?
     4. Is this an administrative position?
+    5. Is this a trustworthy AI position?
 
     Format your response exactly as follows:
     Line 1: Either "Yes" or "No" (for entry-level)
@@ -30,6 +31,8 @@ def analyze_job_description(description):
     Line 5: Explain why this is or isn't an engineering position in 1-2 sentences.
     Line 6: Either "Yes" or "No" (for administrative position)
     Line 7: Explain why this is or isn't an administrative position in 1-2 sentences.
+    Line 8: Either "Yes" or "No" (for trustworthy AI position)
+    Line 9: Explain why this is or isn't a trustworthy AI position in 1-2 sentences.
     
     Job Description:
     {description}
@@ -45,9 +48,11 @@ def analyze_job_description(description):
         engineering_evidence = lines[4].strip() if len(lines) > 4 else "No evidence provided"
         is_admin = lines[5].strip() if len(lines) > 5 else "No"
         admin_evidence = lines[6].strip() if len(lines) > 6 else "No evidence provided"
-        return answer, evidence, degree, is_engineering, engineering_evidence, is_admin, admin_evidence
+        is_trustworthy_ai = lines[7].strip() if len(lines) > 7 else "No"
+        trustworthy_ai_evidence = lines[8].strip() if len(lines) > 8 else "No evidence provided"
+        return answer, evidence, degree, is_engineering, engineering_evidence, is_admin, admin_evidence, is_trustworthy_ai, trustworthy_ai_evidence
     except Exception as e:
-        return "Error", f"Error analyzing description: {str(e)}", "Not Specified", "No", "Error analyzing description", "No", "Error analyzing description"
+        return "Error", f"Error analyzing description: {str(e)}", "Not Specified", "No", "Error analyzing description", "No", "Error analyzing description", "No", "Error analyzing description"
 
 def process_excel_file(filename):
     """
@@ -62,8 +67,8 @@ def process_excel_file(filename):
             raise ValueError("Excel file must contain a 'Job Description' column")
             
         # Create new columns for analysis
-        df['Is Entry Level?'], df['Is Entry Level - Evidence'], df['Minimum Degree Required'], df['Is Engineering Position?'], df['Is Engineering Position - Evidence'], df['Is Administrative Position?'], df['Is Administrative Position - Evidence'] = zip(*df['Job Description'].apply(
-            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided", "Not Specified", "No", "No description provided", "No", "No description provided")
+        df['Is Entry Level?'], df['Is Entry Level - Evidence'], df['Minimum Degree Required'], df['Is Engineering Position?'], df['Is Engineering Position - Evidence'], df['Is Administrative Position?'], df['Is Administrative Position - Evidence'], df['Is Trustworthy AI Position?'], df['Is Trustworthy AI Position - Evidence'] = zip(*df['Job Description'].apply(
+            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided", "Not Specified", "No", "No description provided", "No", "No description provided", "No", "No description provided")
         ))
         
         # Save updated file
