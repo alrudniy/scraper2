@@ -101,11 +101,9 @@ def combine_excel_files():
     for col in width_20_cols:
         ws.column_dimensions[col].width = 20
 
-    # Add autofilter and apply filter to hide rows with 'Y' in Duplicate Flag
+    # Add autofilter
     ws.auto_filter.ref = ws.dimensions
-    # Set filter criteria to exclude 'Y' (show blanks and '1')
-    ws.auto_filter.add_filter_column(1, [''], blank=True)
-
+    
     # Save the workbook with formatting
     writer.book.save(output_file)
     print(f"Combined data saved to {output_file}")
