@@ -43,8 +43,8 @@ def combine_excel_files():
     combined_df.to_excel(output_file, index=False)
 
     # Apply Excel formatting
-    wb = pd.ExcelWriter(output_file, engine='openpyxl').book
-    ws = wb.active
+    with pd.ExcelWriter(output_file, engine='openpyxl', mode='a') as writer:
+        ws = writer.book.active
 
     # Freeze top row and left column
     ws.freeze_panes = 'B2'
@@ -73,7 +73,7 @@ def combine_excel_files():
         ws.column_dimensions[col].width = 20
 
     # Save the workbook with formatting
-    wb.save(output_file)
+    writer.book.save(output_file)
     print(f"Combined data saved to {output_file}")
 
 if __name__ == "__main__":
