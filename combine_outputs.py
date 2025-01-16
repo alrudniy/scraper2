@@ -109,9 +109,9 @@ def combine_excel_files():
     for col in width_20_cols:
         ws.column_dimensions[col].width = 20
 
-    # Add autofilter
-    ws.auto_filter.ref = ws.dimensions
-    
+            # Add autofilter
+            ws.auto_filter.ref = ws.dimensions
+            
             # Save the workbook with formatting
             writer.book.save(current_file)
     
