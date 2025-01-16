@@ -1,10 +1,10 @@
 import os
 import pandas as pd
-import google.generativeai as genai
+from anthropic import Anthropic
 
-# Configure the Gemini API
-GEMINI_API_KEY = 'AIzaSyA0-UU_294arcyvdVIEHQct0_I7edoBpoI'
-genai.configure(api_key=GEMINI_API_KEY)
+# Configure the Anthropic API
+ANTHROPIC_API_KEY = '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'
+anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
 
 def analyze_job_description(description):
     """
@@ -12,10 +12,9 @@ def analyze_job_description(description):
     if it's an engineering position, if it's an administrative position, and if it's a trustworthy AI position
     Returns tuple of (yes/no answer, evidence, minimum degree, is_engineering, engineering_evidence, is_admin, admin_evidence, is_trustworthy_ai, trustworthy_ai_evidence)
     """
-    # Configure the model
-    model = genai.GenerativeModel('gemini-pro')
-    
     prompt = f"""
+    You are an expert at analyzing job descriptions.
+    
     Analyze this job description and provide seven pieces of information:
     1. Is this an entry-level position?
     2. What is the minimum degree required?
@@ -49,8 +48,15 @@ def analyze_job_description(description):
     """
     
     try:
-        response = model.generate_content(prompt)
-        lines = response.text.strip().split('\n', 4)
+        response = anthropic.messages.create(
+            model="claude-3-opus-20240229",
+            max_tokens=1000,
+            messages=[{
+                "role": "user",
+                "content": prompt
+            }]
+        )
+        lines = response.content[0].text.strip().split('\n', 4)
         answer = lines[0].strip()
         evidence = lines[1].strip() if len(lines) > 1 else "No evidence provided"
         degree = lines[2].strip() if len(lines) > 2 else "Not Specified"
