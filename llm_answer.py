@@ -8,17 +8,21 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 def analyze_job_description(description):
     """
-    Analyze job description using Gemini to determine if it's entry-level
-    Returns tuple of (yes/no answer, evidence)
+    Analyze job description using Gemini to determine if it's entry-level and minimum degree required
+    Returns tuple of (yes/no answer, evidence, minimum degree)
     """
     # Configure the model
     model = genai.GenerativeModel('gemini-pro')
     
     prompt = f"""
-    Analyze this job description and determine if it's an entry-level position.
+    Analyze this job description and provide two pieces of information:
+    1. Is this an entry-level position?
+    2. What is the minimum degree required?
+
     Format your response exactly as follows:
-    First line: Either "Yes" or "No"
-    Second line: If Yes, explain why in 1-2 sentences. If No, explain why not in 1-2 sentences.
+    Line 1: Either "Yes" or "No" (for entry-level)
+    Line 2: If Yes, explain why in 1-2 sentences. If No, explain why not in 1-2 sentences.
+    Line 3: Minimum degree required (e.g., "Bachelor's", "Master's", "PhD", "None Required", or "Not Specified")
     
     Job Description:
     {description}
@@ -26,10 +30,11 @@ def analyze_job_description(description):
     
     try:
         response = model.generate_content(prompt)
-        lines = response.text.strip().split('\n', 1)
+        lines = response.text.strip().split('\n', 2)
         answer = lines[0].strip()
         evidence = lines[1].strip() if len(lines) > 1 else "No evidence provided"
-        return answer, evidence
+        degree = lines[2].strip() if len(lines) > 2 else "Not Specified"
+        return answer, evidence, degree
     except Exception as e:
         return "Error", f"Error analyzing description: {str(e)}"
 
@@ -46,8 +51,8 @@ def process_excel_file(filename):
             raise ValueError("Excel file must contain a 'Job Description' column")
             
         # Create new columns for analysis
-        df['Is Entry Level?'], df['Is Entry Level - Evidence'] = zip(*df['Job Description'].apply(
-            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided")
+        df['Is Entry Level?'], df['Is Entry Level - Evidence'], df['Minimum Degree Required'] = zip(*df['Job Description'].apply(
+            lambda x: analyze_job_description(str(x)) if pd.notna(x) else ("No", "No description provided", "Not Specified")
         ))
         
         # Save updated file
