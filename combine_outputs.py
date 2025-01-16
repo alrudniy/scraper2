@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import glob
+from datetime import datetime
 
 def extract_keyword(filename):
     # Get base filename without path and extension
@@ -34,8 +35,9 @@ def combine_excel_files():
     # Combine all dataframes
     combined_df = pd.concat(dfs, ignore_index=True)
     
-    # Save combined data
-    output_file = 'combined_output.xlsx'
+    # Save combined data with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = f'combined_output_{timestamp}.xlsx'
     combined_df.to_excel(output_file, index=False)
     print(f"Combined data saved to {output_file}")
 
