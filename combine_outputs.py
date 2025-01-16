@@ -37,6 +37,25 @@ def combine_excel_files():
     # Combine all dataframes
     combined_df = pd.concat(dfs, ignore_index=True)
     
+    # Sort the dataframe
+    combined_df = combined_df.sort_values(['Title', 'Company', 'Keyword'])
+    
+    # Add Duplicate Flag column
+    combined_df['Duplicate Flag'] = ''
+    
+    # Mark duplicates
+    duplicate_mask = combined_df.duplicated(subset=['Title', 'Company'], keep='first')
+    combined_df.loc[duplicate_mask, 'Duplicate Flag'] = 'Y'
+    # Mark first occurrence of duplicates
+    first_duplicate_mask = combined_df.duplicated(subset=['Title', 'Company'], keep='last')
+    combined_df.loc[first_duplicate_mask & ~duplicate_mask, 'Duplicate Flag'] = '1'
+    
+    # Reorder columns to put Duplicate Flag after Keyword
+    cols = combined_df.columns.tolist()
+    cols.remove('Duplicate Flag')
+    cols.insert(1, 'Duplicate Flag')
+    combined_df = combined_df[cols]
+    
     # Save combined data with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = f'combined_output_{timestamp}.xlsx'
@@ -63,11 +82,12 @@ def combine_excel_files():
         ws.row_dimensions[row].height = 200
 
     # Set column widths
-    width_22_cols = ['B', 'C', 'D', 'E']  # Title, Company, Location, Timestamp
+    width_22_cols = ['C', 'D', 'E', 'F']  # Title, Company, Location, Timestamp
     ws.column_dimensions['A'].width = 14  # Keyword column
-    width_50_cols = ['F', 'G', 'H', 'I', 'J']  # Job Highlights, Qualifications, Benefits, Responsibilities, Job Description
-    width_10_cols = ['K', 'L', 'M', 'N', 'O', 'P']  # Boolean columns
-    width_20_cols = ['Q', 'R', 'S', 'T', 'U']  # Evidence columns
+    ws.column_dimensions['B'].width = 10  # Duplicate Flag column
+    width_50_cols = ['G', 'H', 'I', 'J', 'K']  # Job Highlights, Qualifications, Benefits, Responsibilities, Job Description
+    width_10_cols = ['L', 'M', 'N', 'O', 'P', 'Q']  # Boolean columns
+    width_20_cols = ['R', 'S', 'T', 'U', 'V']  # Evidence columns
 
     for col in width_22_cols:
         ws.column_dimensions[col].width = 22
