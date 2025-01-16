@@ -37,8 +37,8 @@ def combine_excel_files():
     # Combine all dataframes
     combined_df = pd.concat(dfs, ignore_index=True)
     
-    # Remove Benefits and Responsibilities columns
-    combined_df = combined_df.drop(['Benefits', 'Responsibilities'], axis=1)
+    # Remove Benefits, Responsibilities, and Qualifications columns
+    combined_df = combined_df.drop(['Benefits', 'Responsibilities', 'Qualifications'], axis=1)
     
     # Sort the dataframe
     combined_df = combined_df.sort_values(['Title', 'Company', 'Keyword'])
@@ -88,9 +88,9 @@ def combine_excel_files():
     width_22_cols = ['C', 'D', 'E', 'F']  # Title, Company, Location, Timestamp
     ws.column_dimensions['A'].width = 14  # Keyword column
     ws.column_dimensions['B'].width = 10  # Duplicate Flag column
-    width_50_cols = ['G', 'H', 'I']  # Job Highlights, Qualifications, Job Description
-    width_10_cols = ['J', 'K', 'L', 'M', 'N', 'O']  # Boolean columns
-    width_20_cols = ['P', 'Q', 'R', 'S', 'T']  # Evidence columns
+    width_50_cols = ['G', 'H']  # Job Highlights, Job Description
+    width_10_cols = ['I', 'J', 'K', 'L', 'M', 'N']  # Boolean columns
+    width_20_cols = ['O', 'P', 'Q', 'R', 'S']  # Evidence columns
 
     for col in width_22_cols:
         ws.column_dimensions[col].width = 22
