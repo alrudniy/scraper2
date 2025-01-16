@@ -38,11 +38,11 @@ def analyze_job_description(description):
     Line 10: Either "Yes" or "No" (for internship position)
     Line 11: Explain why this is or isn't an internship position in 1-2 sentences.
     Line 12: JSON object containing three arrays - knowledge, skills, and abilities. Format:
-    {
+    {{
         "knowledge": ["knowledge1", "knowledge2", ...],
         "skills": ["skill1", "skill2", ...],
         "abilities": ["ability1", "ability2", ...]
-    }
+    }}
     
     Job Description:
     {description}
