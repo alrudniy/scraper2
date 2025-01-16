@@ -77,37 +77,37 @@ def combine_excel_files():
             ws = writer.book.active
 
             # Freeze top row and left column
-    ws.freeze_panes = 'B2'
+            ws.freeze_panes = 'B2'
 
-    # Center align headers
-    for cell in ws[1]:
-        cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+            # Center align headers
+            for cell in ws[1]:
+                cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
 
-    # Set alignment for all cells except headers
-    for row in ws.iter_rows(min_row=2):
-        for cell in row:
-            cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+            # Set alignment for all cells except headers
+            for row in ws.iter_rows(min_row=2):
+                for cell in row:
+                    cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
 
-    # Set row heights (starting from row 2)
-    for row in range(2, ws.max_row + 1):
-        ws.row_dimensions[row].height = 200
+            # Set row heights (starting from row 2)
+            for row in range(2, ws.max_row + 1):
+                ws.row_dimensions[row].height = 200
 
-    # Set column widths
-    width_22_cols = ['C', 'D', 'E', 'F']  # Title, Company, Location, Timestamp
-    ws.column_dimensions['A'].width = 14  # Keyword column
-    ws.column_dimensions['B'].width = 10  # Duplicate Flag column
-    width_50_cols = ['G', 'H']  # Job Highlights, Job Description
-    width_10_cols = ['I', 'J', 'K', 'L', 'M', 'N']  # Boolean columns
-    width_20_cols = ['O', 'P', 'Q', 'R', 'S']  # Evidence columns
+            # Set column widths
+            width_22_cols = ['C', 'D', 'E', 'F']  # Title, Company, Location, Timestamp
+            ws.column_dimensions['A'].width = 14  # Keyword column
+            ws.column_dimensions['B'].width = 10  # Duplicate Flag column
+            width_50_cols = ['G', 'H']  # Job Highlights, Job Description
+            width_10_cols = ['I', 'J', 'K', 'L', 'M', 'N']  # Boolean columns
+            width_20_cols = ['O', 'P', 'Q', 'R', 'S']  # Evidence columns
 
-    for col in width_22_cols:
-        ws.column_dimensions[col].width = 22
-    for col in width_50_cols:
-        ws.column_dimensions[col].width = 50
-    for col in width_10_cols:
-        ws.column_dimensions[col].width = 10
-    for col in width_20_cols:
-        ws.column_dimensions[col].width = 20
+            for col in width_22_cols:
+                ws.column_dimensions[col].width = 22
+            for col in width_50_cols:
+                ws.column_dimensions[col].width = 50
+            for col in width_10_cols:
+                ws.column_dimensions[col].width = 10
+            for col in width_20_cols:
+                ws.column_dimensions[col].width = 20
 
             # Add autofilter
             ws.auto_filter.ref = ws.dimensions
