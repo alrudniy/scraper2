@@ -93,7 +93,15 @@ def process_excel_file(filename):
         print(f"Error processing file: {str(e)}")
 
 def main():
-    input_file = os.path.join('xlsx', 'Accountability_AI_intern_20250108_151747.xlsx')
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Error: Input Excel file path is required")
+        print("Usage: python llm_answer.py <path_to_excel_file>")
+        print("Example: python llm_answer.py xlsx/job_listings.xlsx")
+        return
+        
+    input_file = sys.argv[1]
     if not os.path.exists(input_file):
         print(f"Error: File not found: {input_file}")
         return
