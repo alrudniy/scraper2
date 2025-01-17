@@ -1,7 +1,8 @@
 import pandas as pd
 import sys
+from pgpt_python.client import PrivateGPTApi
 
-def process_job_descriptions(filename):
+def process_job_descriptions(filename, client):
     """
     Read Excel file and process job descriptions with delay
     """
@@ -17,17 +18,42 @@ def process_job_descriptions(filename):
         print(f"\nJob Description #{index + 1}:")
         print("-" * 50)
         print(job_desc)
+
+        
+        # Ingestion of Text:
+        ingested_text_doc_id = (
+            client.ingestion.ingest_text(file_name=str(index + 1), text=job_desc)
+            .data[0]
+            .doc_id
+        )
+        print("Ingested text doc id: ", ingested_text_doc_id)
+        
+
+        
+        # Contextual Completion:
+        result = client.contextual_completions.prompt_completion(
+            prompt="""From the job description in context, extract all mentioned knowledge, skills and abilities (KSAs).
+                      Return them as a simple comma-separated list.""",
+            use_context=True,
+            context_filter={"docs_ids": [ingested_text_doc_id]},
+            include_sources=True,
+        ).choices[0]
+
+        print("\n>Contextual completion:")
+        print(result.message.content)
+        print(f" # Source: {result.sources[0].document.doc_metadata['file_name']}")
+        
         print("-" * 50)
-        
-        # 
-        
         # Wait for user input to continue
         input("\nPress Enter to continue to next job description...")
 
 def main():
+    # Initialize PGPT client with default settings
+    client = PrivateGPTApi(base_url="http://localhost:8001", timeout=6000)
+    
     sys.stdout.reconfigure(encoding='utf-8')
     input_file = 'combined_output_20250116_191158_unduplicated.xlsx'
-    process_job_descriptions(input_file)
+    process_job_descriptions(input_file, client)
 
 if __name__ == "__main__":
     main()
