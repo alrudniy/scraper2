@@ -9,6 +9,9 @@ def process_job_descriptions(filename, client):
     # Read Excel file
     df = pd.read_excel(filename)
     
+    # Add new KSA column
+    df['KSA'] = ''
+    
     # Loop through each row
     for index, row in df.iterrows():
         # Get job description
@@ -43,9 +46,17 @@ def process_job_descriptions(filename, client):
         print(result.message.content)
         print(f" # Source: {result.sources[0].document.doc_metadata['file_name']}")
         
+        # Save KSAs to DataFrame
+        df.at[index, 'KSA'] = result.message.content
+        
         print("-" * 50)
         # Wait for user input to continue
         # input("\nPress Enter to continue to next job description...")
+    
+    # Export DataFrame to Excel with KSAs
+    output_filename = filename.replace('.xlsx', '_with_KSA.xlsx')
+    df.to_excel(output_filename, index=False)
+    print(f"\nProcessing complete. Results saved to {output_filename}")
 
 def main():
     # Initialize PGPT client with default settings
