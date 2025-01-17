@@ -67,8 +67,12 @@ def combine_excel_files():
     # Save full dataset
     combined_df.to_excel(output_file, index=False)
     
-    # Save unduplicated dataset
-    unduplicated_df = combined_df[combined_df['Duplicate Flag'] != 'Y'].copy()
+    # Save unduplicated dataset (excluding rows with blank Job Descriptions)
+    unduplicated_df = combined_df[
+        (combined_df['Duplicate Flag'] != 'Y') & 
+        (combined_df['Job Description'].notna()) & 
+        (combined_df['Job Description'].str.strip() != '')
+    ].copy()
     unduplicated_df.to_excel(output_file_unduplicated, index=False)
 
     # Apply Excel formatting to both files
