@@ -1,5 +1,6 @@
 import pandas as pd
 import time
+import sys 
 
 def process_job_descriptions(filename):
     """
@@ -23,6 +24,7 @@ def process_job_descriptions(filename):
         time.sleep(2)
 
 def main():
+    sys.stdout.reconfigure(encoding='utf-8')
     input_file = 'combined_output_20250116_191158_unduplicated.xlsx'
     process_job_descriptions(input_file)
 
