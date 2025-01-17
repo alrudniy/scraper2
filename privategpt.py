@@ -1,41 +1,41 @@
 import pandas as pd
-from pgpt_python import PGPT
+from pgpt_python.client import PrivateGPTApi
 from collections import Counter
 import re
 
-def extract_ksas(text):
+def extract_ksas():
     """Extract Knowledge, Skills and Abilities from text using PrivateGPT"""
     prompt = f"""
     From the following job description, extract all mentioned knowledge, skills and abilities (KSAs).
     Return them as a simple comma-separated list.
-    Job description: {text}
-    """
     
-    # Initialize PGPT client with default settings
-    pgpt = PGPT(api_url="http://localhost:8001")
+    """
+    #Job description: {text}
     
     # Get response
-    response = pgpt.ask(prompt)
+    response = client.contextual_completions.prompt_completion(prompt, use_context=True,include_sources=True,).choices[0]
     
     # Split response into individual KSAs and clean
     ksas = [ksa.strip() for ksa in response.split(',')]
     return ksas
 
 def main():
-    # Read the CSV file
-    df = pd.read_csv('combined_output_20250116_191158_unduplicated job descriptions only.csv')
+    # Initialize PGPT client with default settings
+    client = PrivateGPTApi(base_url="http://localhost:8001")
     
-    # Extract job descriptions
-    job_descriptions = df['job_description'].tolist()
+    # Ingestion of File:
+    with open("combined_output_20250116_191158_unduplicated.csv", "rb") as f:
+        ingested_file_doc_id = client.ingestion.ingest_file(file=f).data[0].doc_id
     
+   
     # Process each job description
-    all_ksas = []
-    for jd in job_descriptions:
-        try:
-            ksas = extract_ksas(jd)
-            all_ksas.extend(ksas)
-        except Exception as e:
-            print(f"Error processing job description: {e}")
+    all_ksas = extract_ksas()
+
+    """ try:
+        ksas = extract_ksas(jd)
+        all_ksas.extend(ksas)
+    except Exception as e:
+        print(f"Error: {e}") """
     
     # Create frequency table
     ksa_freq = Counter(all_ksas)
