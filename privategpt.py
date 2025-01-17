@@ -1,5 +1,5 @@
 import pandas as pd
-from private_gpt import PrivateGPT
+from pgpt import PGPT
 from collections import Counter
 import re
 
@@ -11,11 +11,11 @@ def extract_ksas(text):
     Job description: {text}
     """
     
-    # Initialize PrivateGPT client
-    pgpt = PrivateGPT()
+    # Initialize PGPT client
+    pgpt = PGPT()
     
     # Get response
-    response = pgpt.query(prompt)
+    response = pgpt.chat(prompt)
     
     # Split response into individual KSAs and clean
     ksas = [ksa.strip() for ksa in response.split(',')]
