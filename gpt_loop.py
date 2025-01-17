@@ -45,7 +45,7 @@ def process_job_descriptions(filename, client):
         
         print("-" * 50)
         # Wait for user input to continue
-        input("\nPress Enter to continue to next job description...")
+        # input("\nPress Enter to continue to next job description...")
 
 def main():
     # Initialize PGPT client with default settings
