@@ -1,5 +1,5 @@
 import pandas as pd
-from pgpt import PGPT
+from pgpt_python import PGPT
 from collections import Counter
 import re
 
@@ -11,11 +11,11 @@ def extract_ksas(text):
     Job description: {text}
     """
     
-    # Initialize PGPT client
-    pgpt = PGPT()
+    # Initialize PGPT client with default settings
+    pgpt = PGPT(api_url="http://localhost:8001")
     
     # Get response
-    response = pgpt.chat(prompt)
+    response = pgpt.ask(prompt)
     
     # Split response into individual KSAs and clean
     ksas = [ksa.strip() for ksa in response.split(',')]
