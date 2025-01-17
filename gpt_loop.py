@@ -1,6 +1,5 @@
 import pandas as pd
-import time
-import sys 
+import sys
 
 def process_job_descriptions(filename):
     """
@@ -20,8 +19,8 @@ def process_job_descriptions(filename):
         print(job_desc)
         print("-" * 50)
         
-        # Wait 2 seconds
-        time.sleep(2)
+        # Wait for user input to continue
+        input("\nPress Enter to continue to next job description...")
 
 def main():
     sys.stdout.reconfigure(encoding='utf-8')
