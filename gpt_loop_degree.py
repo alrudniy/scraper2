@@ -9,8 +9,9 @@ def process_job_descriptions(filename, client):
     # Read Excel file
     df = pd.read_excel(filename)
     
-    # Add new column
+    # Add new columns
     df['Degree'] = ''
+    df['doc_id'] = ''
     
     # Loop through each row
     for index, row in df.iterrows():
@@ -47,8 +48,9 @@ def process_job_descriptions(filename, client):
         print(result.message.content)
         print(f" # Source: {result.sources[0].document.doc_metadata['file_name']}")
         
-        # Save  to DataFrame
+        # Save to DataFrame
         df.at[index, 'Degree'] = result.message.content
+        df.at[index, 'doc_id'] = ingested_text_doc_id
         
         print("-" * 50)
         # Wait for user input to continue
