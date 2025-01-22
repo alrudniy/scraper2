@@ -6,6 +6,8 @@ def capitalize_ksa():
     
     # Function to capitalize first letter of each word if it's lowercase
     def capitalize_if_lowercase(text):
+        # Convert to string if not already
+        text = str(text)
         words = text.split()
         capitalized_words = []
         for word in words:
