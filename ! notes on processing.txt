@@ -1,0 +1,37 @@
+
+combined_output_20250116_191158_unduplicated_with_KSA v5.xlsx
+removed non-tech positions
+removed blank columns
+USed this v5 to make a file with docid and KSA for manual processing
+
+	
+working in teams and similar phrases, team player -> teamwork
+Remove . (dots)
+
+
+
+
+Publication in AI/ML Conferences 
+NeurIPS
+ICLR
+ICML
+EMNLP
+
+publication in top ML and HCI venues (e.g.
+ACL
+CHI
+CVPR
+EMNLP
+FAccT
+ICML
+Interspeech
+NeurIPS
+UIST)
+
+
+
+Start Aider
+
+If aider is not found, start is like this:
+
+C:\Users\Alex\.local\bin\aider --sonnet

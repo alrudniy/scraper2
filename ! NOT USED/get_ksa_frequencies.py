@@ -19,7 +19,7 @@ def get_ksa_frequencies():
     df = df.sort_values('Frequency', ascending=False)
     
     # Export to Excel
-    output_file = 'ksa_frequencies_v5.xlsx'
+    output_file = 'ksa_frequencies_v6.xlsx'
     df.to_excel(output_file, index=False)
     print(f"KSA frequencies have been exported to '{output_file}'")
     print(f"Total unique KSAs: {len(df)}")
