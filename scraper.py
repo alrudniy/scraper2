@@ -25,7 +25,10 @@ class WebsiteAutomation:
         # Initialize instance variables
         self.last_search_query = ""
         self.start_timestamp = None  # Will be set in main()
+<<<<<<< HEAD
         self.json_dir = None  # Will be set in main()
+=======
+>>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
         
         # Initialize the Chrome WebDriver with automatic driver management
         #service = Service(ChromeDriverManager().install())
@@ -168,9 +171,15 @@ class WebsiteAutomation:
             # Store the search query
             self.last_search_query = query
             
+<<<<<<< HEAD
             # Create directory for this search session under evidence folder
             clean_query = "".join(c if c.isalnum() else '_' for c in query).rstrip('_')
             self.search_dir = os.path.join(self.evidence_dir, f"{clean_query}_{self.start_timestamp}")
+=======
+            # Create directory for this search session
+            clean_query = "".join(c if c.isalnum() else '_' for c in query).rstrip('_')
+            self.search_dir = f"{clean_query}_{self.start_timestamp}"
+>>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
             if not os.path.exists(self.search_dir):
                 os.makedirs(self.search_dir)
             
@@ -542,8 +551,12 @@ class WebsiteAutomation:
             
             # Save to JSON file
             json_filename = f"{base_filename}.json"
+<<<<<<< HEAD
             json_path = os.path.join(self.json_dir, json_filename)
             with open(json_path, "w", encoding="utf-8") as f:
+=======
+            with open(json_filename, "w", encoding="utf-8") as f:
+>>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
                 json.dump({
                     "job_listings": job_listings,
                     "total_count": len(job_listings),
@@ -599,6 +612,7 @@ def main():
     # Get timestamp at start of program
     start_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
+<<<<<<< HEAD
     # Create json directory if it doesn't exist
     json_dir = "json"
     if not os.path.exists(json_dir):
@@ -608,6 +622,11 @@ def main():
     bot = WebsiteAutomation("https://www.google.com")
     bot.start_timestamp = start_timestamp  # Store timestamp in bot instance
     bot.json_dir = json_dir  # Store json directory path
+=======
+    # Initialize automation
+    bot = WebsiteAutomation("https://www.google.com")
+    bot.start_timestamp = start_timestamp  # Store timestamp in bot instance
+>>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
     
     # Create folder for this search session
     bot.search_dir = None  # Will be set after search query is known
