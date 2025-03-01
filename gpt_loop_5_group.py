@@ -18,18 +18,27 @@ def main(json_file, client):
     grouped_data = {}
 
 
+    context = """'Mathematics & Physics', 'Engineering Principles', 'Computational Tools & Programming', 'Industry-Specific Standards & Regulations', 'System & Product Design', 'Analytical Reasoning', 'Creative Thinking & Innovation', 'Prototyping & Testing', 'Planning & Scheduling', 'Risk Assessment & Mitigation', 'Budgeting & Cost Management', 'Documentation & Reporting', 'Teamwork & Interdisciplinary Coordination', 'Mentorship & Coaching', 'Conflict Resolution', 'Influencing & Negotiation', 'Technical Writing', 'Presentations & Public Speaking', 'Listening & Interpersonal Skills', 'Visualization & Data Storytelling', 'Standards & Compliance', 'Testing & Validation', 'Lean / Six Sigma Principles', 'Root Cause Analysis', 'Industry 4.0 / Digital Transformation', 'Sustainability & Green Engineering', 'Data Analytics & AI', 'Cybersecurity (for Digital Systems)', 'Safety & Regulatory Compliance', 'Ethical Decision-Making', 'Lifelong Learning & Certifications', 'Inclusivity & Social Impact'	
+              """
+    ingested_text_doc_id = (
+        client.ingestion.ingest_text(file_name='engineering_categories', text=context)
+        .data[0]
+        .doc_id
+    )
+    print("Ingested text doc id: ", ingested_text_doc_id)
 
-    context = ""
     # Loop through each value in the list
     for value in data:
-        # Prepare the prompt
-        prompt = f"Assign the following value to a broader group. The group name should be concise:\n\n{value}\n\nBroader group:"
 
         # Send the prompt to the AI model
         prompt_result = client.contextual_completions.prompt_completion(
-                        prompt =f"Assign the following value to a broader group:\n\n{value}\n\nBroader group:"
-                        )
-        broader_group = prompt_result.choices[0].message.content
+                        prompt =f"""Assign the following value to most appropriate group in the context. 
+                                    Do not return any comments only group name:{value}""",
+                        use_context=True,
+                        context_filter={"docs_ids": [ingested_text_doc_id]},
+                        include_sources=True,
+                        ).choices[0]
+        broader_group = prompt_result.message.content
 
         print(f"{value} --> {broader_group}")
 
@@ -38,9 +47,6 @@ def main(json_file, client):
             grouped_data[broader_group].append(value)
         else:
             grouped_data[broader_group] = [value]
-
-        # Accumulate the broader group in the context
-        context += f"{value} --> {broader_group}\n"
 
         # Delay to avoid hitting rate limits
         # sleep(3)
