@@ -4,9 +4,9 @@ from openpyxl import load_workbook
 import json
 import sys
 from time import sleep
-import anthropic
+from pgpt_python.client import PrivateGPTApi
 
-def main(json_file):
+def main(json_file, client):
     """
     Read JSON file and assign each list value to a broader group
     """
@@ -17,24 +17,20 @@ def main(json_file):
     # Initialize an empty dictionary to store the grouped data
     grouped_data = {}
 
-    # Initialize the Anthropic client
-    client = anthropic.Client(api_key="your-api-key")
+
 
     # Loop through each value in the list
     for value in data:
         # Prepare the prompt
-        prompt = f"Assign the following value to a broader group:\n\n{value}\n\nBroader group:"
+        prompt = f"Assign the following value to a broader group. The group name should be concise:\n\n{value}\n\nBroader group:"
 
         # Send the prompt to the AI model
-        response = client.completion(
-            prompt=prompt,
-            stop_sequences=[anthropic.HUMAN_PROMPT],
-            max_tokens_to_sample=50,
-            model="claude-v1",
-        )
+        prompt_result = client.contextual_completions.prompt_completion(
+                        prompt =f"Assign the following value to a broader group:\n\n{value}\n\nBroader group:"
+                        )
+        broader_group = prompt_result.choices[0].message.content
 
-        # Extract the broader group from the response
-        broader_group = response["completion"].strip()
+        print(f"{value} --> {broader_group}")
 
         # Add the value to the corresponding group in the dictionary
         if broader_group in grouped_data:
@@ -43,7 +39,7 @@ def main(json_file):
             grouped_data[broader_group] = [value]
 
         # Delay to avoid hitting rate limits
-        sleep(3)
+        # sleep(3)
 
     # Generate the output JSON file name
     output_filename = json_file.replace('.json', '_grouped.json')
@@ -60,4 +56,6 @@ if __name__ == '__main__':
         sys.exit(1)
 
     json_file = sys.argv[1]
-    main(json_file)
+    # Initialize PGPT client with default settings
+    client = PrivateGPTApi(base_url="http://localhost:8001", timeout=600000)
+    main(json_file, client)
