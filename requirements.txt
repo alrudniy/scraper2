@@ -6,3 +6,4 @@ openpyxl
 google-generativeai
 pandas
 anthropic
+pgpt_python
