@@ -51,8 +51,11 @@ def main(json_file, client):
         # Delay to avoid hitting rate limits
         # sleep(3)
 
-    # Generate the output JSON file name
-    output_filename = json_file.replace('.json', '_grouped.json')
+    from datetime import datetime
+
+    # Generate the output JSON file name with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_filename = json_file.replace('.json', f'_grouped_{timestamp}.json')
 
     # Save the grouped data to a JSON file
     with open(output_filename, 'w') as json_file:
