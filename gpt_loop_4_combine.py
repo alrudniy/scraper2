@@ -14,9 +14,12 @@ def main(excel_file):
     for row in sheet.iter_rows(min_row=2, values_only=True):  # Skip header row
         ksa3_data = row[2]  # Assuming 'KSA3' is in column C (index 2)
         if ksa3_data:
-            # Parse the JSON data in 'KSA3' column
-            ksa3_list = json.loads(ksa3_data)
-            combined_data.extend(ksa3_list)
+            try:
+                # Parse the JSON data in 'KSA3' column
+                ksa3_list = json.loads(ksa3_data)
+                combined_data.extend(ksa3_list)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON data in row {row[0]}: {ksa3_data}")
 
     # Generate the output JSON file name
     output_file = excel_file.replace('.xlsx', '.json')
