@@ -19,6 +19,7 @@ def main(json_file, client):
 
 
 
+    context = ""
     # Loop through each value in the list
     for value in data:
         # Prepare the prompt
@@ -37,6 +38,9 @@ def main(json_file, client):
             grouped_data[broader_group].append(value)
         else:
             grouped_data[broader_group] = [value]
+
+        # Accumulate the broader group in the context
+        context += f"{value} --> {broader_group}\n"
 
         # Delay to avoid hitting rate limits
         # sleep(3)
