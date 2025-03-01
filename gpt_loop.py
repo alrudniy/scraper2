@@ -10,7 +10,7 @@ def process_job_descriptions(filename, client):
     df = pd.read_excel(filename)
     # remove rows with missing job description
     df = df[df['Job Description'].notna()]
-    
+
     # Add new KSA column
     df['KSA'] = ''
     
@@ -62,11 +62,13 @@ def process_job_descriptions(filename, client):
 
 def main():
     # Initialize PGPT client with default settings
-    client = PrivateGPTApi(base_url="http://localhost:8001", timeout=60000)
+    client = PrivateGPTApi(base_url="http://localhost:8001", timeout=600000)
     
     sys.stdout.reconfigure(encoding='utf-8')
     #input_file = 'combined_output_20250116_191158_unduplicated.xlsx'
-    input_file = 'compound_semiconductors_jobs_20250226_224938.xlsx'
+    # input_file = 'compound_semiconductors_jobs_20250226_224938.xlsx'
+    # input_file = 'radiation_hardening_jobs_20250226_222300.xlsx'
+    input_file = 'system_on_chip_jobs_20250226_223206.xlsx'
     process_job_descriptions(input_file, client)
 
 if __name__ == "__main__":
