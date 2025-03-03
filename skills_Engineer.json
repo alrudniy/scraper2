@@ -1,0 +1,3871 @@
+{
+    "attributions": [
+        {
+            "name": "Wikipedia",
+            "text": "Wikipedia extracts are distributed under the CC BY-SA license (https://creativecommons.org/licenses/by-sa/3.0/)"
+        }
+    ],
+    "data": [
+        {
+            "id": "KS440QS66YCBN23Y8K25",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440QS66YCBN23Y8K25",
+            "name": "Software Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120LH6DHTBJYVLFKB3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120LH6DHTBJYVLFKB3",
+            "name": "Electrical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120LK70665WL8LBX8G",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120LK70665WL8LBX8G",
+            "name": "Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1261W6S12LL9NC21GQ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1261W6S12LL9NC21GQ",
+            "name": "Mechanical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1227K6DGHN5PZTCDD0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1227K6DGHN5PZTCDD0",
+            "name": "Computer Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS6840J6LR0TLQ86LZJC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS6840J6LR0TLQ86LZJC",
+            "name": "Front End (Software Engineering)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122W179TCW8RVX29ZR",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122W179TCW8RVX29ZR",
+            "name": "Engineering Design Process",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121XY60R6Z5C3R172K",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121XY60R6Z5C3R172K",
+            "name": "Civil Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESA6EF2FD3872374BF62",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA6EF2FD3872374BF62",
+            "name": "Project Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K35XW0ZY6YB2QTW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K35XW0ZY6YB2QTW",
+            "name": "Process Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JY6R6R7KBQYJ2Y5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JY6R6R7KBQYJ2Y5",
+            "name": "Engineering Management",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126Z96STZD3JX27V02",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126Z96STZD3JX27V02",
+            "name": "Network Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124FP642Q7P7TBPPZN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124FP642Q7P7TBPPZN",
+            "name": "Search Engine Optimization",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1253Q66NQSNHM7JR49",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1253Q66NQSNHM7JR49",
+            "name": "Industrial Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K06523BSD9HX91F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K06523BSD9HX91F",
+            "name": "Engineering Drawings",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122XQ70C4VY4L06NC0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122XQ70C4VY4L06NC0",
+            "name": "Diesel Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1264H778JLQY5FK48G",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1264H778JLQY5FK48G",
+            "name": "Manufacturing Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121V277C12CV7T1YNR",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121V277C12CV7T1YNR",
+            "name": "Chemical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122NX79W5LSNS07C02",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122NX79W5LSNS07C02",
+            "name": "Data Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441BF6DQVK13793NV5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441BF6DQVK13793NV5",
+            "name": "Test Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K75YGNHRWV33J0R",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K75YGNHRWV33J0R",
+            "name": "Engineering Support",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1282K6XPGKSGR1826F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1282K6XPGKSGR1826F",
+            "name": "Product Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES65621B26F53842D8BE",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES65621B26F53842D8BE",
+            "name": "Back End (Software Engineering)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4407F6RWJNG6069MBN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4407F6RWJNG6069MBN",
+            "name": "Sales Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125TN694W6F0831CML",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125TN694W6F0831CML",
+            "name": "Professional Engineer (PE) License",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS440D46TXLZWJB033XL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440D46TXLZWJB033XL",
+            "name": "Search Engine Marketing",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123F95Y4BFF41P3Z6C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123F95Y4BFF41P3Z6C",
+            "name": "Electronic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4410Q6TN140M067HLK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4410Q6TN140M067HLK",
+            "name": "Structural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1268L6LKZGY3ZSZYZX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1268L6LKZGY3ZSZYZX",
+            "name": "Microsoft Certified Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123KV5XCDSJW5YWGYQ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123KV5XCDSJW5YWGYQ",
+            "name": "Environmental Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441QM61ZCGDMKCVQ0C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441QM61ZCGDMKCVQ0C",
+            "name": "Value Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESA86CEE5396B177ED20",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA86CEE5396B177ED20",
+            "name": "Technical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120MJ6QP112G3XSMMT",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120MJ6QP112G3XSMMT",
+            "name": "Architectural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1229T6DQMZ34K4W54B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1229T6DQMZ34K4W54B",
+            "name": "Construction Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1209G79Q8ZZ51G18SJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1209G79Q8ZZ51G18SJ",
+            "name": "Aerospace Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSE4F92B253B0FF8F19",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSE4F92B253B0FF8F19",
+            "name": "Engineering Plans And Specifications",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1210L6DM96QKG1XM3Z",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1210L6DM96QKG1XM3Z",
+            "name": "Biomedical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1254M6FCVHCX0WK020",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1254M6FCVHCX0WK020",
+            "name": "Security Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JZ6NJQ8G87H0RPF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JZ6NJQ8G87H0RPF",
+            "name": "Engineering Change Order",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441FJ6XPGVM4ZPGZCF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441FJ6XPGVM4ZPGZCF",
+            "name": "Engineering Tolerance",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES9AE8C50C34B49B0BB3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES9AE8C50C34B49B0BB3",
+            "name": "Utility Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441BG6SNZJWM0SN43N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441BG6SNZJWM0SN43N",
+            "name": "Test Execution Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1249Y70QBW38L986K5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1249Y70QBW38L986K5",
+            "name": "Geotechnical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESDDECEF9E95F772C22F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESDDECEF9E95F772C22F",
+            "name": "Engineer in Training",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES8BA590AEDE7543ED1C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8BA590AEDE7543ED1C",
+            "name": "Engine Repair",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS128HT66NYF105NG84T",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS128HT66NYF105NG84T",
+            "name": "Reliability Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1220K62VQK9KS7ZVWS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1220K62VQK9KS7ZVWS",
+            "name": "Cloud Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JY6TTBMW9KS9GR4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JY6TTBMW9KS9GR4",
+            "name": "Engineering Analysis",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123SY72Y5GP6S07ZQV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123SY72Y5GP6S07ZQV",
+            "name": "Facilities Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122CN6BRVZ0SHTVYF9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122CN6BRVZ0SHTVYF9",
+            "name": "Control Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4400W77QT7C4MG3PCS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4400W77QT7C4MG3PCS",
+            "name": "Requirements Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1282V6FCV4390N7W88",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1282V6FCV4390N7W88",
+            "name": "Production Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K266CBNPPVR7C9V",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K266CBNPPVR7C9V",
+            "name": "Engineering Calculations",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1263K75RGKK1ZVWTYX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1263K75RGKK1ZVWTYX",
+            "name": "Maintenance Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS7C2767F79DDF8BC5C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS7C2767F79DDF8BC5C",
+            "name": "Engineering Documentation",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES3BD155E5C579A7AE8C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES3BD155E5C579A7AE8C",
+            "name": "Engineering Systems",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES7A7F0A164BD77077CB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7A7F0A164BD77077CB",
+            "name": "Cyber Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441HZ60WWB0T7YTZ4R",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441HZ60WWB0T7YTZ4R",
+            "name": "Transport Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESBDDCF98E350408B753",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESBDDCF98E350408B753",
+            "name": "Materials Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127PC78PN6RF99WL2M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127PC78PN6RF99WL2M",
+            "name": "Performance Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1225763HZLCN8D3B0S",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1225763HZLCN8D3B0S",
+            "name": "TeleCommunications Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS128HS6J68WQX1QSRLH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS128HS6J68WQX1QSRLH",
+            "name": "Release Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESA6B15AAD6287C0B5C8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA6B15AAD6287C0B5C8",
+            "name": "Site Reliability Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127WN5W90PS7979P7V",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127WN5W90PS7979P7V",
+            "name": "Product Family Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440N175SK0BMQCPDJX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440N175SK0BMQCPDJX",
+            "name": "Small Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127J267KVH7G50J1H2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127J267KVH7G50J1H2",
+            "name": "Packaging Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JW6MTZVQLYK4MS3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JW6MTZVQLYK4MS3",
+            "name": "Engine Tuning",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES47285C601DBA8E6C72",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES47285C601DBA8E6C72",
+            "name": "Software Development Engineer in Test",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS441GS65WFSRJ0QJHQD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441GS65WFSRJ0QJHQD",
+            "name": "Traffic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS0OX58VDQ5P1TCYANAN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS0OX58VDQ5P1TCYANAN",
+            "name": "Unity Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122GY6009TLF7P6XY8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122GY6009TLF7P6XY8",
+            "name": "Certified Quality Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121106P87TD8K5Q5SV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121106P87TD8K5Q5SV",
+            "name": "Biological Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESFB393AC89ED73A7CE6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESFB393AC89ED73A7CE6",
+            "name": "Engineering Statics",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES3B95C5A13898761976",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES3B95C5A13898761976",
+            "name": "Supplier Quality Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESCE6C85355AD4FC83A2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESCE6C85355AD4FC83A2",
+            "name": "Sustaining Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120T664TBR3VK55TFK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120T664TBR3VK55TFK",
+            "name": "Automotive Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESC235A3116F5FA627A9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESC235A3116F5FA627A9",
+            "name": "Equipment Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440756QND9S47TBD5Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440756QND9S47TBD5Q",
+            "name": "Safety Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1269C6SRYLWF0SQFM3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1269C6SRYLWF0SQFM3",
+            "name": "Mechanical Engineering Technology",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1267T6Q0H1JDZZ65R8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1267T6Q0H1JDZZ65R8",
+            "name": "Model Based Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES41C5D53D141AF340F9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES41C5D53D141AF340F9",
+            "name": "Cost Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7G3XV6Q7SPD08F3172",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G3XV6Q7SPD08F3172",
+            "name": "Cisco Identity Services Engine (ISE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K574Z852PW07FJ3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K574Z852PW07FJ3",
+            "name": "Engineering Research",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1217W6V620GBBV318S",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1217W6V620GBBV318S",
+            "name": "Building Services Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESF3A9DBE1392432EB3D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESF3A9DBE1392432EB3D",
+            "name": "Pre-Sales Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4402Q6GVWZY6TMZ78F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4402Q6GVWZY6TMZ78F",
+            "name": "Radio Frequency Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127466Z3V0JBXDZV0K",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127466Z3V0JBXDZV0K",
+            "name": "Nuclear Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126LM79D3JD27W82CD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126LM79D3JD27W82CD",
+            "name": "Mining Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127DK6TSSB08HQKZKP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127DK6TSSB08HQKZKP",
+            "name": "Optical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123Y86V2WGML5T0P44",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123Y86V2WGML5T0P44",
+            "name": "Financial Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125YZ6ZY9TTB2D1LNC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125YZ6ZY9TTB2D1LNC",
+            "name": "Logistics Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127QV6FWSP1ZV7QJ31",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127QV6FWSP1ZV7QJ31",
+            "name": "Petroleum Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESC3541A1C781484DEED",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESC3541A1C781484DEED",
+            "name": "NICET Certification (National Institute For Certification In Engineering Technologies)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1246H6VW04XTCBZG2X",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1246H6VW04XTCBZG2X",
+            "name": "Game Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K16RR5PRRN1S5LH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K16RR5PRRN1S5LH",
+            "name": "Engineering Geology",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127Z661JCTV5MNPXD0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127Z661JCTV5MNPXD0",
+            "name": "Power Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441QL6MH6J7L96GZFC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441QL6MH6J7L96GZFC",
+            "name": "Engineering Validation Tests",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESF7671FD3FBDF7187A0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESF7671FD3FBDF7187A0",
+            "name": "Civil Engineering Design",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1216Q5WJM5DJ6SLCRK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1216Q5WJM5DJ6SLCRK",
+            "name": "Broadcast Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1264Z5X6CKM8NHP6C9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1264Z5X6CKM8NHP6C9",
+            "name": "Marine Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121D378X9G5R78PDRW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121D378X9G5R78PDRW",
+            "name": "Internal Combustion Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124VS66VH7N2SDJFV8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124VS66VH7N2SDJFV8",
+            "name": "Hydraulic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESFDECCC61A3DE32E933",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESFDECCC61A3DE32E933",
+            "name": "DevOps Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS128G55VSN24BN22WN7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS128G55VSN24BN22WN7",
+            "name": "Red Hat Certified Engineer (RHCE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS441NT6J6WCV9YYZ7LV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441NT6J6WCV9YYZ7LV",
+            "name": "Unreal Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120BH6PS2QLCCZ7Q3H",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120BH6PS2QLCCZ7Q3H",
+            "name": "Agricultural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440N26SGZ6CLKCKVC1",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440N26SGZ6CLKCKVC1",
+            "name": "Small Engine Repair",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESFC4DD852C1F44AAC66",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESFC4DD852C1F44AAC66",
+            "name": "Metallurgical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440PS623SPKPGH1XSN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440PS623SPKPGH1XSN",
+            "name": "Social Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120JV6CG3V0VWC73S4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120JV6CG3V0VWC73S4",
+            "name": "Google App Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1226N6P0SZSVQC1VLP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1226N6P0SZSVQC1VLP",
+            "name": "Component Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1210Q7980HPGTGNRB8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1210Q7980HPGTGNRB8",
+            "name": "Biochemical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS442066KVRQP1K641DZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS442066KVRQP1K641DZ",
+            "name": "Web Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1244K6176NLVWV02B6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1244K6176NLVWV02B6",
+            "name": "Front-End Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES56A56220C5AB1DC996",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES56A56220C5AB1DC996",
+            "name": "Human Factors Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES15BA24A43931005C60",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES15BA24A43931005C60",
+            "name": "Outside Plant Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7GT1F0QQOV7R7VGXQL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7GT1F0QQOV7R7VGXQL",
+            "name": "Feature Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440106X3TXWRK7N7XP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440106X3TXWRK7N7XP",
+            "name": "Reservoir Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123YW69SFNKQRVS85Y",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123YW69SFNKQRVS85Y",
+            "name": "Fire Protection Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES69C8848E4950D0A1C5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES69C8848E4950D0A1C5",
+            "name": "Risa (Structural Engineering Software)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES90B90BEA1081E51A95",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES90B90BEA1081E51A95",
+            "name": "Audio Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123F96FJKF4QGGFT7H",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123F96FJKF4QGGFT7H",
+            "name": "Engine Control Unit",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4402G6S6DZM37VHM3B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4402G6S6DZM37VHM3B",
+            "name": "Reverse Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440ZL6RMLFTWP346LK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440ZL6RMLFTWP346LK",
+            "name": "Database Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS680HJ6F91MYV62T9VD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS680HJ6F91MYV62T9VD",
+            "name": "Computer Aided Engineering (CAE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124Q768CBHW8N151WY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124Q768CBHW8N151WY",
+            "name": "Highway Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1228F5VWHJF56L4XJL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1228F5VWHJF56L4XJL",
+            "name": "Concurrent Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127VD736FL25SYGC2N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127VD736FL25SYGC2N",
+            "name": "Reciprocating Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123DZ6G27SPKS2Z9C2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123DZ6G27SPKS2Z9C2",
+            "name": "Electromechanical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4424468PLY1CKPL4FM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4424468PLY1CKPL4FM",
+            "name": "Wireless Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121H66HN7Q8X48B8LB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121H66HN7Q8X48B8LB",
+            "name": "Software Engineering 2004",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSACE54B6AE4D6B470C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSACE54B6AE4D6B470C",
+            "name": "Water/Wastewater Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125ND6CLC2H1Y1V0VH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125ND6CLC2H1Y1V0VH",
+            "name": "Knowledge Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127WL650HK8DGZV5LK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127WL650HK8DGZV5LK",
+            "name": "Plastics Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES10C3992C5630B62450",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES10C3992C5630B62450",
+            "name": "Forest Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123FS70D63M7BSB36Y",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123FS70D63M7BSB36Y",
+            "name": "Electronics Engineering Technology",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121F867S56KRM06L4X",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121F867S56KRM06L4X",
+            "name": "Computer-Aided Software Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123LK6T9YY8VH23971",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123LK6T9YY8VH23971",
+            "name": "Protein Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESA6CE41BBFCB6DC0276",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA6CE41BBFCB6DC0276",
+            "name": "Thermal Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120T65VHWH4Z8YBWZZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120T65VHWH4Z8YBWZZ",
+            "name": "Automotive Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120C66YSVHPZGG3T6Y",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120C66YSVHPZGG3T6Y",
+            "name": "Air-Cooled Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120LH6RBWCYWXN3DFY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120LH6RBWCYWXN3DFY",
+            "name": "Genetic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1233L6RFXKMSM719Y3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1233L6RFXKMSM719Y3",
+            "name": "Document Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESB7E091AC98E1F0AD11",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESB7E091AC98E1F0AD11",
+            "name": "Google Kubernetes Engine (GKE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125YH6VD313P7HFVHM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125YH6VD313P7HFVHM",
+            "name": "Locomotive Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123DG5ZVLKPNS1M8C2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123DG5ZVLKPNS1M8C2",
+            "name": "Electrical Engineering Technology",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1246B6HFDGL6PMFWSS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1246B6HFDGL6PMFWSS",
+            "name": "GIAC Reverse Engineering Malware",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS122HG6QHN0CWYT98V3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122HG6QHN0CWYT98V3",
+            "name": "Certified Reliability Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121P36G46JD152FHX7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121P36G46JD152FHX7",
+            "name": "Certified Novell Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS440GL6J2G3HZRYMGX2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440GL6J2G3HZRYMGX2",
+            "name": "Software Engineering Process",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126T466L1GJLW01QLV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126T466L1GJLW01QLV",
+            "name": "Municipal Or Urban Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122BM62SG6N8MXGVWG",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122BM62SG6N8MXGVWG",
+            "name": "Content Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121RD6GM49D8CZKC7K",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121RD6GM49D8CZKC7K",
+            "name": "Certified Software Test Engineer (CSTE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGS5B836917ABA035667",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS5B836917ABA035667",
+            "name": "Business Rules Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1235L6KFXNPNN68NF7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1235L6KFXNPNN68NF7",
+            "name": "Drilling Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124706869TXZFRPBZR",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124706869TXZFRPBZR",
+            "name": "Petrol Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES1E258CC481AE83243B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES1E258CC481AE83243B",
+            "name": "Stationary Engineer License",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGSE902AD5AE577FC569",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSE902AD5AE577FC569",
+            "name": "Railroad Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS841BA3E5A2D0A9C2F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS841BA3E5A2D0A9C2F",
+            "name": "Bridge Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126FQ6FZTDDKZ3BRYN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126FQ6FZTDDKZ3BRYN",
+            "name": "Methods Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1241G78V32MZNVMVSZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1241G78V32MZNVMVSZ",
+            "name": "Food Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JX61WP2Z18Z4CPS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JX61WP2Z18Z4CPS",
+            "name": "Engine Designs",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES5C707C2913F25215D2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES5C707C2913F25215D2",
+            "name": "Pipe Stress Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSB8587B71B6A946789",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSB8587B71B6A946789",
+            "name": "Multi-Engine Land (MEL)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ESA31C97FABF3DC59FC5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA31C97FABF3DC59FC5",
+            "name": "Coastal Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122KK6C8BYL8XXN5HD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122KK6C8BYL8XXN5HD",
+            "name": "Certified Software Quality Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS4410H7706769Y0VXC2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4410H7706769Y0VXC2",
+            "name": "Stress Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121KG6YB04PZVCN6MJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121KG6YB04PZVCN6MJ",
+            "name": "Ceramic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1278G6NNMMTH2JZ33N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1278G6NNMMTH2JZ33N",
+            "name": "Online Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125F56GR6MLP1CSRQ7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125F56GR6MLP1CSRQ7",
+            "name": "Information Systems Security Engineering Professional",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121ZH6K7499L65MT81",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121ZH6K7499L65MT81",
+            "name": "Clinical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS12424695B3SLPZL50P",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS12424695B3SLPZL50P",
+            "name": "Forensic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES8B87DCFE13A4717BE1",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8B87DCFE13A4717BE1",
+            "name": "AWS Certified DevOps Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS4424Y5VX3N90X55FL4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4424Y5VX3N90X55FL4",
+            "name": "Workflow Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESADB124E2867C4FDE2B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESADB124E2867C4FDE2B",
+            "name": "Chaos Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JW71QF458CWWP8Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JW71QF458CWWP8Q",
+            "name": "Internal Combustion Engine Cooling",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122FF5ZP3Z5D3YB99F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122FF5ZP3Z5D3YB99F",
+            "name": "Corrosion Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES7ADA3642C6050C0AC9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7ADA3642C6050C0AC9",
+            "name": "Welding Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122QR6X67DLSDM6GLB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122QR6X67DLSDM6GLB",
+            "name": "Database Search Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS128676WYLBM9X2T3CW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS128676WYLBM9X2T3CW",
+            "name": "Power System Simulator For Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESC35C3F2ED6C68EB724",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESC35C3F2ED6C68EB724",
+            "name": "Endpoint Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES239541A0DA618631E5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES239541A0DA618631E5",
+            "name": "ASE Advanced Engine Performance Certification",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGSC493819FA14DEDE7C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSC493819FA14DEDE7C",
+            "name": "Engine Replacement",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441DZ5YVQG5CLFL84F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441DZ5YVQG5CLFL84F",
+            "name": "Tissue Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127XT6N37GJ1FB5KQG",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127XT6N37GJ1FB5KQG",
+            "name": "Polymer Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS65BA15D7DE1FA2EB3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS65BA15D7DE1FA2EB3",
+            "name": "Malware Reverse Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JZ6QB97DN4WD42W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JZ6QB97DN4WD42W",
+            "name": "Engineering Change Notice",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES36640EBD9133DC4BB2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES36640EBD9133DC4BB2",
+            "name": "Prompt Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440YL6VL0KP3V1LDV0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440YL6VL0KP3V1LDV0",
+            "name": "Steam Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126KN78Q3P20KJ57Z7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126KN78Q3P20KJ57Z7",
+            "name": "Microwave Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES398C8A0643F38CF851",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES398C8A0643F38CF851",
+            "name": "Power Electronics Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441KP62M49JD1YL59M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441KP62M49JD1YL59M",
+            "name": "Turbine Blade (Engines)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126D66TLWKDWRFB5QL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126D66TLWKDWRFB5QL",
+            "name": "Menu Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4411N6XQ9YNV70MDKF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4411N6XQ9YNV70MDKF",
+            "name": "Subsurface Utility Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1211C5WS92Y5N9L6WL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1211C5WS92Y5N9L6WL",
+            "name": "Biological Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7G7LN72JLMRN4038DD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G7LN72JLMRN4038DD",
+            "name": "Electrical And Computer Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESB7E47F882536B113A4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESB7E47F882536B113A4",
+            "name": "Ghidra (Reverse Engineering Software)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440LR6QXDTPBNLJ3R9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440LR6QXDTPBNLJ3R9",
+            "name": "Simultaneous Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS3B18DF4FCBF85B424",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS3B18DF4FCBF85B424",
+            "name": "Stationary Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4408070VSQG7YNHJFM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4408070VSQG7YNHJFM",
+            "name": "Sanitary Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4422S65S1K0LG0LVMY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4422S65S1K0LG0LVMY",
+            "name": "Wind Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K46SJHKWW7BM31D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K46SJHKWW7BM31D",
+            "name": "Engineering Psychology",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127R2777J44ZRKQ2D6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127R2777J44ZRKQ2D6",
+            "name": "Pharmaceutical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1242T6RPNZS5K3KVRC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1242T6RPNZS5K3KVRC",
+            "name": "Foundation Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121V75Y707YVDF3JWY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121V75Y707YVDF3JWY",
+            "name": "Chemical Reaction Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1211F6HR84LX91R5V1",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1211F6HR84LX91R5V1",
+            "name": "Biomechanical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1238T6PYW99J5GC9LQ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1238T6PYW99J5GC9LQ",
+            "name": "Earthquake Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127755ZJS5VBYRLYY6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127755ZJS5VBYRLYY6",
+            "name": "Offshore Geotechnical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1211Q76FPVT94WJTBJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1211Q76FPVT94WJTBJ",
+            "name": "Bioprocess Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127ZW6GX9PX5HCCT5Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127ZW6GX9PX5HCCT5Q",
+            "name": "Precision Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSCB7C7F9E67E78D6F2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSCB7C7F9E67E78D6F2",
+            "name": "Solar Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1227377NPNWLHW1BF5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1227377NPNWLHW1BF5",
+            "name": "Computational Science And Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSF0648165688F92FF3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSF0648165688F92FF3",
+            "name": "Google Compute Engine (GCE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES93B438F4FC10EF5066",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES93B438F4FC10EF5066",
+            "name": "Biomolecular Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124HF60PS8LCZZ6C7T",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124HF60PS8LCZZ6C7T",
+            "name": "Graphics Layout Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESEC5CB54F6D2688834D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESEC5CB54F6D2688834D",
+            "name": "Local Search Engine Optimisation",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121G765CCRDH5TCJKN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121G765CCRDH5TCJKN",
+            "name": "Certified Broadcast Radio Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGSC43F01D4C200D1A15",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSC43F01D4C200D1A15",
+            "name": "Computer-Assisted Engineering Software",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127N969SXHLG72XRWL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127N969SXHLG72XRWL",
+            "name": "Petroleum Engineering Certification",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES2CBDA770846582590C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES2CBDA770846582590C",
+            "name": "FAA Multi-Engine Rating",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGS8702FFD891F54E5A1",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS8702FFD891F54E5A1",
+            "name": "Structural Engineering Software",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123LQ6HNJ88T0MP3WY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123LQ6HNJ88T0MP3WY",
+            "name": "Engineering Procurement And Construction Management",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126DW6QXTQTVLWM6TC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126DW6QXTQTVLWM6TC",
+            "name": "Metabolic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES7EA8C2EF8038F639CD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7EA8C2EF8038F639CD",
+            "name": "Textile Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESC224A37E5E0D6406CE",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESC224A37E5E0D6406CE",
+            "name": "Citrix Certified Enterprise Engineer (CCEE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1201S69J6B8WYM9Q9R",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1201S69J6B8WYM9Q9R",
+            "name": "Four-Stroke Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES963A90E35E9BB57337",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES963A90E35E9BB57337",
+            "name": "SAFe Release Train Engineer (RTE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS7PA2Y7XV0K6ZKY7GWW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7PA2Y7XV0K6ZKY7GWW",
+            "name": "Template Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSE4F4B50D1E8E93F91",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSE4F4B50D1E8E93F91",
+            "name": "Oracle Engineered Systems",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS1414BD4A1CADAE8E8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS1414BD4A1CADAE8E8",
+            "name": "Sustainable Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126906ZG4KCPVGFM48",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126906ZG4KCPVGFM48",
+            "name": "Model-Driven Software Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES142F4855322BAEAB73",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES142F4855322BAEAB73",
+            "name": "Structural Engineer License",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123K168Q703FGMLLYB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K168Q703FGMLLYB",
+            "name": "Engineering Ethics",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1242R6Z8S7TG4P60TW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1242R6Z8S7TG4P60TW",
+            "name": "Forward Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSA318ACD6BCB802D4B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSA318ACD6BCB802D4B",
+            "name": "Engineering Change Packages",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES6075F5CAF85448B83B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES6075F5CAF85448B83B",
+            "name": "E-commerce Search Engine Optimization",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7G2RY6446Z10TM7V70",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G2RY6446Z10TM7V70",
+            "name": "Integrated Fluids Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS240F578D4ECC3014B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS240F578D4ECC3014B",
+            "name": "Engine Management Systems",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1254768LQMM7NLB8W4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1254768LQMM7NLB8W4",
+            "name": "Informatics Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES54E0C3B5490BC3B849",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES54E0C3B5490BC3B849",
+            "name": "Microsoft Certified: Azure Security Engineer Associate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES4B659D8D70E791DC57",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES4B659D8D70E791DC57",
+            "name": "Food Process Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESE6121FBAB03545B030",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESE6121FBAB03545B030",
+            "name": "Molecular Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120YL61LM72GYFKHRW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120YL61LM72GYFKHRW",
+            "name": "Brocade Certified Network Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS4412Y6VJ55VRB4HZQS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4412Y6VJ55VRB4HZQS",
+            "name": "Support Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1264L6PK7JL1TQW6NC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1264L6PK7JL1TQW6NC",
+            "name": "Manufacturing Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESEA740E234C230F9844",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESEA740E234C230F9844",
+            "name": "Binary Ninja (Reverse Engineering Software)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440076JQGZLJTZP5T2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440076JQGZLJTZP5T2",
+            "name": "Web Browser Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES1E1DA15CEAD5DEACB3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES1E1DA15CEAD5DEACB3",
+            "name": "Certified Penetration Testing Engineer (CPTE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS44130709MDJ19XX9WN",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS44130709MDJ19XX9WN",
+            "name": "Surface Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES82B269BB64E76E0896",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES82B269BB64E76E0896",
+            "name": "Software Product Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121XY6FYYJ0FFHR1D6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121XY6FYYJ0FFHR1D6",
+            "name": "Civil Engineering Software",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123K269LXGF9Y20TLV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K269LXGF9Y20TLV",
+            "name": "Engineering Optimization",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441YB6XTK078YCRKQ6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441YB6XTK078YCRKQ6",
+            "name": "Beam Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124ZP6M947BS7LX5SP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124ZP6M947BS7LX5SP",
+            "name": "Insulated Cable Engineers Association",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES1E27239D9F5728C4C2",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES1E27239D9F5728C4C2",
+            "name": "American Society of Mechanical Engineers (ASME) Certified",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES7947C5DF69201A2341",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7947C5DF69201A2341",
+            "name": "Airworthiness Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127LY71BNGJC1MTM56",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127LY71BNGJC1MTM56",
+            "name": "Pavement Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441D46P25HPGY86GNY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441D46P25HPGY86GNY",
+            "name": "TIBCO iProcess Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121NM6R984XYDG370Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121NM6R984XYDG370Q",
+            "name": "Certified Manufacturing Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGS7FF76758CC5DCF3DE",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS7FF76758CC5DCF3DE",
+            "name": "Hydrologic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS61ZX00TEDMBSZ60YHX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS61ZX00TEDMBSZ60YHX",
+            "name": "Docker Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121TM769WS2NSH99FJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121TM769WS2NSH99FJ",
+            "name": "Chartered Professional Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES5B1237CAD9500A2FEC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES5B1237CAD9500A2FEC",
+            "name": "System of Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127045ZMCR5GKMS3Q8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127045ZMCR5GKMS3Q8",
+            "name": "Neural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127TP6M71Q9N59PD5L",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127TP6M71Q9N59PD5L",
+            "name": "Physics Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121Z6602Z7189P8WQB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121Z6602Z7189P8WQB",
+            "name": "Climate Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES28637AABA48C5D2FA8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES28637AABA48C5D2FA8",
+            "name": "Sphinx Search Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441HP64XGD6DP7YH86",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441HP64XGD6DP7YH86",
+            "name": "Transition Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125ND64S0WKN65LNSY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125ND64S0WKN65LNSY",
+            "name": "Knowledge-Based Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123GY64LHLB0PSMQT1",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123GY64LHLB0PSMQT1",
+            "name": "EMC Implementation Engineer Certification",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ESA9930CF487794EE6DF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESA9930CF487794EE6DF",
+            "name": "Laser Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESCAF5A4B24D1901B0A6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESCAF5A4B24D1901B0A6",
+            "name": "Google Associate Cloud Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS122QN73KNB7FPNHC01",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122QN73KNB7FPNHC01",
+            "name": "Database Engine Tuning Advisor",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGS6CDD5F9889D21966E",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS6CDD5F9889D21966E",
+            "name": "Godot Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESF5A0C41189124968FF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESF5A0C41189124968FF",
+            "name": "Cognitive Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES788DC8051D756D8B26",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES788DC8051D756D8B26",
+            "name": "Microsoft Certified: Azure Data Engineer Associate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1283G5ZLXC3S6WHVY5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1283G5ZLXC3S6WHVY5",
+            "name": "Professional Traffic Operations Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS124B8670NFRH0RY2GW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124B8670NFRH0RY2GW",
+            "name": "Geospatial Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES67E4E0942A226489CD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES67E4E0942A226489CD",
+            "name": "Certified Cost Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES29549C87AF43B8FA41",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES29549C87AF43B8FA41",
+            "name": "Radare2 (Reverse Engineering Software)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121PT6NQNDYHF1FPXX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121PT6NQNDYHF1FPXX",
+            "name": "Certified Plant Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KSD334WEJF3MR99D2G21",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KSD334WEJF3MR99D2G21",
+            "name": "3d Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES2516A08B3C1BAF56A5",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES2516A08B3C1BAF56A5",
+            "name": "Chief Engineer License",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS127NT75DX4XL4KCZ0N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127NT75DX4XL4KCZ0N",
+            "name": "Peoplesoft Application Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES2B6604B1F9FB5339D9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES2B6604B1F9FB5339D9",
+            "name": "Hasura GraphQL Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122RW70C15T6BGCW98",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122RW70C15T6BGCW98",
+            "name": "DuckDuckGo (Internet Search Engines)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "BGSD8959B8B2FD81F6E6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSD8959B8B2FD81F6E6",
+            "name": "Photonics Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1253X6R0D6HLPBYBRW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1253X6R0D6HLPBYBRW",
+            "name": "Inference Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124XB677G6KXT0LLM3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124XB677G6KXT0LLM3",
+            "name": "IAE V2500 Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1282Z6ZHTD2H2C7HCZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1282Z6ZHTD2H2C7HCZ",
+            "name": "Production Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES8DB4FE61DCF649524E",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8DB4FE61DCF649524E",
+            "name": "Ecological Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123VT70K6H40XFHR4Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123VT70K6H40XFHR4Q",
+            "name": "Feature Manipulation Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440H16PRL30L1FQL0P",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440H16PRL30L1FQL0P",
+            "name": "Search Engine Results Page",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES8BDBBAA6AB10DE1E58",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8BDBBAA6AB10DE1E58",
+            "name": "2nd Class Power Engineer Certificate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123RC6LQQPLB5B38VX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123RC6LQQPLB5B38VX",
+            "name": "Experimental Software Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES518A2699C147D0BF6A",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES518A2699C147D0BF6A",
+            "name": "3rd Class Power Engineer Certificate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS120MD63GG9WB9DQJ8V",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120MD63GG9WB9DQJ8V",
+            "name": "ArcGIS Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125JG6CZS2JF43RLKD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125JG6CZS2JF43RLKD",
+            "name": "Jet Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127NP7189KWKBPNJHW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127NP7189KWKBPNJHW",
+            "name": "Chrysler Pentastar Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7G5RB6G6C8Z9LRSL15",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G5RB6G6C8Z9LRSL15",
+            "name": "Tandberg Certified Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121S075RL2M6RGD38Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121S075RL2M6RGD38Q",
+            "name": "Certified Welding Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS125Q66K3H5TR7668WJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125Q66K3H5TR7668WJ",
+            "name": "Landscape Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS9Q8PMLZU1ALDE5GK6W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS9Q8PMLZU1ALDE5GK6W",
+            "name": "JavaScript Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1266L61PZ8CDFCFX31",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1266L61PZ8CDFCFX31",
+            "name": "Engine Machining",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4407L6MZDDJJ0RDMMZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4407L6MZDDJJ0RDMMZ",
+            "name": "Sales Process Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122JT6NFBW9JNZZ674",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122JT6NFBW9JNZZ674",
+            "name": "Cryogenic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES5B35DE2ED675A8EFC3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES5B35DE2ED675A8EFC3",
+            "name": "1st Class Power Engineer Certificate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KSFFAD19VPD3S4P2UD9F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KSFFAD19VPD3S4P2UD9F",
+            "name": "Engineyard",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121LM6HCBPJZYFPSL8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121LM6HCBPJZYFPSL8",
+            "name": "Certified Engineering Technologist",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS127SY72GSB8B5LX21W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127SY72GSB8B5LX21W",
+            "name": "Zend Certified PHP Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121K86SHMK9X46YPWT",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121K86SHMK9X46YPWT",
+            "name": "Chartered Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1266D5WBB6XR1T496P",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1266D5WBB6XR1T496P",
+            "name": "HP Master Accredited Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121KF6VD6FNGNG3BZ4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121KF6VD6FNGNG3BZ4",
+            "name": "Certified Engineering Operations Executive",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1258V79QH8H0QP2H6L",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1258V79QH8H0QP2H6L",
+            "name": "Internet Booking Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123LP6QZPW680KK54M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123LP6QZPW680KK54M",
+            "name": "Engineering Procurement Construction Estimating",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES1C0F4CA5D7B835E389",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES1C0F4CA5D7B835E389",
+            "name": "Microsoft Certified: Azure Network Engineer Associate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS126FM6XCYKWBVZR6MK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126FM6XCYKWBVZR6MK",
+            "name": "Method Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES2AE7931C8043670A21",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES2AE7931C8043670A21",
+            "name": "Apparel Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120T55WVQPWSTZQNYM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120T55WVQPWSTZQNYM",
+            "name": "Automobile Advanced Engine Performance Specialist",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS440505Z4FQLR72W4YW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440505Z4FQLR72W4YW",
+            "name": "Rotary Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES8EECE68CB25EC96F70",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8EECE68CB25EC96F70",
+            "name": "Microsoft Certified: Azure AI Engineer Associate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ESC7C14BED6CD2200C22",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESC7C14BED6CD2200C22",
+            "name": "Certified Fluid Power Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1273Q6CLS6MSJG98Y3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1273Q6CLS6MSJG98Y3",
+            "name": "Non-Recurring Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125YW6KH5HYP9J06DY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125YW6KH5HYP9J06DY",
+            "name": "Engineered Language",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120CP6QSCPVNZTLVKZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120CP6QSCPVNZTLVKZ",
+            "name": "Airplane Single Engine Land Certificate (ASEL)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS441QD757B6TP3TLD83",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441QD757B6TP3TLD83",
+            "name": "Vacuum Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES7B87A710947DFADEC7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7B87A710947DFADEC7",
+            "name": "4th Class Power Engineer Certificate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1211H65VVK06GR7HS9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1211H65VVK06GR7HS9",
+            "name": "Biomedical Engineering Society",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES971CC5F2FA5A69429D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES971CC5F2FA5A69429D",
+            "name": "Offshore Structural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1249772HQZ8K6GQXSQ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1249772HQZ8K6GQXSQ",
+            "name": "Techniques Of Genetic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126HC6MQMF761MR1VY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126HC6MQMF761MR1VY",
+            "name": "Microsoft SQL Server Data Engine (MSDE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS7G0X864KHZFBCWT3CW",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G0X864KHZFBCWT3CW",
+            "name": "Certified LanDesk Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS120KZ6ZFLD31Y5X0NM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120KZ6ZFLD31Y5X0NM",
+            "name": "Component-Based Software Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1279K6J032NT9QLF04",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1279K6J032NT9QLF04",
+            "name": "Open Site Explorer (Moz Search Engine)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESE117A57836E0579FFA",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESE117A57836E0579FFA",
+            "name": "Wi-Fi Test Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1268M61CD11059SJRX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1268M61CD11059SJRX",
+            "name": "Microsoft Certified Systems Engineer + Internet",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123K15X2185X0ZTTBP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123K15X2185X0ZTTBP",
+            "name": "Engineering Equation Solver",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1208R6QKKY6N04C2PJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1208R6QKKY6N04C2PJ",
+            "name": "Advanced Search Engine Optimization",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126FH61WGGY9W8LVYC",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126FH61WGGY9W8LVYC",
+            "name": "Metasearch Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440D470YFZNQ6PHRXK",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440D470YFZNQ6PHRXK",
+            "name": "Search Engine Submission",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120NX6RXL8N8JXW41D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120NX6RXL8N8JXW41D",
+            "name": "Accredited Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS127385VP54F7VJS4Q4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127385VP54F7VJS4Q4",
+            "name": "Novell Certified Linux Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGS4DE758DDE666088AA",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS4DE758DDE666088AA",
+            "name": "UNIGINE Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122T566P79S5WN9950",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122T566P79S5WN9950",
+            "name": "Defence Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122VX6ZJNX4L3BNK9W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122VX6ZJNX4L3BNK9W",
+            "name": "Desktop Search Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440Q7601R3KKYRVYHJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440Q7601R3KKYRVYHJ",
+            "name": "Soft Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125W36GP4NHCC7FYFF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125W36GP4NHCC7FYFF",
+            "name": "Linux Certified Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS4405S6ZJTFHHFPDJJL",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4405S6ZJTFHHFPDJJL",
+            "name": "RSA Certified Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES572DB2D4E0DF339991",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES572DB2D4E0DF339991",
+            "name": "SUSE Certified Engineer (SCE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS7G6NQ73VLN4WNVC7R4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G6NQ73VLN4WNVC7R4",
+            "name": "Certified Linux Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS128BR65QTKRK4JN97K",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS128BR65QTKRK4JN97K",
+            "name": "Radial Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440SX5XY4XZD19ZVV7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440SX5XY4XZD19ZVV7",
+            "name": "Space Shuttle Main Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1266H6MP52G37KG9NP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1266H6MP52G37KG9NP",
+            "name": "Master Certified Novell Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS122G96WB5NY85FKQVB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122G96WB5NY85FKQVB",
+            "name": "Certified Process Design Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGS574CBCF8FE550DD82",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGS574CBCF8FE550DD82",
+            "name": "Spark View Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124SQ63WH7B1PF2736",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124SQ63WH7B1PF2736",
+            "name": "HP Certified Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS440SJ73G5RZYMLVKV7",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440SJ73G5RZYMLVKV7",
+            "name": "Source (Game Engine)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121LF63N5NKZQZVK0T",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121LF63N5NKZQZVK0T",
+            "name": "Certified Directory Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES4BAF8084887BD156FB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES4BAF8084887BD156FB",
+            "name": "NICET Geotechnical Engineering",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121505X2SYZYZM022H",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121505X2SYZYZM022H",
+            "name": "Borland Database Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES22B0F9DBB949E3C282",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES22B0F9DBB949E3C282",
+            "name": "5th Class Power Engineer Certificate",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS441RV79BVY3KL6YF8M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441RV79BVY3KL6YF8M",
+            "name": "Velocity Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122H16KMHMB9K56XX3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122H16KMHMB9K56XX3",
+            "name": "Certified Quantitative Software Process Engineer (CQSPE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS12580622JZG5XN953X",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS12580622JZG5XN953X",
+            "name": "Interactive Systems Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126S06DR4MQ0G11THH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126S06DR4MQ0G11THH",
+            "name": "MikroTik Certified Routing Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ESE017C229800A3CC17B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESE017C229800A3CC17B",
+            "name": "Design for Specialty Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121LM6D8RXXVLTVPBG",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121LM6D8RXXVLTVPBG",
+            "name": "Certified Engineering Manager",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1244Z6Y6XX4GM70JPP",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1244Z6Y6XX4GM70JPP",
+            "name": "Fundamental Theorem Of Software Engineering (Software Engineering)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122L662W73GGYV8H8H",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122L662W73GGYV8H8H",
+            "name": "Cummins B Series Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440PD5ZW2WKGXVB0PF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440PD5ZW2WKGXVB0PF",
+            "name": "SNIA Certified Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1242W68Y5QN3S32W3C",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1242W68Y5QN3S32W3C",
+            "name": "FourGen Computer-Aided Software Engineering (CASE) Tools",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS441VX6N7VMYH7Y054B",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS441VX6N7VMYH7Y054B",
+            "name": "Visual Search Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121NJ61F6T9CM1ZZ73",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121NJ61F6T9CM1ZZ73",
+            "name": "Certified Machine Tool Sales Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "BGSA16BD09CB4F6FB85D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/BGSA16BD09CB4F6FB85D",
+            "name": "Google Cloud ML Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1281L6G19R39QKFBJ0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1281L6G19R39QKFBJ0",
+            "name": "Pro/Engineer 2000i",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125RJ6X9QKJV32RRC0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125RJ6X9QKJV32RRC0",
+            "name": "Life Cycle Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121R96FPTKQB8YPZRV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121R96FPTKQB8YPZRV",
+            "name": "Certified Senior Broadcast Television Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS4421T6QXDMBN7TGNCF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4421T6QXDMBN7TGNCF",
+            "name": "Wet Processing Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122MG74X9KWK36B8TR",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122MG74X9KWK36B8TR",
+            "name": "Express Foundation For Field Engineer (CXFF)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121S26TQ8QZ733ZSP6",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121S26TQ8QZ733ZSP6",
+            "name": "Certified Wireless Network Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS125CS62GZJH15MGD8R",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125CS62GZJH15MGD8R",
+            "name": "Irrlicht Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1288S67BHRTL1FCMJR",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1288S67BHRTL1FCMJR",
+            "name": "QCD Parallel Computing On The Cell Broadband Engine (QPACE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125L66W894W323MGTM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125L66W894W323MGTM",
+            "name": "Java Rule Engine API (JSR 94)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ESF0D192374AB6917378",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESF0D192374AB6917378",
+            "name": "Microsoft Certified: Azure Support Engineer For Connectivity Specialty",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123S36W9LD7GXDQY4Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123S36W9LD7GXDQY4Q",
+            "name": "Extensible Storage Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1279269CLB63JJL5W8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1279269CLB63JJL5W8",
+            "name": "Open Dynamics Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125346FKY8148CL37V",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125346FKY8148CL37V",
+            "name": "Interactive Music Streaming Engine (IMUSE)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126WH75RDNGL4KBX1F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126WH75RDNGL4KBX1F",
+            "name": "N-Power Certified Enterprise Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS127M761S4LD5GYZQT8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127M761S4LD5GYZQT8",
+            "name": "Pavement Computer-Assisted Structural Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS121RX69RZY9QYX4NTS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121RX69RZY9QYX4NTS",
+            "name": "Certified Video Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS124HT6LMVVLJN3GT8N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124HT6LMVVLJN3GT8N",
+            "name": "Oracle Grid Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS126C660X0YM20P2822",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS126C660X0YM20P2822",
+            "name": "Manufacturing Engineering Data Module",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122KL76N2TZXRFWZSX",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122KL76N2TZXRFWZSX",
+            "name": "Certified Senior Broadcast Radio Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1203F622H2W9TJRFC4",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1203F622H2W9TJRFC4",
+            "name": "Architect-Engineer Contract Administration Support System",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1278W6ZMFJ2KJXJBD9",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1278W6ZMFJ2KJXJBD9",
+            "name": "Object-Oriented Software Engineering (Object-Oriented Programming)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1205066VJ1K3NBRXRY",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1205066VJ1K3NBRXRY",
+            "name": "Acoustical Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1209G6P94NTW2J0SKG",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1209G6P94NTW2J0SKG",
+            "name": "Aerobiological Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS4419J64DR385YFHMBF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS4419J64DR385YFHMBF",
+            "name": "Teletraffic Engineering",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123JY60TLFSCVQGF02",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123JY60TLFSCVQGF02",
+            "name": "Engine Swap",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS124P56V4QP1J5MLC5Q",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124P56V4QP1J5MLC5Q",
+            "name": "Hemi Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1208B6N254LN1TTFT0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1208B6N254LN1TTFT0",
+            "name": "Advanced Certified Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121JB6VF7N3CZTJWTV",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121JB6VF7N3CZTJWTV",
+            "name": "Certified Audio Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121GJ69ZWVQ6M4FVZM",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121GJ69ZWVQ6M4FVZM",
+            "name": "Certified Chemical Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS124GJ65R4PHCTTMXYQ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS124GJ65R4PHCTTMXYQ",
+            "name": "Engine Alliance GP7000",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS125JR784ZCY9ZLWHD0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS125JR784ZCY9ZLWHD0",
+            "name": "Jinja (Template Engine)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1272M6S1FSQ1YQPVQZ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1272M6S1FSQ1YQPVQZ",
+            "name": "Non-Road Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1253G5ZJF0Q61V4C7V",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1253G5ZJF0Q61V4C7V",
+            "name": "Xoreax Grid Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "ES4DE343E1FDEF139E22",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES4DE343E1FDEF139E22",
+            "name": "Apple Certified Server Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS120YJ6184QBXPZBZNH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120YJ6184QBXPZBZNH",
+            "name": "Board Certified Environmental Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121G86LK9HY4TNRBBJ",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121G86LK9HY4TNRBBJ",
+            "name": "Certified Broadcast Television Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS122G76DXTHT8FNZRNH",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122G76DXTHT8FNZRNH",
+            "name": "Certified Professional Broadcast Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS7G18F6B5G5DMDRPL9M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS7G18F6B5G5DMDRPL9M",
+            "name": "Certified Software Process Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS122VY72WKVNVHYVT54",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122VY72WKVNVHYVT54",
+            "name": "Data Engineering Scripting Language",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123VM73XGMG2W8D6G0",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123VM73XGMG2W8D6G0",
+            "name": "Field Certified Systems Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123N669SDTDRSKP2V3",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123N669SDTDRSKP2V3",
+            "name": "Enterprise Sign On Engines",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS127F06R8ZKB1Z3WF0M",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS127F06R8ZKB1Z3WF0M",
+            "name": "OptiX Application Acceleration Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS440716Q1QH73M7KJ0W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS440716Q1QH73M7KJ0W",
+            "name": "Safe Affordable Fission Engine",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS122K672RMW9P1F2W9W",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS122K672RMW9P1F2W9W",
+            "name": "Certified Social Engineering Prevention Specialist",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES8FFC10C2CA8ACD48BD",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES8FFC10C2CA8ACD48BD",
+            "name": "CompTIA Strata - Network Technology Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1268M72VJDQW59GSVS",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1268M72VJDQW59GSVS",
+            "name": "Microsoft Certified Systems Engineer- Security",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES7EEA906BCABE5ABE12",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES7EEA906BCABE5ABE12",
+            "name": "Certified Data Privacy Solutions Engineer (CDPSE)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS121WG70ZLQC42CM94N",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS121WG70ZLQC42CM94N",
+            "name": "Chartered Institution Of Building Services Engineers",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ESDC7C554BDD74B8906D",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ESDC7C554BDD74B8906D",
+            "name": "CompTIA Strata - PC Hardware Technology Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "ES5D2B8EF797F881D321",
+            "infoUrl": "https://lightcast.io/open-skills/skills/ES5D2B8EF797F881D321",
+            "name": "CompTIA Strata - PC Operating System Engineer",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS123LQ62J5QR6PFLV2T",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123LQ62J5QR6PFLV2T",
+            "name": "Engineering Procurement Construction And Installation (EPCI)",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS123CR693DC1CW5T10F",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS123CR693DC1CW5T10F",
+            "name": "Engine-Indicating And Crew-Alerting Systems",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS1204P70NMPGP19TTBF",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1204P70NMPGP19TTBF",
+            "name": "Advance Certified Hardware And Networking Engineer (ACHNP)",
+            "type": {
+                "id": "ST3",
+                "name": "Certification"
+            }
+        },
+        {
+            "id": "KS1204Y6ZLX52YHJL5T8",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS1204Y6ZLX52YHJL5T8",
+            "name": "Automated Communications Security Management And Engineering System",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        },
+        {
+            "id": "KS120NC6Z39CW1YXGNLB",
+            "infoUrl": "https://lightcast.io/open-skills/skills/KS120NC6Z39CW1YXGNLB",
+            "name": "Cisco Advanced Routing And Switching For Field Engineers",
+            "type": {
+                "id": "ST1",
+                "name": "Specialized Skill"
+            }
+        }
+    ]
+}

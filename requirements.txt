@@ -7,3 +7,16 @@ google-generativeai
 pandas
 anthropic
 pgpt_python
+requests
+chromadb
+scikit-learn
+openai
+langchain
+tiktoken
+langchain-chroma
+langchain_chroma
+langchain_openai
+langchain_community
+sentence-transformers
+kneed
+matplotlib
