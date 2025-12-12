@@ -1,10 +1,6 @@
 import json
 import csv
 import openpyxl
-<<<<<<< HEAD
-import os
-=======
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
 from datetime import datetime
 from openpyxl.styles import Font, PatternFill, Alignment
 
@@ -19,28 +15,17 @@ def flatten_list(items, for_excel=False):
     separator = "\n" if for_excel else "; "
     return separator.join(str(item) for item in items)
 
-<<<<<<< HEAD
-def process_json_file(input_file):
-=======
 def convert_json_to_csv(input_file=None):
     if not input_file:
         print("Error: Input JSON file name is required")
         print("Usage: python json_to_csv.py <input_json_file>")
         return
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
 
     try:
         # Read JSON file
         with open(input_file, 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             job_listings = data.get('job_listings', [])
-<<<<<<< HEAD
-        
-        if not job_listings:
-            print(f"Warning: No job listings found in {input_file}")
-            return
-=======
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
 
         # Define CSV headers
         csv_headers = [
@@ -72,18 +57,8 @@ def convert_json_to_csv(input_file=None):
             'Job Description'
         ]
 
-<<<<<<< HEAD
-        # Create csv directory if it doesn't exist
-        if not os.path.exists('csv'):
-            os.makedirs('csv')
-            
-        # Create output filename for CSV in csv folder
-        base_name = os.path.basename(input_file).rsplit('.', 1)[0]
-        output_csv = os.path.join('csv', base_name + '.csv')
-=======
         # Create output filename for CSV
         output_csv = input_file.rsplit('.', 1)[0] + '.csv'
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
         
         # Write to CSV file
         with open(output_csv, 'w', newline='', encoding='utf-8') as csv_file:
@@ -160,18 +135,8 @@ def convert_json_to_csv(input_file=None):
             adjusted_width = (max_length + 2)
             ws.column_dimensions[column_letter].width = adjusted_width
 
-<<<<<<< HEAD
-        # Create xlsx directory if it doesn't exist
-        if not os.path.exists('xlsx'):
-            os.makedirs('xlsx')
-            
-        # Create output filename in xlsx folder
-        base_name = os.path.basename(input_file).rsplit('.', 1)[0]
-        output_excel = os.path.join('xlsx', base_name + '.xlsx')
-=======
         # Create output filename by replacing .json extension with .xlsx
         output_excel = input_file.rsplit('.', 1)[0] + '.xlsx'
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
         
         # Save Excel file
         wb.save(output_excel)
@@ -184,35 +149,6 @@ def convert_json_to_csv(input_file=None):
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-<<<<<<< HEAD
-def convert_json_to_csv(input_path=None):
-    if not input_path:
-        print("Error: Input path is required")
-        print("Usage: python json_to_csv.py <input_path>")
-        print("       input_path can be a .json file or a folder containing .json files")
-        return
-
-    if os.path.isfile(input_path):
-        if input_path.endswith('.json'):
-            process_json_file(input_path)
-        else:
-            print(f"Error: {input_path} is not a JSON file")
-    elif os.path.isdir(input_path):
-        json_files = [f for f in os.listdir(input_path) if f.endswith('.json')]
-        if not json_files:
-            print(f"Error: No JSON files found in {input_path}")
-            return
-        
-        print(f"Found {len(json_files)} JSON files to process")
-        for json_file in json_files:
-            full_path = os.path.join(input_path, json_file)
-            print(f"\nProcessing {json_file}...")
-            process_json_file(full_path)
-    else:
-        print(f"Error: {input_path} is not a valid file or directory")
-
-=======
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
 if __name__ == "__main__":
     import sys
     if len(sys.argv) < 2:

@@ -2,11 +2,7 @@ selenium
 webdriver-manager
 keyboard
 beautifulsoup4
-<<<<<<< HEAD
 openpyxl
 google-generativeai
 pandas
 anthropic
-=======
-openpyxl
->>>>>>> 5356e53133e12056c8bf0449b34229305b0f8c3b
